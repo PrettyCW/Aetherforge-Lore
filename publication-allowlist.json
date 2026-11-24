@@ -1,11 +1,36 @@
 {
   "ids": [
+    "mythology-unshaped-aether",
+    "mythology-first-spark",
+    "mythology-eternal-forge",
+    "mythology-kharadon",
+    "mythology-aurelith",
+    "mythology-drakhar",
+    "mythology-pyrakon",
+    "mythology-seraphyne",
+    "mythology-varkyros",
+    "mythology-veyrath",
+    "mythology-seven-lessons-of-ascension",
+    "culture-society-the-six-kingdoms",
     "geography-ash",
     "geography-cinder",
     "geography-ember",
     "geography-damascus",
     "geography-titanium",
     "geography-obsidian",
-    "culture-society-the-six-kingdoms"
+    "geography-ascension-bridges",
+    "geography-ash-arrival-platform",
+    "geography-crown-grounds",
+    "geography-kharadon-s-summit",
+    "geography-sparkhaven",
+    "geography-vaelorian-citadel",
+    "competition-ignition",
+    "competition-ladder-of-legends",
+    "competition-crucibles",
+    "artifacts-daggers",
+    "organizations-administrative-council",
+    "magic-magic",
+    "craftsmanship-obsidian-material",
+    "terminology-golden-dragons"
   ]
 }

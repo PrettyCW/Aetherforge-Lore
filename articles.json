@@ -1,19 +1,228 @@
 {
   "articles": [
     {
+      "id": "mythology-unshaped-aether",
+      "title": "Unshaped Aether",
+      "slug": "unshaped-aether",
+      "category": "Mythology",
+      "description": "In Aetherforge’s oldest creation traditions, the Unshaped Aether was an elemental storm that preceded land and sky.",
+      "content": [],
+      "relatedIds": [
+        "mythology-first-spark"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-first-spark",
+      "title": "First Spark",
+      "slug": "first-spark",
+      "category": "Mythology",
+      "description": "Creation tradition describes the First Spark as a point of impossible heat that became the Eternal Forge.",
+      "content": [],
+      "relatedIds": [
+        "mythology-eternal-forge",
+        "mythology-unshaped-aether"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-eternal-forge",
+      "title": "Eternal Forge",
+      "slug": "eternal-forge",
+      "category": "Mythology",
+      "description": "In myth, the Eternal Forge responds to struggle, pressure, conflict and determination.",
+      "content": [],
+      "relatedIds": [
+        "mythology-first-spark",
+        "mythology-kharadon"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-kharadon",
+      "title": "Kharadon",
+      "slug": "kharadon",
+      "category": "Mythology",
+      "description": "Kharadon is revered as King of Dragons and Keeper of the Eternal Forge. His ancient sovereignty stands apart from the six divisional dragons and the ordinary Ladder hierarchy.",
+      "content": [],
+      "relatedIds": [
+        "competition-ladder-of-legends",
+        "geography-kharadon-s-summit",
+        "mythology-eternal-forge",
+        "mythology-seven-lessons-of-ascension",
+        "mythology-veyrath"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established, Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-aurelith",
+      "title": "Aurelith",
+      "slug": "aurelith",
+      "category": "Mythology",
+      "description": "Aurelith is associated in tradition with Titanium and the ideal of precision.",
+      "content": [],
+      "relatedIds": [
+        "geography-titanium"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-drakhar",
+      "title": "Drakhar",
+      "slug": "drakhar",
+      "category": "Mythology",
+      "description": "Drakhar is associated in tradition with Cinder and the ideal of persistence.",
+      "content": [],
+      "relatedIds": [
+        "geography-cinder"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-pyrakon",
+      "title": "Pyrakon",
+      "slug": "pyrakon",
+      "category": "Mythology",
+      "description": "Pyrakon is associated in tradition with Ember and the ideal of ambition.",
+      "content": [],
+      "relatedIds": [
+        "geography-ember"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-seraphyne",
+      "title": "Seraphyne",
+      "slug": "seraphyne",
+      "category": "Mythology",
+      "description": "Seraphyne is associated in tradition with Damascus and mastery through creation.",
+      "content": [],
+      "relatedIds": [
+        "geography-damascus"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-varkyros",
+      "title": "Varkyros",
+      "slug": "varkyros",
+      "category": "Mythology",
+      "description": "Varkyros is associated in tradition with Obsidian and the ideal of dominion.",
+      "content": [],
+      "relatedIds": [
+        "geography-obsidian"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-veyrath",
+      "title": "Veyrath",
+      "slug": "veyrath",
+      "category": "Mythology",
+      "description": "Veyrath is associated in tradition with Ash and recovery after ruin.",
+      "content": [],
+      "relatedIds": [
+        "geography-ash",
+        "mythology-kharadon"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "mythology-seven-lessons-of-ascension",
+      "title": "Seven Lessons of Ascension",
+      "slug": "seven-lessons-of-ascension",
+      "category": "Mythology",
+      "description": "The traditional lessons are Ignition — Begin; Ash — Rise; Cinder — Endure; Ember — Hunger; Damascus — Master; Titanium — Perfect; and Obsidian — Reign. Ascend belongs to Kharadon beyond these stages.",
+      "content": [],
+      "relatedIds": [
+        "competition-ignition",
+        "geography-ash",
+        "geography-cinder",
+        "geography-damascus",
+        "geography-ember",
+        "geography-kharadon-s-summit",
+        "geography-obsidian",
+        "geography-titanium",
+        "mythology-kharadon"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "culture-society-the-six-kingdoms",
+      "title": "The Six Kingdoms",
+      "slug": "six-kingdoms",
+      "category": "World & Society",
+      "description": "Aetherforge’s six kingdoms are Ash, Cinder, Ember, Damascus, Titanium and Obsidian. Tradition associates them respectively with Veyrath, Drakhar, Pyrakon, Seraphyne, Aurelith and Varkyros. Ignition is a gateway outside the six.",
+      "content": [],
+      "relatedIds": [
+        "competition-ignition"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
       "id": "geography-ash",
       "title": "Ash",
       "slug": "ash",
       "category": "Geography",
-      "description": "Ash is one of the six kingdoms of Aetherforge.",
+      "description": "Ash is associated in tradition with recovery after ruin and the dragon Veyrath. Its landscape includes pale forests, ruined towers, waterfalls and new construction among old ruins.",
       "content": [],
       "relatedIds": [
-        "culture-society-the-six-kingdoms"
+        "geography-ash-arrival-platform",
+        "mythology-seven-lessons-of-ascension",
+        "mythology-veyrath"
       ],
       "aliases": [],
       "publication": {
-        "status": "legacy_public",
-        "canon": "Established"
+        "status": "author_approved",
+        "canon": "Established, Mythological tradition"
       }
     },
     {
@@ -21,15 +230,16 @@
       "title": "Cinder",
       "slug": "cinder",
       "category": "Geography",
-      "description": "Cinder is one of the six kingdoms of Aetherforge.",
+      "description": "Cinder is associated in tradition with Drakhar and persistence. A hammer on a coal-red shield appears as its heraldry.",
       "content": [],
       "relatedIds": [
-        "culture-society-the-six-kingdoms"
+        "mythology-drakhar",
+        "mythology-seven-lessons-of-ascension"
       ],
       "aliases": [],
       "publication": {
-        "status": "legacy_public",
-        "canon": "Established"
+        "status": "author_approved",
+        "canon": "Established, Mythological tradition"
       }
     },
     {
@@ -37,15 +247,16 @@
       "title": "Ember",
       "slug": "ember",
       "category": "Geography",
-      "description": "Ember is one of the six kingdoms of Aetherforge.",
+      "description": "Ember is one of the six kingdoms, associated in tradition with Pyrakon and ambition.",
       "content": [],
       "relatedIds": [
-        "culture-society-the-six-kingdoms"
+        "mythology-pyrakon",
+        "mythology-seven-lessons-of-ascension"
       ],
       "aliases": [],
       "publication": {
-        "status": "legacy_public",
-        "canon": "Established"
+        "status": "author_approved",
+        "canon": "Mythological tradition"
       }
     },
     {
@@ -53,15 +264,16 @@
       "title": "Damascus",
       "slug": "damascus",
       "category": "Geography",
-      "description": "Damascus is one of the six kingdoms of Aetherforge.",
+      "description": "Damascus is one of the six kingdoms, associated in tradition with Seraphyne and mastery through creation.",
       "content": [],
       "relatedIds": [
-        "culture-society-the-six-kingdoms"
+        "mythology-seraphyne",
+        "mythology-seven-lessons-of-ascension"
       ],
       "aliases": [],
       "publication": {
-        "status": "legacy_public",
-        "canon": "Established"
+        "status": "author_approved",
+        "canon": "Mythological tradition"
       }
     },
     {
@@ -69,15 +281,16 @@
       "title": "Titanium",
       "slug": "titanium",
       "category": "Geography",
-      "description": "Titanium is one of the six kingdoms of Aetherforge.",
+      "description": "Titanium is one of the six kingdoms, associated in tradition with Aurelith and precision.",
       "content": [],
       "relatedIds": [
-        "culture-society-the-six-kingdoms"
+        "mythology-aurelith",
+        "mythology-seven-lessons-of-ascension"
       ],
       "aliases": [],
       "publication": {
-        "status": "legacy_public",
-        "canon": "Established"
+        "status": "author_approved",
+        "canon": "Mythological tradition"
       }
     },
     {
@@ -85,40 +298,239 @@
       "title": "Obsidian",
       "slug": "obsidian",
       "category": "Geography",
-      "description": "Obsidian is one of the six kingdoms of Aetherforge.",
+      "description": "Obsidian is one of the six kingdoms, associated in tradition with Varkyros and dominion.",
       "content": [],
       "relatedIds": [
-        "culture-society-the-six-kingdoms"
+        "craftsmanship-obsidian-material",
+        "mythology-seven-lessons-of-ascension",
+        "mythology-varkyros"
       ],
       "aliases": [],
       "publication": {
-        "status": "legacy_public",
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "geography-ascension-bridges",
+      "title": "Ascension Bridges",
+      "slug": "ascension-bridges",
+      "category": "Geography",
+      "description": "Ascension Bridges are ancient, permanent magical passages at fixed locations. They compress distance; travelers physically walk across them and emerge at designated arrival platforms. They are normally convenient and safe to traverse.",
+      "content": [],
+      "relatedIds": [
+        "geography-ash-arrival-platform",
+        "geography-sparkhaven",
+        "magic-magic"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
         "canon": "Established"
       }
     },
     {
-      "id": "culture-society-the-six-kingdoms",
-      "title": "The Six Kingdoms",
-      "slug": "six-kingdoms",
+      "id": "geography-ash-arrival-platform",
+      "title": "Ash arrival platform",
+      "slug": "ash-arrival-platform",
       "category": "Geography",
-      "description": "Aetherforge contains six kingdoms: Ash, Cinder, Ember, Damascus, Titanium and Obsidian.",
-      "content": [
-        {
-          "heading": "Kingdoms",
-          "body": "The individual kingdom entries are indexed below. Their histories, geography and cultures await source reconciliation."
-        }
-      ],
+      "description": "The Ash arrival platform is a broad black stone landing overlooking the kingdom’s ruins.",
+      "content": [],
       "relatedIds": [
-        "geography-ash",
-        "geography-cinder",
-        "geography-ember",
-        "geography-damascus",
-        "geography-titanium",
-        "geography-obsidian"
+        "geography-ascension-bridges",
+        "geography-ash"
       ],
       "aliases": [],
       "publication": {
-        "status": "legacy_public",
+        "status": "author_approved",
+        "canon": "Established"
+      }
+    },
+    {
+      "id": "geography-crown-grounds",
+      "title": "Crown Grounds",
+      "slug": "crown-grounds",
+      "category": "Geography",
+      "description": "The Crown Grounds are the ceremonial arena within Vaelorian Citadel, with descending terraces, plazas, galleries and stone courts surrounding a central arena and dais.",
+      "content": [],
+      "relatedIds": [
+        "geography-vaelorian-citadel"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established, Mythological tradition"
+      }
+    },
+    {
+      "id": "geography-kharadon-s-summit",
+      "title": "Kharadon’s Summit",
+      "slug": "kharadons-summit",
+      "category": "Geography",
+      "description": "In foundational tradition, Kharadon’s Summit is the ultimate destination of Ascension.",
+      "content": [],
+      "relatedIds": [
+        "mythology-kharadon",
+        "mythology-seven-lessons-of-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "geography-sparkhaven",
+      "title": "Sparkhaven",
+      "slug": "sparkhaven",
+      "category": "Geography",
+      "description": "Sparkhaven is approached by a bridge that arrives outside the city. Its approach features cobblestone, basalt, obsidian and black volcanic walls; the gate bears the motto “Every Legend Begins With a Spark.” Its atmosphere is warm and dry, with the scent of forge and bread.",
+      "content": [],
+      "relatedIds": [
+        "craftsmanship-obsidian-material",
+        "geography-ascension-bridges"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established"
+      }
+    },
+    {
+      "id": "geography-vaelorian-citadel",
+      "title": "Vaelorian Citadel",
+      "slug": "vaelorian-citadel",
+      "category": "Geography",
+      "description": "Vaelorian Citadel is described in tradition as a neutral capital and ceremonial center outside divisional sovereignty.",
+      "content": [],
+      "relatedIds": [
+        "geography-crown-grounds"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "competition-ignition",
+      "title": "Ignition",
+      "slug": "ignition",
+      "category": "Competition",
+      "description": "Ignition is a gateway outside the six kingdoms, with no permanent divisional rank or dragon of its own.",
+      "content": [],
+      "relatedIds": [
+        "culture-society-the-six-kingdoms",
+        "mythology-seven-lessons-of-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "competition-ladder-of-legends",
+      "title": "Ladder of Legends",
+      "slug": "ladder-of-legends",
+      "category": "Competition",
+      "description": "Foundational tradition describes the Ladder of Legends as a series of tests proposed by Kharadon in place of endless rivalry and war.",
+      "content": [],
+      "relatedIds": [
+        "mythology-kharadon"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "competition-crucibles",
+      "title": "Crucibles",
+      "slug": "crucibles",
+      "category": "Competition",
+      "description": "Crucibles are competitions that predate the founding of FYI.",
+      "content": [],
+      "relatedIds": [],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established"
+      }
+    },
+    {
+      "id": "artifacts-daggers",
+      "title": "Daggers",
+      "slug": "daggers",
+      "category": "World & Society",
+      "description": "Competitive daggers physically record achievements, ownership and competitive history in modern Aetherforge.",
+      "content": [],
+      "relatedIds": [],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established"
+      }
+    },
+    {
+      "id": "organizations-administrative-council",
+      "title": "Administrative Council",
+      "slug": "administrative-council",
+      "category": "World & Society",
+      "description": "The Administrative Council is the principal mortal governing body. It oversees competition, community, administration, records and technical systems alongside ancient dragon authority. Other members handle decisions directly affecting a member’s competitive interests.",
+      "content": [],
+      "relatedIds": [],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established"
+      }
+    },
+    {
+      "id": "magic-magic",
+      "title": "Magic",
+      "slug": "magic",
+      "category": "World & Society",
+      "description": "Extraordinary magic exists within Aetherforge’s medieval high-fantasy setting. The Ascension Bridges are an established example of magical travel; specific equipment mechanisms are not established.",
+      "content": [],
+      "relatedIds": [
+        "geography-ascension-bridges"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established"
+      }
+    },
+    {
+      "id": "craftsmanship-obsidian-material",
+      "title": "Obsidian (material)",
+      "slug": "obsidian-material",
+      "category": "World & Society",
+      "description": "Obsidian appears on Sparkhaven’s volcanic approach and as a material used for clubheads. Its precise metallurgy is not established.",
+      "content": [],
+      "relatedIds": [
+        "geography-obsidian",
+        "geography-sparkhaven"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established"
+      }
+    },
+    {
+      "id": "terminology-golden-dragons",
+      "title": "Golden Dragons",
+      "slug": "golden-dragons",
+      "category": "World & Society",
+      "description": "Golden dragons are a currency denomination in Aetherforge. The available canon does not establish a general exchange rate or price scale.",
+      "content": [],
+      "relatedIds": [],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
         "canon": "Established"
       }
     }
