@@ -6,6 +6,3 @@
 !articles.json
 !publication-allowlist.json
 !server.test.js
-
-!author.js
-!author.test.js
