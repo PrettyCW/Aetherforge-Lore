@@ -1,0 +1,133 @@
+{
+  "categories": [
+    "Mythology",
+    "Geography",
+    "History",
+    "Characters",
+    "Organizations",
+    "Culture & Society",
+    "Craftsmanship",
+    "Competition",
+    "Artifacts",
+    "Magic",
+    "Literature",
+    "Terminology"
+  ],
+  "articles": [
+    {
+      "slug": "ash",
+      "title": "Ash",
+      "category": "Geography",
+      "summary": "Ash is one of the six kingdoms of Aetherforge.",
+      "status": "Provisional",
+      "sections": [],
+      "related": [
+        "six-kingdoms"
+      ],
+      "sources": [
+        "Initial Aetherforge project notes — primary-source review pending."
+      ],
+      "published": true
+    },
+    {
+      "slug": "cinder",
+      "title": "Cinder",
+      "category": "Geography",
+      "summary": "Cinder is one of the six kingdoms of Aetherforge.",
+      "status": "Provisional",
+      "sections": [],
+      "related": [
+        "six-kingdoms"
+      ],
+      "sources": [
+        "Initial Aetherforge project notes — primary-source review pending."
+      ],
+      "published": true
+    },
+    {
+      "slug": "ember",
+      "title": "Ember",
+      "category": "Geography",
+      "summary": "Ember is one of the six kingdoms of Aetherforge.",
+      "status": "Provisional",
+      "sections": [],
+      "related": [
+        "six-kingdoms"
+      ],
+      "sources": [
+        "Initial Aetherforge project notes — primary-source review pending."
+      ],
+      "published": true
+    },
+    {
+      "slug": "damascus",
+      "title": "Damascus",
+      "category": "Geography",
+      "summary": "Damascus is one of the six kingdoms of Aetherforge.",
+      "status": "Provisional",
+      "sections": [],
+      "related": [
+        "six-kingdoms"
+      ],
+      "sources": [
+        "Initial Aetherforge project notes — primary-source review pending."
+      ],
+      "published": true
+    },
+    {
+      "slug": "titanium",
+      "title": "Titanium",
+      "category": "Geography",
+      "summary": "Titanium is one of the six kingdoms of Aetherforge.",
+      "status": "Provisional",
+      "sections": [],
+      "related": [
+        "six-kingdoms"
+      ],
+      "sources": [
+        "Initial Aetherforge project notes — primary-source review pending."
+      ],
+      "published": true
+    },
+    {
+      "slug": "obsidian",
+      "title": "Obsidian",
+      "category": "Geography",
+      "summary": "Obsidian is one of the six kingdoms of Aetherforge.",
+      "status": "Provisional",
+      "sections": [],
+      "related": [
+        "six-kingdoms"
+      ],
+      "sources": [
+        "Initial Aetherforge project notes — primary-source review pending."
+      ],
+      "published": true
+    },
+    {
+      "slug": "six-kingdoms",
+      "title": "The Six Kingdoms",
+      "category": "Geography",
+      "summary": "Aetherforge contains six kingdoms: Ash, Cinder, Ember, Damascus, Titanium and Obsidian.",
+      "status": "Provisional",
+      "sections": [
+        {
+          "heading": "Kingdoms",
+          "body": "The individual kingdom entries are indexed below. Their histories, geography and cultures await source reconciliation."
+        }
+      ],
+      "related": [
+        "ash",
+        "cinder",
+        "ember",
+        "damascus",
+        "titanium",
+        "obsidian"
+      ],
+      "sources": [
+        "Initial Aetherforge project notes — primary-source review pending."
+      ],
+      "published": true
+    }
+  ]
+}

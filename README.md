@@ -1,11 +1,5 @@
 # Aetherforge Wiki
 
-A searchable encyclopedia of Aetherforge. Public articles are reviewed before publication. Unpublished manuscripts, private sources, and spoilers must not be committed to this public repository.
+A searchable encyclopedia of Aetherforge. This public repository must not contain unpublished manuscripts, private sources or spoilers. Initial articles are provisional until primary-source review.
 
-## Run
-
-Node.js 22 or later: `npm start`. Railway uses the `PORT` environment variable.
-
-## Canon workflow
-
-Article content lives in `articles.json`. Each entry has a slug, title, category, summary, sections, related articles, source references and publication status. Only reviewed, published articles should be included in this repository. Git tracks revisions. No generated lore is canon by default.
+Run `npm start` or `npm test` with Node.js 22+. Railway uses PORT. Content lives in articles.json; Git tracks revisions. The public website is read-only; authenticated editing and private draft storage are future work.

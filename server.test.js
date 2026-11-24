@@ -1,0 +1,5 @@
+const test=require('node:test');const assert=require('node:assert/strict');const {render,esc}=require('./server');const {articles,categories}=require('./articles.json');
+test('homepage and category index',()=>{assert.equal(render('/')[0],200);for(const c of categories)assert.equal(render('/category/'+encodeURIComponent(c))[0],200)});
+test('all published articles and links resolve',()=>{for(const a of articles.filter(x=>x.published)){assert.equal(render('/wiki/'+a.slug)[0],200);for(const slug of a.related)assert.ok(articles.some(x=>x.slug===slug&&x.published))}});
+test('search, escaping and missing pages',()=>{assert.match(render('/search','damascus')[1],/Damascus/);assert.equal(esc('<script>'),'&lt;script&gt;');assert.equal(render('/wiki/missing')[0],404)});
+test('unique slugs and valid categories',()=>{assert.equal(new Set(articles.map(a=>a.slug)).size,articles.length);for(const a of articles)assert.ok(categories.includes(a.category))});
