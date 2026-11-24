@@ -1,133 +1,126 @@
 {
-  "categories": [
-    "Mythology",
-    "Geography",
-    "History",
-    "Characters",
-    "Organizations",
-    "Culture & Society",
-    "Craftsmanship",
-    "Competition",
-    "Artifacts",
-    "Magic",
-    "Literature",
-    "Terminology"
-  ],
   "articles": [
     {
-      "slug": "ash",
+      "id": "geography-ash",
       "title": "Ash",
+      "slug": "ash",
       "category": "Geography",
-      "summary": "Ash is one of the six kingdoms of Aetherforge.",
-      "status": "Established",
-      "sections": [],
-      "related": [
-        "six-kingdoms"
+      "description": "Ash is one of the six kingdoms of Aetherforge.",
+      "content": [],
+      "relatedIds": [
+        "culture-society-the-six-kingdoms"
       ],
-      "sources": [
-        "Official Aetherforge Mythology & Saga Bible — Six Dragons, Ladder of Legends and Six Kingdoms sections. Kingdom identity only; other details await review."
-      ],
-      "published": true
+      "aliases": [],
+      "publication": {
+        "status": "legacy_public",
+        "canon": "Established"
+      }
     },
     {
-      "slug": "cinder",
+      "id": "geography-cinder",
       "title": "Cinder",
+      "slug": "cinder",
       "category": "Geography",
-      "summary": "Cinder is one of the six kingdoms of Aetherforge.",
-      "status": "Established",
-      "sections": [],
-      "related": [
-        "six-kingdoms"
+      "description": "Cinder is one of the six kingdoms of Aetherforge.",
+      "content": [],
+      "relatedIds": [
+        "culture-society-the-six-kingdoms"
       ],
-      "sources": [
-        "Official Aetherforge Mythology & Saga Bible — Six Dragons, Ladder of Legends and Six Kingdoms sections. Kingdom identity only; other details await review."
-      ],
-      "published": true
+      "aliases": [],
+      "publication": {
+        "status": "legacy_public",
+        "canon": "Established"
+      }
     },
     {
-      "slug": "ember",
+      "id": "geography-ember",
       "title": "Ember",
+      "slug": "ember",
       "category": "Geography",
-      "summary": "Ember is one of the six kingdoms of Aetherforge.",
-      "status": "Established",
-      "sections": [],
-      "related": [
-        "six-kingdoms"
+      "description": "Ember is one of the six kingdoms of Aetherforge.",
+      "content": [],
+      "relatedIds": [
+        "culture-society-the-six-kingdoms"
       ],
-      "sources": [
-        "Official Aetherforge Mythology & Saga Bible — Six Dragons, Ladder of Legends and Six Kingdoms sections. Kingdom identity only; other details await review."
-      ],
-      "published": true
+      "aliases": [],
+      "publication": {
+        "status": "legacy_public",
+        "canon": "Established"
+      }
     },
     {
-      "slug": "damascus",
+      "id": "geography-damascus",
       "title": "Damascus",
+      "slug": "damascus",
       "category": "Geography",
-      "summary": "Damascus is one of the six kingdoms of Aetherforge.",
-      "status": "Established",
-      "sections": [],
-      "related": [
-        "six-kingdoms"
+      "description": "Damascus is one of the six kingdoms of Aetherforge.",
+      "content": [],
+      "relatedIds": [
+        "culture-society-the-six-kingdoms"
       ],
-      "sources": [
-        "Official Aetherforge Mythology & Saga Bible — Six Dragons, Ladder of Legends and Six Kingdoms sections. Kingdom identity only; other details await review."
-      ],
-      "published": true
+      "aliases": [],
+      "publication": {
+        "status": "legacy_public",
+        "canon": "Established"
+      }
     },
     {
-      "slug": "titanium",
+      "id": "geography-titanium",
       "title": "Titanium",
+      "slug": "titanium",
       "category": "Geography",
-      "summary": "Titanium is one of the six kingdoms of Aetherforge.",
-      "status": "Established",
-      "sections": [],
-      "related": [
-        "six-kingdoms"
+      "description": "Titanium is one of the six kingdoms of Aetherforge.",
+      "content": [],
+      "relatedIds": [
+        "culture-society-the-six-kingdoms"
       ],
-      "sources": [
-        "Official Aetherforge Mythology & Saga Bible — Six Dragons, Ladder of Legends and Six Kingdoms sections. Kingdom identity only; other details await review."
-      ],
-      "published": true
+      "aliases": [],
+      "publication": {
+        "status": "legacy_public",
+        "canon": "Established"
+      }
     },
     {
-      "slug": "obsidian",
+      "id": "geography-obsidian",
       "title": "Obsidian",
+      "slug": "obsidian",
       "category": "Geography",
-      "summary": "Obsidian is one of the six kingdoms of Aetherforge.",
-      "status": "Established",
-      "sections": [],
-      "related": [
-        "six-kingdoms"
+      "description": "Obsidian is one of the six kingdoms of Aetherforge.",
+      "content": [],
+      "relatedIds": [
+        "culture-society-the-six-kingdoms"
       ],
-      "sources": [
-        "Official Aetherforge Mythology & Saga Bible — Six Dragons, Ladder of Legends and Six Kingdoms sections. Kingdom identity only; other details await review."
-      ],
-      "published": true
+      "aliases": [],
+      "publication": {
+        "status": "legacy_public",
+        "canon": "Established"
+      }
     },
     {
-      "slug": "six-kingdoms",
+      "id": "culture-society-the-six-kingdoms",
       "title": "The Six Kingdoms",
+      "slug": "six-kingdoms",
       "category": "Geography",
-      "summary": "Aetherforge contains six kingdoms: Ash, Cinder, Ember, Damascus, Titanium and Obsidian.",
-      "status": "Established",
-      "sections": [
+      "description": "Aetherforge contains six kingdoms: Ash, Cinder, Ember, Damascus, Titanium and Obsidian.",
+      "content": [
         {
           "heading": "Kingdoms",
           "body": "The individual kingdom entries are indexed below. Their histories, geography and cultures await source reconciliation."
         }
       ],
-      "related": [
-        "ash",
-        "cinder",
-        "ember",
-        "damascus",
-        "titanium",
-        "obsidian"
+      "relatedIds": [
+        "geography-ash",
+        "geography-cinder",
+        "geography-ember",
+        "geography-damascus",
+        "geography-titanium",
+        "geography-obsidian"
       ],
-      "sources": [
-        "Official Aetherforge Mythology & Saga Bible — Six Dragons, Ladder of Legends and Six Kingdoms sections. Kingdom identity only; other details await review."
-      ],
-      "published": true
+      "aliases": [],
+      "publication": {
+        "status": "legacy_public",
+        "canon": "Established"
+      }
     }
   ]
 }

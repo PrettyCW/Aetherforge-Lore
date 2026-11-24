@@ -1,5 +1,7 @@
 # Aetherforge Wiki
 
-A searchable encyclopedia of Aetherforge. This public repository must not contain unpublished manuscripts, private sources or spoilers. Initial articles are provisional until primary-source review.
+A public, read-only encyclopedia. Node.js 22+, no external runtime dependencies.
 
-Run `npm start` or `npm test` with Node.js 22+. Railway uses PORT. Content lives in articles.json; Git tracks revisions. The public website is read-only; authenticated editing and private draft storage are future work.
+Run `npm run build` to validate, `npm start` to serve. Railway uses PORT. The Docker build runs tests before copying only the five runtime files into the final image.
+
+Publication requires an explicit author decision on the exact text, aliases and links. Add only approved fields to articles.json and approved canonical IDs to publication-allowlist.json. Never import the private archive into the repository or build context. The seven legacy public stubs are grandfathered, not newly approved candidate text. No private access is implemented.
