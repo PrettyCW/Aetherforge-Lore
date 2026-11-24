@@ -7,3 +7,7 @@ Read-only private article directory, category browser, body search (POST), relat
 Import is a one-time authenticated browser action using the prepared private JSON export. Deployment health does not establish that the private data has been imported. Existing public articles remain unchanged. No new canon or publication decisions.
 
 Private import contains 202 articles, 271 sections, 442 relationship pairs, 491 curated claims plus 23 recovered conversation summaries (514 evidence records), 19 source records and 23 decision/recovery records. The original source classifications are preserved. Both section and citation references must resolve in the imported evidence index. The import itself remains outside GitHub.
+
+## v0.5.1 browser form compatibility
+
+The no-referrer policy may suppress or null the Origin header on legitimate browser form submissions. All author POST forms now require a random token matching a Secure, HttpOnly, SameSite=Strict, host-only cookie; explicit foreign origins and cross-site fetch metadata remain rejected. Authentication, encryption, and data storage are unchanged. Tests cover null and missing Origin, missing and invalid CSRF tokens, and valid browser-style login, import, search, and logout. Access-key input tolerates surrounding whitespace.
