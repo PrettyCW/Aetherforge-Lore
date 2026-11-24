@@ -1,0 +1,6456 @@
+{
+  "version": "0.9.0",
+  "previous_commit": "56e692a2b9237ca9a1f699e994f964c8426e9f06",
+  "totals": {
+    "articles": 216,
+    "sections": 617,
+    "relationships": 645,
+    "links": 1290,
+    "expanded": 104,
+    "new": 14,
+    "evidence": 350,
+    "assignments": 536,
+    "integrated": 522,
+    "exact_duplicates": 0,
+    "metadata_assignments": 14,
+    "chapter_summaries": 12,
+    "match_rows": 43,
+    "playoff_rows": 18
+  },
+  "new_article_ids": [
+    "characters-vela-sorn",
+    "geography-competitor-dining-hall",
+    "geography-the-first-forge-control-chamber",
+    "literature-saga-ash",
+    "literature-saga-cinder",
+    "literature-saga-damascus",
+    "literature-saga-ember",
+    "literature-saga-kharadons-summit",
+    "literature-saga-obsidian",
+    "literature-saga-titanium",
+    "literature-the-summit-and-the-chain",
+    "characters-vael-torren",
+    "geography-ignition-registration-area",
+    "geography-the-apex"
+  ],
+  "assignments": [
+    {
+      "article_id": "artifacts-division-daggers",
+      "evidence_id": "CORE8-0053",
+      "source": {
+        "id": "MS-002",
+        "start_line": 68,
+        "end_line": 72
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "artifacts-founder-s-seat",
+      "evidence_id": "CORE8-0018",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1843,
+        "end_line": 1877
+      },
+      "status": "revised_dynasty_reference",
+      "disposition": "integrated",
+      "section": "Dynastic reference"
+    },
+    {
+      "article_id": "artifacts-golden-crucible-dagger",
+      "evidence_id": "CORE82-0039",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 534,
+        "end_line": 538
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "artifacts-identifier-117-3a",
+      "evidence_id": "FS8-0062",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3061,
+        "end_line": 3087
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "artifacts-identifier-117-3a",
+      "evidence_id": "FS8-0105",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5521,
+        "end_line": 5557
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "artifacts-identifier-117-3a",
+      "evidence_id": "FS8-0198",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5786,
+        "end_line": 5792
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "artifacts-identifier-117-3a",
+      "evidence_id": "FS8-0132",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7654,
+        "end_line": 7687
+      },
+      "status": "reported",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Reported events and accounts"
+    },
+    {
+      "article_id": "artifacts-kharadon-s-seal",
+      "evidence_id": "FS8-0126",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7443,
+        "end_line": 7475
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "artifacts-the-ashen-reach",
+      "evidence_id": "FS8-0033",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1357,
+        "end_line": 1388
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "artifacts-the-ashen-reach",
+      "evidence_id": "FS8-0045",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1872,
+        "end_line": 1896
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "artifacts-the-ashen-reach",
+      "evidence_id": "FS8-0066",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3219,
+        "end_line": 3226
+      },
+      "status": "reported",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Reported events and accounts"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0001",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4,
+        "end_line": 26
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Character perspective"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0002",
+      "source": {
+        "id": "MS-003",
+        "start_line": 34,
+        "end_line": 55
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Character perspective"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0019",
+      "source": {
+        "id": "MS-003",
+        "start_line": 759,
+        "end_line": 761
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Character perspective"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0021",
+      "source": {
+        "id": "MS-003",
+        "start_line": 830,
+        "end_line": 841
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Character perspective"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0026",
+      "source": {
+        "id": "MS-003",
+        "start_line": 995,
+        "end_line": 1024
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Character perspective"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0010",
+      "source": {
+        "id": "MS-003",
+        "start_line": 279,
+        "end_line": 306
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0014",
+      "source": {
+        "id": "MS-003",
+        "start_line": 579,
+        "end_line": 694
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0023",
+      "source": {
+        "id": "MS-003",
+        "start_line": 849,
+        "end_line": 882
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0028",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1047,
+        "end_line": 1073
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0050",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2215,
+        "end_line": 2279
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0052",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2334,
+        "end_line": 2377
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0221",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2432,
+        "end_line": 2475
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0222",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2477,
+        "end_line": 2525
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0224",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2571,
+        "end_line": 2639
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0072",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3652,
+        "end_line": 3710
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0095",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4965,
+        "end_line": 5046
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0102",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5312,
+        "end_line": 5343
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0103",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5358,
+        "end_line": 5418
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0205",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6058,
+        "end_line": 6071
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0111",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6315,
+        "end_line": 6353
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0115",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6785,
+        "end_line": 6828
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0116",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6831,
+        "end_line": 6981
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0118",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7185,
+        "end_line": 7233
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0121",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7313,
+        "end_line": 7335
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0232",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6707,
+        "end_line": 6775
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0233",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6987,
+        "end_line": 7012
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0153",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9010,
+        "end_line": 9112
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0161",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9534,
+        "end_line": 9622
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0217",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9257,
+        "end_line": 9294
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0219",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9794,
+        "end_line": 9829
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Character perspective"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0164",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9896,
+        "end_line": 9922
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0165",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9923,
+        "end_line": 9950
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0180",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10395,
+        "end_line": 10425
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 12 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "FS8-0185",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10476,
+        "end_line": 10496
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 12 — Character perspective"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "CORE8-0043",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 414,
+        "end_line": 414
+      },
+      "status": "approved_parentage_chronology_open",
+      "disposition": "integrated",
+      "section": "Family and unresolved chronology"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "CORE82-0001",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 189,
+        "end_line": 221
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "CORE82-0016",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 717,
+        "end_line": 741
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-aeren-vale",
+      "evidence_id": "CORE82-0028",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1593,
+        "end_line": 1623
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-aric-flare",
+      "evidence_id": "CORE8-0014",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 809,
+        "end_line": 819
+      },
+      "status": "unresolved_tradition",
+      "disposition": "integrated",
+      "section": "Unresolved traditions"
+    },
+    {
+      "article_id": "characters-briar-sloane",
+      "evidence_id": "CORE8-0050",
+      "source": {
+        "id": "MS-002",
+        "start_line": 28,
+        "end_line": 46
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "characters-bustin",
+      "evidence_id": "FS8-0025",
+      "source": {
+        "id": "MS-003",
+        "start_line": 951,
+        "end_line": 990
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-bustin",
+      "evidence_id": "FS8-0031",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1280,
+        "end_line": 1323
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Character perspective"
+    },
+    {
+      "article_id": "characters-bustin",
+      "evidence_id": "CORE8-0029",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 200,
+        "end_line": 203
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-bustin",
+      "evidence_id": "CORE82-0011",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 465,
+        "end_line": 481
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-bustin",
+      "evidence_id": "CORE82-0023",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1189,
+        "end_line": 1239
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-bustin",
+      "evidence_id": "CORE82-0034",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1509,
+        "end_line": 1517
+      },
+      "status": "provisional_characterization",
+      "disposition": "integrated",
+      "section": "Provisional characterization"
+    },
+    {
+      "article_id": "characters-bustin",
+      "evidence_id": "CORE82-0042",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 900,
+        "end_line": 960
+      },
+      "status": "approved_fictional_characterization",
+      "disposition": "integrated",
+      "section": "Fictional characterization"
+    },
+    {
+      "article_id": "characters-caelor-rhyne",
+      "evidence_id": "CORE8-0016",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 849,
+        "end_line": 857
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "characters-cassian-rourke",
+      "evidence_id": "FS8-0042",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1739,
+        "end_line": 1797
+      },
+      "status": "reported",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Reported events and accounts"
+    },
+    {
+      "article_id": "characters-cassian-rourke",
+      "evidence_id": "FS8-0046",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1928,
+        "end_line": 1971
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-cassian-rourke",
+      "evidence_id": "FS8-0048",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2051,
+        "end_line": 2115
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-cassian-rourke",
+      "evidence_id": "FS8-0054",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2670,
+        "end_line": 2715
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-cassian-rourke",
+      "evidence_id": "FS8-0221",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2432,
+        "end_line": 2475
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-cassian-rourke",
+      "evidence_id": "FS8-0149",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8850,
+        "end_line": 8869
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-cassian-rourke",
+      "evidence_id": "FS8-0217",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9257,
+        "end_line": 9294
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-cassian-rourke",
+      "evidence_id": "FS8-0163",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9831,
+        "end_line": 9876
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-darian-vex",
+      "evidence_id": "FS8-0129",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7532,
+        "end_line": 7541
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Character perspective"
+    },
+    {
+      "article_id": "characters-darian-vex",
+      "evidence_id": "FS8-0133",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7689,
+        "end_line": 7697
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Character perspective"
+    },
+    {
+      "article_id": "characters-darian-vex",
+      "evidence_id": "CORE8-0022",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2317,
+        "end_line": 2361
+      },
+      "status": "historical_account_pending_reconciliation",
+      "disposition": "integrated",
+      "section": "Historical accounts awaiting reconciliation"
+    },
+    {
+      "article_id": "characters-darian-vex",
+      "evidence_id": "CORE82-0007",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 371,
+        "end_line": 391
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-darian-vex",
+      "evidence_id": "CORE82-0024",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1241,
+        "end_line": 1315
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-darian-vex",
+      "evidence_id": "CORE82-0026",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1385,
+        "end_line": 1431
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-darian-vex",
+      "evidence_id": "CORE82-0027",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1483,
+        "end_line": 1521
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-draven-vale",
+      "evidence_id": "CORE8-0043",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 414,
+        "end_line": 414
+      },
+      "status": "approved_parentage_chronology_open",
+      "disposition": "integrated",
+      "section": "Family and unresolved chronology"
+    },
+    {
+      "article_id": "characters-draven-vale",
+      "evidence_id": "CORE8-0046",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 585,
+        "end_line": 586
+      },
+      "status": "approved_scene_plan_not_yet_on_page",
+      "disposition": "integrated",
+      "section": "Planned manuscript scenes"
+    },
+    {
+      "article_id": "characters-edric-mourn",
+      "evidence_id": "FS8-0061",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3030,
+        "end_line": 3048
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Character perspective"
+    },
+    {
+      "article_id": "characters-edric-mourn",
+      "evidence_id": "FS8-0077",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3914,
+        "end_line": 3921
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-edric-mourn",
+      "evidence_id": "CORE82-0008",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 397,
+        "end_line": 413
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-edric-mourn",
+      "evidence_id": "CORE82-0016",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 717,
+        "end_line": 741
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-edric-mourn",
+      "evidence_id": "CORE82-0021",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1067,
+        "end_line": 1103
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-ellen-vale",
+      "evidence_id": "CORE8-0042",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 413,
+        "end_line": 413
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-ellen-vale",
+      "evidence_id": "CORE8-0044",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 418,
+        "end_line": 421
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-ellen-vale",
+      "evidence_id": "CORE8-0043",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 414,
+        "end_line": 414
+      },
+      "status": "approved_parentage_chronology_open",
+      "disposition": "integrated",
+      "section": "Family and unresolved chronology"
+    },
+    {
+      "article_id": "characters-ellen-vale",
+      "evidence_id": "CORE82-0038",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 476,
+        "end_line": 481
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "characters-jalen-marr",
+      "evidence_id": "FS8-0009",
+      "source": {
+        "id": "MS-003",
+        "start_line": 244,
+        "end_line": 248
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-jalen-marr",
+      "evidence_id": "FS8-0195",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5309,
+        "end_line": 5312
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-kael-varen",
+      "evidence_id": "FS8-0063",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3106,
+        "end_line": 3113
+      },
+      "status": "historical_record",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Archival records"
+    },
+    {
+      "article_id": "characters-kael-varen",
+      "evidence_id": "FS8-0068",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3293,
+        "end_line": 3309
+      },
+      "status": "historical_tradition",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Historical traditions"
+    },
+    {
+      "article_id": "characters-kael-varen",
+      "evidence_id": "CORE8-0011",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 675,
+        "end_line": 709
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "characters-kael-varen",
+      "evidence_id": "CORE8-0057",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1523,
+        "end_line": 1539
+      },
+      "status": "alternative_future_plot_options",
+      "disposition": "integrated",
+      "section": "Alternative future plot options"
+    },
+    {
+      "article_id": "characters-kael-varen",
+      "evidence_id": "CORE82-0024",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1241,
+        "end_line": 1315
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-kael-varen",
+      "evidence_id": "CORE82-0027",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1483,
+        "end_line": 1521
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-kaelen-rhyne",
+      "evidence_id": "FS8-0069",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3311,
+        "end_line": 3349
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-kaelen-rhyne",
+      "evidence_id": "FS8-0074",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3768,
+        "end_line": 3790
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-kaelen-rhyne",
+      "evidence_id": "FS8-0083",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4274,
+        "end_line": 4349
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-kaelen-rhyne",
+      "evidence_id": "CORE82-0003",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 261,
+        "end_line": 281
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-lauren",
+      "evidence_id": "CORE8-0046",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 585,
+        "end_line": 586
+      },
+      "status": "approved_scene_plan_not_yet_on_page",
+      "disposition": "integrated",
+      "section": "Planned manuscript scenes"
+    },
+    {
+      "article_id": "characters-lilith-and-lyra",
+      "evidence_id": "CORE8-0029",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 200,
+        "end_line": 203
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-and-lyra",
+      "evidence_id": "CORE8-0044",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 418,
+        "end_line": 421
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-and-lyra",
+      "evidence_id": "CORE82-0038",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 476,
+        "end_line": 481
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "FS8-0204",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6014,
+        "end_line": 6051
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "FS8-0145",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8622,
+        "end_line": 8629
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "FS8-0213",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8307,
+        "end_line": 8337
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "FS8-0216",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8585,
+        "end_line": 8629
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0024",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 129,
+        "end_line": 135
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0025",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 139,
+        "end_line": 143
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0026",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 163,
+        "end_line": 171
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0027",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 177,
+        "end_line": 188
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0028",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 192,
+        "end_line": 192
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0040",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 397,
+        "end_line": 399
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0041",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 405,
+        "end_line": 407
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0042",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 413,
+        "end_line": 413
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0045",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 572,
+        "end_line": 573
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0047",
+      "source": {
+        "id": "VOICE-001",
+        "start_line": 91,
+        "end_line": 109
+      },
+      "status": "approved_character_reference_with_interpretation",
+      "disposition": "integrated",
+      "section": "Character reference and interpretation"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0048",
+      "source": {
+        "id": "VOICE-001",
+        "start_line": 151,
+        "end_line": 165
+      },
+      "status": "approved_character_reference",
+      "disposition": "integrated",
+      "section": "Character reference"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE8-0050",
+      "source": {
+        "id": "MS-002",
+        "start_line": 28,
+        "end_line": 46
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE82-0012",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 485,
+        "end_line": 501
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE82-0021",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1067,
+        "end_line": 1103
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE82-0037",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 257,
+        "end_line": 265
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE82-0038",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 476,
+        "end_line": 481
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE82-0039",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 534,
+        "end_line": 538
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE82-0041",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 626,
+        "end_line": 629
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "characters-lilith-vanthe",
+      "evidence_id": "CORE82-0042",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 900,
+        "end_line": 960
+      },
+      "status": "approved_fictional_characterization",
+      "disposition": "integrated",
+      "section": "Fictional characterization"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0035",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1474,
+        "end_line": 1515
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0188",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1280,
+        "end_line": 1297
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Character perspective"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0059",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2941,
+        "end_line": 2969
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0090",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4626,
+        "end_line": 4696
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0191",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4600,
+        "end_line": 4624
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0193",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5271,
+        "end_line": 5289
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0202",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5930,
+        "end_line": 5937
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0214",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8529,
+        "end_line": 8553
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "FS8-0178",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10357,
+        "end_line": 10382
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 11 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE8-0028",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 192,
+        "end_line": 192
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE8-0044",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 418,
+        "end_line": 421
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE82-0010",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 447,
+        "end_line": 461
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE82-0028",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1593,
+        "end_line": 1623
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE82-0036",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2547,
+        "end_line": 2579
+      },
+      "status": "provisional_characterization",
+      "disposition": "integrated",
+      "section": "Provisional characterization"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE82-0037",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 257,
+        "end_line": 265
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE82-0042",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 900,
+        "end_line": 960
+      },
+      "status": "approved_fictional_characterization",
+      "disposition": "integrated",
+      "section": "Fictional characterization"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE82-0043",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 1100,
+        "end_line": 1150
+      },
+      "status": "approved_fictional_characterization",
+      "disposition": "integrated",
+      "section": "Fictional characterization"
+    },
+    {
+      "article_id": "characters-lyra-acolyte12",
+      "evidence_id": "CORE82-0044",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 1250,
+        "end_line": 1310
+      },
+      "status": "approved_fictional_characterization",
+      "disposition": "integrated",
+      "section": "Fictional characterization"
+    },
+    {
+      "article_id": "characters-lyra-vale",
+      "evidence_id": "CORE8-0012",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 767,
+        "end_line": 777
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "characters-lyra-vale",
+      "evidence_id": "CORE8-0028",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 192,
+        "end_line": 192
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-lyra-vale",
+      "evidence_id": "CORE8-0043",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 414,
+        "end_line": 414
+      },
+      "status": "approved_parentage_chronology_open",
+      "disposition": "integrated",
+      "section": "Family and unresolved chronology"
+    },
+    {
+      "article_id": "characters-lyssa-noirren",
+      "evidence_id": "CORE82-0009",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 419,
+        "end_line": 437
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-malrek-voss",
+      "evidence_id": "CORE8-0017",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 869,
+        "end_line": 881
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "characters-malrek-voss",
+      "evidence_id": "CORE82-0002",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 233,
+        "end_line": 255
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0073",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3737,
+        "end_line": 3767
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0074",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3768,
+        "end_line": 3790
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0078",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3980,
+        "end_line": 4043
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Character perspective"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0080",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4044,
+        "end_line": 4127
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0083",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4274,
+        "end_line": 4349
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0084",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4351,
+        "end_line": 4379
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0085",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4429,
+        "end_line": 4473
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0092",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4737,
+        "end_line": 4817
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0192",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4830,
+        "end_line": 4845
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "FS8-0107",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5653,
+        "end_line": 5717
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "CORE82-0004",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 287,
+        "end_line": 305
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "CORE82-0020",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1007,
+        "end_line": 1033
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-mira-ardyn",
+      "evidence_id": "CORE82-0022",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1105,
+        "end_line": 1153
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0057",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2787,
+        "end_line": 2862
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0086",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4475,
+        "end_line": 4524
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0089",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4523,
+        "end_line": 4578
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0189",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4552,
+        "end_line": 4563
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0098",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5078,
+        "end_line": 5138
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0203",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5953,
+        "end_line": 6008
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0207",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6521,
+        "end_line": 6564
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0136",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7948,
+        "end_line": 7985
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "FS8-0156",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9240,
+        "end_line": 9250
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-nyra-solvar",
+      "evidence_id": "CORE82-0006",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 335,
+        "end_line": 365
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-orin-cade",
+      "evidence_id": "FS8-0070",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3351,
+        "end_line": 3382
+      },
+      "status": "reported",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Reported events and accounts"
+    },
+    {
+      "article_id": "characters-orin-cade",
+      "evidence_id": "FS8-0227",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3446,
+        "end_line": 3500
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-orin-cade",
+      "evidence_id": "FS8-0228",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3516,
+        "end_line": 3548
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-pj",
+      "evidence_id": "FS8-0212",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8283,
+        "end_line": 8306
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-pj",
+      "evidence_id": "CORE8-0027",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 177,
+        "end_line": 188
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-pj",
+      "evidence_id": "CORE8-0029",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 200,
+        "end_line": 203
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-pj",
+      "evidence_id": "CORE82-0015",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 551,
+        "end_line": 581
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-pj",
+      "evidence_id": "CORE82-0023",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1189,
+        "end_line": 1239
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-pj",
+      "evidence_id": "CORE82-0035",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1805,
+        "end_line": 1817
+      },
+      "status": "provisional_characterization",
+      "disposition": "integrated",
+      "section": "Provisional characterization"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0075",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3792,
+        "end_line": 3812
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0076",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3899,
+        "end_line": 3913
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0091",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4718,
+        "end_line": 4735
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0094",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4847,
+        "end_line": 4872
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Character perspective"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0106",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5560,
+        "end_line": 5651
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0199",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5796,
+        "end_line": 5815
+      },
+      "status": "reported",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Reported events and accounts"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0128",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7496,
+        "end_line": 7528
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0130",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7542,
+        "end_line": 7555
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0137",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7998,
+        "end_line": 8045
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0139",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8114,
+        "end_line": 8131
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0141",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8338,
+        "end_line": 8400
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0144",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8502,
+        "end_line": 8529
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0210",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8050,
+        "end_line": 8095
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Character perspective"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "FS8-0166",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9990,
+        "end_line": 10010
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "CORE82-0007",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 371,
+        "end_line": 391
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "CORE82-0020",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1007,
+        "end_line": 1033
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-rheon-valek",
+      "evidence_id": "CORE82-0026",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1385,
+        "end_line": 1431
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-rowden-groves",
+      "evidence_id": "CORE8-0052",
+      "source": {
+        "id": "MS-002",
+        "start_line": 50,
+        "end_line": 60
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "characters-rowden-groves",
+      "evidence_id": "CORE82-0040",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 548,
+        "end_line": 551
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "characters-selene-ardyn",
+      "evidence_id": "CORE8-0015",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 831,
+        "end_line": 839
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0007",
+      "source": {
+        "id": "MS-003",
+        "start_line": 126,
+        "end_line": 191
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0020",
+      "source": {
+        "id": "MS-003",
+        "start_line": 782,
+        "end_line": 827
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0021",
+      "source": {
+        "id": "MS-003",
+        "start_line": 830,
+        "end_line": 841
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Character perspective"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0043",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1785,
+        "end_line": 1815
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0055",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2739,
+        "end_line": 2756
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0205",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6058,
+        "end_line": 6071
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0110",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6087,
+        "end_line": 6092
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Character perspective"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0206",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6087,
+        "end_line": 6092
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Character perspective"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0208",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6783,
+        "end_line": 6819
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Character perspective"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0230",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6156,
+        "end_line": 6207
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Character perspective"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0234",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7014,
+        "end_line": 7056
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Character perspective"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0112",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6441,
+        "end_line": 6517
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0113",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6574,
+        "end_line": 6634
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0114",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6662,
+        "end_line": 6690
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0117",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7113,
+        "end_line": 7179
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0118",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7185,
+        "end_line": 7233
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0121",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7313,
+        "end_line": 7335
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0231",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6209,
+        "end_line": 6263
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0232",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6707,
+        "end_line": 6775
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0233",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6987,
+        "end_line": 7012
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0165",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9923,
+        "end_line": 9950
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "FS8-0180",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10395,
+        "end_line": 10425
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 12 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "CORE82-0002",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 233,
+        "end_line": 255
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-sera-voss",
+      "evidence_id": "CORE82-0025",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1351,
+        "end_line": 1383
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-soulless",
+      "evidence_id": "CORE8-0027",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 177,
+        "end_line": 188
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-soulless",
+      "evidence_id": "CORE8-0029",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 200,
+        "end_line": 203
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-soulless",
+      "evidence_id": "CORE8-0055",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 973,
+        "end_line": 993
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "characters-soulless",
+      "evidence_id": "CORE82-0013",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 505,
+        "end_line": 519
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-tessa-brann",
+      "evidence_id": "FS8-0138",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8050,
+        "end_line": 8095
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-tessa-brann",
+      "evidence_id": "FS8-0142",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8442,
+        "end_line": 8466
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-tessa-brann",
+      "evidence_id": "FS8-0209",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8004,
+        "end_line": 8045
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torren-drake",
+      "evidence_id": "CORE8-0013",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 787,
+        "end_line": 799
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0003",
+      "source": {
+        "id": "MS-003",
+        "start_line": 83,
+        "end_line": 106
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0008",
+      "source": {
+        "id": "MS-003",
+        "start_line": 242,
+        "end_line": 274
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0015",
+      "source": {
+        "id": "MS-003",
+        "start_line": 613,
+        "end_line": 643
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0016",
+      "source": {
+        "id": "MS-003",
+        "start_line": 705,
+        "end_line": 739
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0040",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1682,
+        "end_line": 1713
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0187",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1247,
+        "end_line": 1261
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0051",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2281,
+        "end_line": 2332
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0095",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4965,
+        "end_line": 5046
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "FS8-0164",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9896,
+        "end_line": 9922
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "CORE82-0005",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 311,
+        "end_line": 329
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-torrick-drake",
+      "evidence_id": "CORE82-0029",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1932,
+        "end_line": 1956
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-travis-pope",
+      "evidence_id": "CORE8-0041",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 405,
+        "end_line": 407
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-travis-pope",
+      "evidence_id": "CORE8-0046",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 585,
+        "end_line": 586
+      },
+      "status": "approved_scene_plan_not_yet_on_page",
+      "disposition": "integrated",
+      "section": "Planned manuscript scenes"
+    },
+    {
+      "article_id": "characters-vela-sorn",
+      "evidence_id": "FS8-0088",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4493,
+        "end_line": 4521
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-whiskey",
+      "evidence_id": "FS8-0099",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5141,
+        "end_line": 5183
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-whiskey",
+      "evidence_id": "FS8-0101",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5246,
+        "end_line": 5270
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-whiskey",
+      "evidence_id": "FS8-0194",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5291,
+        "end_line": 5307
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "characters-whiskey",
+      "evidence_id": "FS8-0134",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7699,
+        "end_line": 7735
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-whiskey",
+      "evidence_id": "FS8-0211",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8213,
+        "end_line": 8229
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-whiskey",
+      "evidence_id": "FS8-0235",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7830,
+        "end_line": 7898
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "characters-whiskey",
+      "evidence_id": "CORE8-0029",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 200,
+        "end_line": 203
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "characters-whiskey",
+      "evidence_id": "CORE82-0014",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 523,
+        "end_line": 547
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "competition-crucibles",
+      "evidence_id": "CORE8-0032",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 221,
+        "end_line": 221
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "competition-dragon-s-ascension-generations",
+      "evidence_id": "CORE82-0045",
+      "source": {
+        "id": "GEN-002",
+        "start_line": 108,
+        "end_line": 142
+      },
+      "status": "game_specific_locked_design",
+      "disposition": "integrated",
+      "section": "Game design"
+    },
+    {
+      "article_id": "competition-dragon-s-ascension-generations",
+      "evidence_id": "CORE82-0046",
+      "source": {
+        "id": "GEN-002",
+        "start_line": 702,
+        "end_line": 732
+      },
+      "status": "game_specific_locked_design",
+      "disposition": "integrated",
+      "section": "Game design"
+    },
+    {
+      "article_id": "competition-dragon-s-ascension-generations",
+      "evidence_id": "CORE82-0047",
+      "source": {
+        "id": "GEN-002",
+        "start_line": 737,
+        "end_line": 756
+      },
+      "status": "game_specific_locked_design",
+      "disposition": "integrated",
+      "section": "Game design"
+    },
+    {
+      "article_id": "competition-dragon-s-ascension-generations",
+      "evidence_id": "CORE82-0048",
+      "source": {
+        "id": "GEN-002",
+        "start_line": 761,
+        "end_line": 822
+      },
+      "status": "game_specific_locked_design",
+      "disposition": "integrated",
+      "section": "Game design"
+    },
+    {
+      "article_id": "competition-dragon-s-ascension-generations",
+      "evidence_id": "CORE82-0049",
+      "source": {
+        "id": "GEN-002",
+        "start_line": 827,
+        "end_line": 877
+      },
+      "status": "game_specific_locked_design",
+      "disposition": "integrated",
+      "section": "Game design"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0011",
+      "source": {
+        "id": "MS-003",
+        "start_line": 541,
+        "end_line": 547
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0017",
+      "source": {
+        "id": "MS-003",
+        "start_line": 742,
+        "end_line": 754
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0023",
+      "source": {
+        "id": "MS-003",
+        "start_line": 849,
+        "end_line": 882
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0028",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1047,
+        "end_line": 1073
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0029",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1083,
+        "end_line": 1095
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0036",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1545,
+        "end_line": 1591
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0041",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1730,
+        "end_line": 1755
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0047",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1939,
+        "end_line": 1949
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0048",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2051,
+        "end_line": 2115
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0050",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2215,
+        "end_line": 2279
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0052",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2334,
+        "end_line": 2377
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0222",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2477,
+        "end_line": 2525
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0224",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2571,
+        "end_line": 2639
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0225",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2643,
+        "end_line": 2687
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0071",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3394,
+        "end_line": 3424
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0072",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3652,
+        "end_line": 3710
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0227",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3446,
+        "end_line": 3500
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0080",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4044,
+        "end_line": 4127
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0084",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4351,
+        "end_line": 4379
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0086",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4475,
+        "end_line": 4524
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0092",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4737,
+        "end_line": 4817
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0189",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4552,
+        "end_line": 4563
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0102",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5312,
+        "end_line": 5343
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0103",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5358,
+        "end_line": 5418
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0106",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5560,
+        "end_line": 5651
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0109",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5941,
+        "end_line": 5947
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0195",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5309,
+        "end_line": 5312
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0111",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6315,
+        "end_line": 6353
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0112",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6441,
+        "end_line": 6517
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0113",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6574,
+        "end_line": 6634
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0115",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6785,
+        "end_line": 6828
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0116",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6831,
+        "end_line": 6981
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0207",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6521,
+        "end_line": 6564
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0231",
+      "source": {
+        "id": "MS-003",
+        "start_line": 6209,
+        "end_line": 6263
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0137",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7998,
+        "end_line": 8045
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0139",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8114,
+        "end_line": 8131
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0141",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8338,
+        "end_line": 8400
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0147",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8683,
+        "end_line": 8728
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "FS8-0174",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10252,
+        "end_line": 10271
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 11 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "CORE8-0009",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 477,
+        "end_line": 505
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "CORE82-0030",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 463,
+        "end_line": 473
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "CORE8-0053",
+      "source": {
+        "id": "MS-002",
+        "start_line": 68,
+        "end_line": 72
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "competition-ignition",
+      "evidence_id": "CORE82-0040",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 548,
+        "end_line": 551
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "competition-kharadon-s-ascension-season-i",
+      "evidence_id": "CORE8-0032",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 221,
+        "end_line": 221
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "competition-ladder-of-legends",
+      "evidence_id": "CORE8-0008",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 413,
+        "end_line": 455
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "competition-ladder-of-legends",
+      "evidence_id": "CORE82-0031",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 527,
+        "end_line": 591
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "competition-ladder-of-legends",
+      "evidence_id": "CORE82-0032",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 929,
+        "end_line": 955
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "competition-the-eight",
+      "evidence_id": "FS8-0201",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5881,
+        "end_line": 5917
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-eight",
+      "evidence_id": "FS8-0125",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7431,
+        "end_line": 7442
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-eight",
+      "evidence_id": "FS8-0215",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8558,
+        "end_line": 8584
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-eight",
+      "evidence_id": "FS8-0236",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8739,
+        "end_line": 8781
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-eight",
+      "evidence_id": "FS8-0167",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10014,
+        "end_line": 10055
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-eight",
+      "evidence_id": "FS8-0169",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10103,
+        "end_line": 10135
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-eight",
+      "evidence_id": "FS8-0170",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10144,
+        "end_line": 10185
+      },
+      "status": "unresolved",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Unresolved questions"
+    },
+    {
+      "article_id": "competition-the-eight",
+      "evidence_id": "FS8-0173",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10228,
+        "end_line": 10251
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 11 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0148",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8793,
+        "end_line": 8794
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0150",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8870,
+        "end_line": 8885
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0151",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8901,
+        "end_line": 8950
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0152",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8951,
+        "end_line": 8997
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0154",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9177,
+        "end_line": 9222
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0155",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9224,
+        "end_line": 9239
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0158",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9304,
+        "end_line": 9355
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0159",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9356,
+        "end_line": 9416
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0160",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9419,
+        "end_line": 9455
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0162",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9647,
+        "end_line": 9795
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "competition-the-last-spark",
+      "evidence_id": "FS8-0218",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9740,
+        "end_line": 9793
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "craftsmanship-cinderian-brimstone",
+      "evidence_id": "CORE8-0052",
+      "source": {
+        "id": "MS-002",
+        "start_line": 50,
+        "end_line": 60
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "craftsmanship-irons",
+      "evidence_id": "CORE8-0045",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 572,
+        "end_line": 573
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "craftsmanship-irons",
+      "evidence_id": "CORE8-0052",
+      "source": {
+        "id": "MS-002",
+        "start_line": 50,
+        "end_line": 60
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "craftsmanship-irons",
+      "evidence_id": "CORE82-0039",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 534,
+        "end_line": 538
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "culture-society-taverns",
+      "evidence_id": "CORE8-0046",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 585,
+        "end_line": 586
+      },
+      "status": "approved_scene_plan_not_yet_on_page",
+      "disposition": "integrated",
+      "section": "Planned manuscript scenes"
+    },
+    {
+      "article_id": "culture-society-the-six-kingdoms",
+      "evidence_id": "FS8-0186",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1245,
+        "end_line": 1245
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "culture-society-the-six-kingdoms",
+      "evidence_id": "CORE8-0039",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 238,
+        "end_line": 253
+      },
+      "status": "open_worldbuilding",
+      "disposition": "integrated",
+      "section": "Open worldbuilding questions"
+    },
+    {
+      "article_id": "culture-society-the-six-kingdoms",
+      "evidence_id": "CORE82-0031",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 527,
+        "end_line": 591
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-ascension-bridges",
+      "evidence_id": "CORE8-0010",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 609,
+        "end_line": 645
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-ascension-bridges",
+      "evidence_id": "CORE8-0049",
+      "source": {
+        "id": "MS-002",
+        "start_line": 14,
+        "end_line": 22
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "geography-ascension-bridges",
+      "evidence_id": "CORE82-0019",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 877,
+        "end_line": 907
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "geography-ash",
+      "evidence_id": "FS8-0183",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10446,
+        "end_line": 10452
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 12 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-ash",
+      "evidence_id": "CORE8-0006",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 323,
+        "end_line": 349
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-ash",
+      "evidence_id": "CORE82-0030",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 463,
+        "end_line": 473
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-ash",
+      "evidence_id": "CORE8-0033",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 246,
+        "end_line": 246
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "geography-ash-arrival-platform",
+      "evidence_id": "FS8-0181",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10426,
+        "end_line": 10435
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 12 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-cinder",
+      "evidence_id": "CORE8-0005",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 287,
+        "end_line": 315
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-cinder",
+      "evidence_id": "CORE8-0034",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 247,
+        "end_line": 247
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "geography-competitor-dining-hall",
+      "evidence_id": "FS8-0097",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5071,
+        "end_line": 5077
+      },
+      "status": "reported",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Reported events and accounts"
+    },
+    {
+      "article_id": "geography-crown-grounds",
+      "evidence_id": "FS8-0172",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10211,
+        "end_line": 10227
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 11 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-crown-grounds",
+      "evidence_id": "CORE8-0010",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 609,
+        "end_line": 645
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-damascus",
+      "evidence_id": "CORE8-0003",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 213,
+        "end_line": 243
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-damascus",
+      "evidence_id": "CORE8-0036",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 249,
+        "end_line": 249
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "geography-ember",
+      "evidence_id": "CORE8-0004",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 251,
+        "end_line": 279
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-ember",
+      "evidence_id": "CORE8-0035",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 248,
+        "end_line": 248
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "geography-ember-ridge",
+      "evidence_id": "CORE8-0004",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 251,
+        "end_line": 279
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-hall-of-the-six",
+      "evidence_id": "CORE8-0018",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1843,
+        "end_line": 1877
+      },
+      "status": "revised_dynasty_reference",
+      "disposition": "integrated",
+      "section": "Dynastic reference"
+    },
+    {
+      "article_id": "geography-kharadon-s-summit",
+      "evidence_id": "FS8-0177",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10329,
+        "end_line": 10346
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 11 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-kharadon-s-summit",
+      "evidence_id": "CORE8-0056",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1459,
+        "end_line": 1467
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "geography-morrowfall",
+      "evidence_id": "CORE82-0017",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 743,
+        "end_line": 795
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "geography-obsidian",
+      "evidence_id": "CORE8-0001",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 149,
+        "end_line": 175
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-obsidian",
+      "evidence_id": "CORE8-0038",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 251,
+        "end_line": 251
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "geography-sparkhaven",
+      "evidence_id": "FS8-0004",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4,
+        "end_line": 9
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-sparkhaven",
+      "evidence_id": "FS8-0005",
+      "source": {
+        "id": "MS-003",
+        "start_line": 58,
+        "end_line": 70
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-sparkhaven",
+      "evidence_id": "CORE8-0049",
+      "source": {
+        "id": "MS-002",
+        "start_line": 14,
+        "end_line": 22
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "geography-sparkhaven",
+      "evidence_id": "CORE8-0050",
+      "source": {
+        "id": "MS-002",
+        "start_line": 28,
+        "end_line": 46
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "geography-sparkhaven",
+      "evidence_id": "CORE8-0051",
+      "source": {
+        "id": "MS-002",
+        "start_line": 48,
+        "end_line": 48
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-ascension-bridge",
+      "evidence_id": "FS8-0175",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10272,
+        "end_line": 10285
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 11 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-ascension-bridge",
+      "evidence_id": "FS8-0179",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10386,
+        "end_line": 10394
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 12 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0006",
+      "source": {
+        "id": "MS-003",
+        "start_line": 109,
+        "end_line": 125
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0012",
+      "source": {
+        "id": "MS-003",
+        "start_line": 551,
+        "end_line": 571
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0013",
+      "source": {
+        "id": "MS-003",
+        "start_line": 574,
+        "end_line": 611
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0018",
+      "source": {
+        "id": "MS-003",
+        "start_line": 747,
+        "end_line": 754
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0022",
+      "source": {
+        "id": "MS-003",
+        "start_line": 844,
+        "end_line": 858
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0024",
+      "source": {
+        "id": "MS-003",
+        "start_line": 888,
+        "end_line": 925
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0027",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1026,
+        "end_line": 1045
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 1 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0049",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2121,
+        "end_line": 2146
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0053",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2357,
+        "end_line": 2377
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0220",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2388,
+        "end_line": 2430
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0223",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2528,
+        "end_line": 2568
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0229",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3556,
+        "end_line": 3585
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0079",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3991,
+        "end_line": 4014
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0081",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4129,
+        "end_line": 4145
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0082",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4208,
+        "end_line": 4273
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0087",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4478,
+        "end_line": 4482
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0119",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7234,
+        "end_line": 7250
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "FS8-0157",
+      "source": {
+        "id": "MS-003",
+        "start_line": 9300,
+        "end_line": 9302
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 9 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge",
+      "evidence_id": "CORE8-0051",
+      "source": {
+        "id": "MS-002",
+        "start_line": 48,
+        "end_line": 48
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge-control-chamber",
+      "evidence_id": "FS8-0122",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7337,
+        "end_line": 7361
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-the-first-forge-control-chamber",
+      "evidence_id": "FS8-0127",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7476,
+        "end_line": 7494
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-titanium",
+      "evidence_id": "CORE8-0002",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 183,
+        "end_line": 205
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-titanium",
+      "evidence_id": "CORE8-0037",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 250,
+        "end_line": 250
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "geography-vaelorian-citadel",
+      "evidence_id": "FS8-0030",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1241,
+        "end_line": 1281
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-vaelorian-citadel",
+      "evidence_id": "FS8-0039",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1662,
+        "end_line": 1668
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "geography-vaelorian-citadel",
+      "evidence_id": "CORE8-0010",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 609,
+        "end_line": 645
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "geography-vaelorian-citadel",
+      "evidence_id": "CORE82-0033",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1116,
+        "end_line": 1219
+      },
+      "status": "provisional_historical_outline",
+      "disposition": "integrated",
+      "section": "Provisional historical outline"
+    },
+    {
+      "article_id": "history-first-ascension",
+      "evidence_id": "CORE8-0011",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 675,
+        "end_line": 709
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "history-ladder-awakening",
+      "evidence_id": "FS8-0176",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10286,
+        "end_line": 10328
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 11 — Manuscript observations"
+    },
+    {
+      "article_id": "history-reforging",
+      "evidence_id": "CORE82-0032",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 929,
+        "end_line": 955
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "history-reforging",
+      "evidence_id": "CORE82-0033",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1116,
+        "end_line": 1219
+      },
+      "status": "provisional_historical_outline",
+      "disposition": "integrated",
+      "section": "Provisional historical outline"
+    },
+    {
+      "article_id": "history-sanitization-of-history",
+      "evidence_id": "FS8-0064",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3115,
+        "end_line": 3135
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Manuscript observations"
+    },
+    {
+      "article_id": "history-second-descent",
+      "evidence_id": "FS8-0065",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3183,
+        "end_line": 3206
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "history-second-descent",
+      "evidence_id": "CORE82-0017",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 743,
+        "end_line": 795
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "history-war-of-the-six-crowns",
+      "evidence_id": "CORE8-0007",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 357,
+        "end_line": 405
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "history-war-of-the-six-crowns",
+      "evidence_id": "CORE8-0008",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 413,
+        "end_line": 455
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "literature-saga-ash",
+      "evidence_id": "CORE8-0059",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 691,
+        "end_line": 798
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-ash",
+      "evidence_id": "CORE82-0016",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 717,
+        "end_line": 741
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-ash",
+      "evidence_id": "CORE82-0017",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 743,
+        "end_line": 795
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-cinder",
+      "evidence_id": "CORE8-0060",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 799,
+        "end_line": 910
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-cinder",
+      "evidence_id": "CORE82-0018",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 825,
+        "end_line": 873
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-cinder",
+      "evidence_id": "CORE82-0019",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 877,
+        "end_line": 907
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-damascus",
+      "evidence_id": "CORE8-0062",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1037,
+        "end_line": 1156
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-damascus",
+      "evidence_id": "CORE82-0021",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1067,
+        "end_line": 1103
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-damascus",
+      "evidence_id": "CORE82-0022",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1105,
+        "end_line": 1153
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-ember",
+      "evidence_id": "CORE8-0061",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 911,
+        "end_line": 1036
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-ember",
+      "evidence_id": "CORE82-0020",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1007,
+        "end_line": 1033
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-kharadons-summit",
+      "evidence_id": "CORE8-0065",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1435,
+        "end_line": 1692
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-kharadons-summit",
+      "evidence_id": "CORE82-0027",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1483,
+        "end_line": 1521
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-kharadons-summit",
+      "evidence_id": "CORE82-0028",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1593,
+        "end_line": 1623
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-obsidian",
+      "evidence_id": "CORE8-0064",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1319,
+        "end_line": 1434
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-obsidian",
+      "evidence_id": "CORE82-0025",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1351,
+        "end_line": 1383
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-obsidian",
+      "evidence_id": "CORE82-0026",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1385,
+        "end_line": 1431
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0059",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 691,
+        "end_line": 798
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0060",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 799,
+        "end_line": 910
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0061",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 911,
+        "end_line": 1036
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0062",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1037,
+        "end_line": 1156
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0063",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1157,
+        "end_line": 1318
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0064",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1319,
+        "end_line": 1434
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0065",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1435,
+        "end_line": 1692
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0057",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1523,
+        "end_line": 1539
+      },
+      "status": "alternative_future_plot_options",
+      "disposition": "integrated",
+      "section": "Alternative future plot options"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE8-0058",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1563,
+        "end_line": 1591
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE82-0001",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 189,
+        "end_line": 221
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-of-aetherforge",
+      "evidence_id": "CORE82-0029",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1932,
+        "end_line": 1956
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-titanium",
+      "evidence_id": "CORE8-0063",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1157,
+        "end_line": 1318
+      },
+      "status": "proposed_not_canon",
+      "disposition": "covered_by_title_and_volume_scope"
+    },
+    {
+      "article_id": "literature-saga-titanium",
+      "evidence_id": "CORE82-0023",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1189,
+        "end_line": 1239
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-saga-titanium",
+      "evidence_id": "CORE82-0024",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1241,
+        "end_line": 1315
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "literature-the-daggersmith-literary-work",
+      "evidence_id": "CORE8-0046",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 585,
+        "end_line": 586
+      },
+      "status": "approved_scene_plan_not_yet_on_page",
+      "disposition": "integrated",
+      "section": "Planned manuscript scenes"
+    },
+    {
+      "article_id": "literature-the-daggersmith-literary-work",
+      "evidence_id": "CORE82-0037",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 257,
+        "end_line": 265
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "literature-the-daggersmith-literary-work",
+      "evidence_id": "CORE82-0041",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 626,
+        "end_line": 629
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "literature-the-summit-and-the-chain",
+      "evidence_id": "FS8-0135",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7765,
+        "end_line": 7827
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0034",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1446,
+        "end_line": 1473
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0044",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1836,
+        "end_line": 1869
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0058",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2875,
+        "end_line": 2935
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0226",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3018,
+        "end_line": 3022
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0096",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5056,
+        "end_line": 5069
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0104",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5489,
+        "end_line": 5517
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0197",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5748,
+        "end_line": 5783
+      },
+      "status": "reported",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Reported events and accounts"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0124",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7380,
+        "end_line": 7412
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0140",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8176,
+        "end_line": 8209
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "magic-ascension-infrastructure",
+      "evidence_id": "FS8-0143",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8470,
+        "end_line": 8497
+      },
+      "status": "reported",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Reported events and accounts"
+    },
+    {
+      "article_id": "magic-magic",
+      "evidence_id": "CORE8-0045",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 572,
+        "end_line": 573
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "mythology-aurelith",
+      "evidence_id": "CORE8-0002",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 183,
+        "end_line": 205
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "mythology-aurelith",
+      "evidence_id": "CORE82-0023",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1189,
+        "end_line": 1239
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "mythology-drakhar",
+      "evidence_id": "CORE8-0005",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 287,
+        "end_line": 315
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "mythology-drakhar",
+      "evidence_id": "CORE82-0019",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 877,
+        "end_line": 907
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "mythology-eternal-forge",
+      "evidence_id": "CORE8-0058",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1563,
+        "end_line": 1591
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "mythology-eternal-forge",
+      "evidence_id": "CORE82-0027",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1483,
+        "end_line": 1521
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "FS8-0037",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1600,
+        "end_line": 1624
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "FS8-0038",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1632,
+        "end_line": 1659
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "FS8-0146",
+      "source": {
+        "id": "MS-003",
+        "start_line": 8639,
+        "end_line": 8681
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Manuscript observations"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "CORE8-0008",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 413,
+        "end_line": 455
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "CORE8-0019",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1921,
+        "end_line": 1939
+      },
+      "status": "revised_governance_reference",
+      "disposition": "integrated",
+      "section": "Governance reference"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "CORE8-0058",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1563,
+        "end_line": 1591
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "CORE82-0024",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1241,
+        "end_line": 1315
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "CORE82-0036",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2547,
+        "end_line": 2579
+      },
+      "status": "provisional_characterization",
+      "disposition": "integrated",
+      "section": "Provisional characterization"
+    },
+    {
+      "article_id": "mythology-kharadon",
+      "evidence_id": "CORE82-0042",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 900,
+        "end_line": 960
+      },
+      "status": "approved_fictional_characterization",
+      "disposition": "integrated",
+      "section": "Fictional characterization"
+    },
+    {
+      "article_id": "mythology-pyrakon",
+      "evidence_id": "CORE8-0004",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 251,
+        "end_line": 279
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "mythology-pyrakon",
+      "evidence_id": "CORE8-0055",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 973,
+        "end_line": 993
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "mythology-seraphyne",
+      "evidence_id": "CORE8-0003",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 213,
+        "end_line": 243
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "mythology-seraphyne",
+      "evidence_id": "CORE82-0021",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1067,
+        "end_line": 1103
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "mythology-seven-lessons-of-ascension",
+      "evidence_id": "CORE8-0007",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 357,
+        "end_line": 405
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "mythology-varkyros",
+      "evidence_id": "CORE8-0001",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 149,
+        "end_line": 175
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "mythology-varkyros",
+      "evidence_id": "CORE8-0055",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 973,
+        "end_line": 993
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "mythology-varkyros",
+      "evidence_id": "CORE82-0025",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1351,
+        "end_line": 1383
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "mythology-veyrath",
+      "evidence_id": "FS8-0182",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10438,
+        "end_line": 10445
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 12 — Manuscript observations"
+    },
+    {
+      "article_id": "mythology-veyrath",
+      "evidence_id": "FS8-0184",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10453,
+        "end_line": 10475
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 12 — Manuscript observations"
+    },
+    {
+      "article_id": "mythology-veyrath",
+      "evidence_id": "CORE8-0006",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 323,
+        "end_line": 349
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "mythology-veyrath",
+      "evidence_id": "CORE82-0017",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 743,
+        "end_line": 795
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "characters-vael-torren",
+      "evidence_id": "CORE8-0054",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 957,
+        "end_line": 971
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "geography-ignition-registration-area",
+      "evidence_id": "CORE8-0053",
+      "source": {
+        "id": "MS-002",
+        "start_line": 68,
+        "end_line": 72
+      },
+      "status": "on_page_observation",
+      "disposition": "integrated",
+      "section": "The Daggersmith — manuscript observations"
+    },
+    {
+      "article_id": "geography-the-apex",
+      "evidence_id": "CORE8-0056",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1459,
+        "end_line": 1467
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0032",
+      "source": {
+        "id": "MS-003",
+        "start_line": 1325,
+        "end_line": 1339
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 2 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0060",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2990,
+        "end_line": 3008
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0093",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4830,
+        "end_line": 4837
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0100",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5194,
+        "end_line": 5239
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0108",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5817,
+        "end_line": 5825
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0196",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5720,
+        "end_line": 5728
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0120",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7280,
+        "end_line": 7312
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0168",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10061,
+        "end_line": 10101
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "FS8-0171",
+      "source": {
+        "id": "MS-003",
+        "start_line": 10188,
+        "end_line": 10198
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 10 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE8-0018",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1843,
+        "end_line": 1877
+      },
+      "status": "revised_dynasty_reference",
+      "disposition": "integrated",
+      "section": "Dynastic reference"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE8-0019",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1921,
+        "end_line": 1939
+      },
+      "status": "revised_governance_reference",
+      "disposition": "integrated",
+      "section": "Governance reference"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE8-0027",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 177,
+        "end_line": 188
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE8-0029",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 200,
+        "end_line": 203
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE8-0030",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 204,
+        "end_line": 207
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE8-0031",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 211,
+        "end_line": 221
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE8-0032",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 221,
+        "end_line": 221
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE8-0055",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 973,
+        "end_line": 993
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0010",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 447,
+        "end_line": 461
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0011",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 465,
+        "end_line": 481
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0012",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 485,
+        "end_line": 501
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0013",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 505,
+        "end_line": 519
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0014",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 523,
+        "end_line": 547
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0015",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 551,
+        "end_line": 581
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0018",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 825,
+        "end_line": 873
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0022",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1105,
+        "end_line": 1153
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0026",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1385,
+        "end_line": 1431
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0033",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 1116,
+        "end_line": 1219
+      },
+      "status": "provisional_historical_outline",
+      "disposition": "integrated",
+      "section": "Provisional historical outline"
+    },
+    {
+      "article_id": "organizations-administrative-council",
+      "evidence_id": "CORE82-0044",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 1250,
+        "end_line": 1310
+      },
+      "status": "approved_fictional_characterization",
+      "disposition": "integrated",
+      "section": "Fictional characterization"
+    },
+    {
+      "article_id": "organizations-ascendants-crownless",
+      "evidence_id": "CORE8-0023",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2377,
+        "end_line": 2387
+      },
+      "status": "historical_account_pending_reconciliation",
+      "disposition": "integrated",
+      "section": "Historical accounts awaiting reconciliation"
+    },
+    {
+      "article_id": "organizations-crownless",
+      "evidence_id": "FS8-0056",
+      "source": {
+        "id": "MS-003",
+        "start_line": 2774,
+        "end_line": 2786
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 3 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-crownless",
+      "evidence_id": "FS8-0123",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7364,
+        "end_line": 7379
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 7 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "organizations-crownless",
+      "evidence_id": "CORE8-0022",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2317,
+        "end_line": 2361
+      },
+      "status": "historical_account_pending_reconciliation",
+      "disposition": "integrated",
+      "section": "Historical accounts awaiting reconciliation"
+    },
+    {
+      "article_id": "organizations-crownless",
+      "evidence_id": "CORE8-0023",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2377,
+        "end_line": 2387
+      },
+      "status": "historical_account_pending_reconciliation",
+      "disposition": "integrated",
+      "section": "Historical accounts awaiting reconciliation"
+    },
+    {
+      "article_id": "organizations-crownless",
+      "evidence_id": "CORE82-0025",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1351,
+        "end_line": 1383
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-crownless",
+      "evidence_id": "CORE82-0037",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 257,
+        "end_line": 265
+      },
+      "status": "approved_series_direction",
+      "disposition": "integrated",
+      "section": "Approved series direction"
+    },
+    {
+      "article_id": "organizations-fyi",
+      "evidence_id": "CORE8-0030",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 204,
+        "end_line": 207
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "organizations-fyi",
+      "evidence_id": "CORE8-0031",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 211,
+        "end_line": 221
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "organizations-hollow-crown",
+      "evidence_id": "CORE8-0023",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2377,
+        "end_line": 2387
+      },
+      "status": "historical_account_pending_reconciliation",
+      "disposition": "integrated",
+      "section": "Historical accounts awaiting reconciliation"
+    },
+    {
+      "article_id": "organizations-house-ardyn",
+      "evidence_id": "CORE8-0015",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 831,
+        "end_line": 839
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "organizations-house-ardyn",
+      "evidence_id": "CORE82-0004",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 287,
+        "end_line": 305
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-house-ardyn",
+      "evidence_id": "CORE82-0022",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1105,
+        "end_line": 1153
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-house-drake",
+      "evidence_id": "CORE8-0013",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 787,
+        "end_line": 799
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "organizations-house-flare",
+      "evidence_id": "CORE8-0020",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2125,
+        "end_line": 2137
+      },
+      "status": "revised_dynasty_reference",
+      "disposition": "integrated",
+      "section": "Dynastic reference"
+    },
+    {
+      "article_id": "organizations-house-rhyne",
+      "evidence_id": "CORE8-0016",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 849,
+        "end_line": 857
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "organizations-house-solvar",
+      "evidence_id": "CORE8-0021",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2145,
+        "end_line": 2155
+      },
+      "status": "revised_dynasty_reference",
+      "disposition": "integrated",
+      "section": "Dynastic reference"
+    },
+    {
+      "article_id": "organizations-house-vale",
+      "evidence_id": "CORE8-0012",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 767,
+        "end_line": 777
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "organizations-house-vale",
+      "evidence_id": "CORE8-0043",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 414,
+        "end_line": 414
+      },
+      "status": "approved_parentage_chronology_open",
+      "disposition": "integrated",
+      "section": "Family and unresolved chronology"
+    },
+    {
+      "article_id": "organizations-house-vex",
+      "evidence_id": "FS8-0131",
+      "source": {
+        "id": "MS-003",
+        "start_line": 7556,
+        "end_line": 7573
+      },
+      "status": "character_perspective",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 8 — Character perspective"
+    },
+    {
+      "article_id": "organizations-house-voss",
+      "evidence_id": "CORE8-0017",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 869,
+        "end_line": 881
+      },
+      "status": "mythological_tradition",
+      "disposition": "integrated",
+      "section": "Traditional accounts"
+    },
+    {
+      "article_id": "organizations-house-voss",
+      "evidence_id": "CORE82-0002",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 233,
+        "end_line": 255
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-new-crownless",
+      "evidence_id": "FS8-0190",
+      "source": {
+        "id": "MS-003",
+        "start_line": 4580,
+        "end_line": 4599
+      },
+      "status": "observed",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 5 — Manuscript observations"
+    },
+    {
+      "article_id": "organizations-new-crownless",
+      "evidence_id": "FS8-0200",
+      "source": {
+        "id": "MS-003",
+        "start_line": 5836,
+        "end_line": 5869
+      },
+      "status": "character_inference",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 6 — Interpretations and hypotheses"
+    },
+    {
+      "article_id": "organizations-new-crownless",
+      "evidence_id": "CORE8-0054",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 957,
+        "end_line": 971
+      },
+      "status": "proposed_not_canon",
+      "disposition": "integrated",
+      "section": "Proposed worldbuilding"
+    },
+    {
+      "article_id": "organizations-new-crownless",
+      "evidence_id": "CORE82-0006",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 335,
+        "end_line": 365
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-new-crownless",
+      "evidence_id": "CORE82-0018",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 825,
+        "end_line": 873
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-new-crownless",
+      "evidence_id": "CORE82-0020",
+      "source": {
+        "id": "SAGA-001",
+        "start_line": 1007,
+        "end_line": 1033
+      },
+      "status": "proposed_saga_architecture",
+      "disposition": "integrated",
+      "section": "Planned saga developments"
+    },
+    {
+      "article_id": "organizations-northashe-family",
+      "evidence_id": "CORE8-0025",
+      "source": {
+        "id": "SERIES-001",
+        "start_line": 139,
+        "end_line": 143
+      },
+      "status": "approved_series",
+      "disposition": "integrated",
+      "section": "Series canon"
+    },
+    {
+      "article_id": "organizations-reformers",
+      "evidence_id": "CORE8-0023",
+      "source": {
+        "id": "MYTH-002",
+        "start_line": 2377,
+        "end_line": 2387
+      },
+      "status": "historical_account_pending_reconciliation",
+      "disposition": "integrated",
+      "section": "Historical accounts awaiting reconciliation"
+    },
+    {
+      "article_id": "terminology-calendar-of-aetherforge",
+      "evidence_id": "FS8-0067",
+      "source": {
+        "id": "MS-003",
+        "start_line": 3241,
+        "end_line": 3263
+      },
+      "status": "historical_record",
+      "disposition": "integrated",
+      "section": "The First Spark · Ch. 4 — Archival records"
+    }
+  ]
+}
