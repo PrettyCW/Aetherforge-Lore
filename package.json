@@ -1,6 +1,6 @@
 {
   "name": "aetherforge-wiki",
-  "version": "0.9.0",
+  "version": "0.10.2",
   "private": true,
   "engines": {
     "node": ">=22"
@@ -8,6 +8,6 @@
   "scripts": {
     "start": "node server.js",
     "test": "node --test server.test.js",
-    "build": "node --check server.js && node --check public-content.js && npm test"
+    "build": "node --check server.js && node --check public-content.js && node --check visual-content.js && npm test"
   }
 }

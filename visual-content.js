@@ -1,0 +1,22 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict');
+const {articles}=require('./public-content');
+const manifest=require('./visual-manifest.json');
+const labels={canonical:'Locked visual canon',scene:'Recovered scene illustration — not locked visual canon',equipment_concept:'Recovered equipment concept — noncanonical design details'};
+const known=new Set(articles.map(a=>a.id)),seen=new Set();
+assert.equal(manifest.version,'0.10.2');
+const visuals=manifest.assets.map(v=>{
+ assert.deepEqual(Object.keys(v).sort(),['id','title','subject','classification','label','article_ids','note','original_sha256','web_sha256','width','height'].sort());
+ assert.match(v.id,/^vis-[0-9]{3}$/);assert.ok(!seen.has(v.id));seen.add(v.id);
+ assert.equal(v.label,labels[v.classification]);assert.ok(v.label);
+ for(const k of ['title','subject','note'])assert.ok(typeof v[k]==='string'&&v[k].trim());
+ assert.ok(Array.isArray(v.article_ids)&&v.article_ids.length&&new Set(v.article_ids).size===v.article_ids.length&&v.article_ids.every(id=>known.has(id)));
+ for(const k of ['original_sha256','web_sha256'])assert.match(v[k],/^[a-f0-9]{64}$/);
+ for(const k of ['width','height'])assert.ok(Number.isInteger(v[k])&&v[k]>0&&v[k]<=1200);
+ const bytes=fs.readFileSync(path.join(__dirname,'media',v.id+'.webp'));
+ assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');
+ assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),v.web_sha256,'Visual byte integrity: '+v.id);
+ return {...v,bytes};
+});
+const visualById=new Map(visuals.map(v=>[v.id,v]));
+module.exports={visuals,visualById};

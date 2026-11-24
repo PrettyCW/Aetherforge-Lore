@@ -9,3 +9,7 @@ v0.7 uses the FYI Guildmaster Simulator slate-and-antique-gold design language. 
 ## v0.9 expanded encyclopedia
 
 216 articles; consolidated First Spark and core lore evidence. Original text and URLs retained, future plans and unresolved matters explicitly scoped.
+
+## v0.10.2 recovered visual archive
+
+The `/visuals` gallery and eight article pages use eleven recovered WebP copies (one locked adult-era character portrait, eight scene illustrations and two equipment concepts). Original compositions retained; visual classifications and cautions accompany every image. No newly generated art, no image placeholders, no changes to lore or canon text. The asset manifest validates the article IDs and SHA-256 integrity of every web-sized file. Original source artwork remains in the recovered visual archive.

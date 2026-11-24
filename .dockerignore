@@ -8,3 +8,8 @@
 !server.test.js
 
 !wiki.css
+
+!visual-content.js
+!visual-manifest.json
+!media/
+!media/*.webp
