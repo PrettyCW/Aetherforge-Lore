@@ -1,6 +1,6 @@
 # Aetherforge Wiki
 
-One public read-only encyclopedia; no login or import required. Node.js 22+, no external runtime dependencies. Run `npm run build` to validate and `npm start` to serve. Railway uses PORT. The public dataset contains encyclopedia text, canon labels and related identifiers, not underlying source files or editorial registers. Original source archive stays offline. Provisional, retired, mythological and game/league-specific material retains its original status. The author explicitly directed public access to the encyclopedia, superseding the prior two-tier plan.
+One public read-only encyclopedia; no login or import required. Node.js 22+, no external runtime dependencies. Run `npm run build` to validate and `npm start` to serve. Railway uses PORT. The public dataset contains encyclopedia text, canon labels and related identifiers, not underlying source files or editorial registers. Original source documents remain preserved. Public articles focus on fictional lore; retired material, game and league mechanics, manuscript ledgers and unapproved plans remain in source history rather than the public encyclopedia. The author explicitly directed public access to the encyclopedia, superseding the prior two-tier plan.
 
 ## Visual identity
 
@@ -13,3 +13,7 @@ v0.7 uses the FYI Guildmaster Simulator slate-and-antique-gold design language. 
 ## v0.10.2 recovered visual archive
 
 The `/visuals` gallery and eight article pages use eleven recovered WebP copies (one locked adult-era character portrait, eight scene illustrations and two equipment concepts). Original compositions retained; visual classifications and cautions accompany every image. No newly generated art, no image placeholders, no changes to lore or canon text. The asset manifest validates the article IDs and SHA-256 integrity of every web-sized file. Original source artwork remains in the recovered visual archive.
+
+## v0.11.0 — Encyclopedia reconstruction
+
+127 curated public articles. Removed raw scoring records, manuscript observations, redundant entries and planning material from the public encyclopedia. Rebuilt major topics around world context and significance, preserved visual assets and maintained eight merged-route redirects. See [editorial audit](docs/ENCYCLOPEDIA_RECONSTRUCTION_v0.11.0.md).
