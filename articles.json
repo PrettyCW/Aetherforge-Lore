@@ -62,7 +62,7 @@
         },
         {
           "heading": "FYI awards and game systems",
-          "body": "FYI league and game systems distinguish daggers by award, competitive achievement, provenance and wager history. These rules are separate from the physical nature of daggers in the fictional setting."
+          "body": "Official achievement daggers are earned distinctions, not ordinary purchasable goods. FYI league and game systems distinguish daggers by award, competitive achievement, provenance and wager history. These mechanics are separate from the physical nature of daggers in the fictional setting."
         }
       ],
       "relatedIds": [
@@ -95,11 +95,17 @@
         {
           "heading": "Tradition",
           "body": "At Ignition, entrants receive a blank dagger to be personalized by a daggersmith. Lilith Vanthe forges her own Division Dagger."
+        },
+        {
+          "heading": "FYI Dragon’s Ascension Season II rules",
+          "body": "Archived Season II base Prestige for Bronze, Silver and Gold divisional awards is: Ashen 3/4/5; Cinder 6/7/8; Ember 9/10/11; Damascus 12/13/14; Titanium 15/16/17; Obsidian 18/19/20. Current Prestige adds enhancement on the exact serialized dagger to its base value."
         }
       ],
       "relatedIds": [
         "competition-ignition",
-        "craftsmanship-daggersmithing"
+        "craftsmanship-daggersmithing",
+        "competition-dragon-s-ascension",
+        "craftsmanship-dagger-provenance"
       ],
       "aliases": [],
       "publication": {
@@ -129,7 +135,12 @@
       "slug": "golden-crucible-dagger",
       "category": "Artifacts",
       "description": "The Golden Crucible Dagger is an award for victory in a Crucible. Lilith Vanthe received one before entering Ignition.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Terminology",
+          "body": "This award is for victory in a regular Crucible, not a separate Golden Crucible tournament. It is also called the Golden Emerald Dagger in the manuscript."
+        }
+      ],
       "relatedIds": [
         "characters-lilith-vanthe",
         "competition-crucibles",
@@ -422,7 +433,11 @@
       "content": [
         {
           "heading": "Responsibilities",
-          "body": "A Titanium native with Ember competitive affiliation, he oversees the realm’s technical infrastructure and investigates unusual activity in its competitive systems."
+          "body": "A Titanium native with Ember competitive affiliation, Bustin oversees technology, infrastructure and analytics. His office’s technical remit includes scoring systems and investigation of unusual activity."
+        },
+        {
+          "heading": "Provisional technical scope",
+          "body": "The institutional outline associates his office with bridge controls, Aether conduits, mechanical scorekeepers, archive engines and information networks between kingdoms."
         }
       ],
       "relatedIds": [
@@ -501,7 +516,7 @@
       "content": [
         {
           "heading": "Historical accounts",
-          "body": "Accounts describe a reform grievance that developed into a struggle for supremacy. Official history records his death at the Broken Summit, although traditions about his fate diverge."
+          "body": "Accounts describe a reform grievance that developed into a struggle for supremacy. Official history records his death at the Broken Summit, but no universally verified body or uncontested grave is documented. Survival traditions remain unconfirmed."
         },
         {
           "heading": "Political origins",
@@ -517,7 +532,8 @@
         "literature-the-summit-and-the-chain",
         "history-darian-s-ascension",
         "history-sanitization-of-history",
-        "organizations-crownless"
+        "organizations-crownless",
+        "organizations-house-vex"
       ],
       "aliases": [],
       "publication": {
@@ -591,11 +607,11 @@
       "content": [
         {
           "heading": "Partnership",
-          "body": "Ellen met Lilith while competing in Ember and became her caddie. Their partnership centers on course management and analysis."
+          "body": "Ellen met Lilith while competing in Ember, where her advancement had stalled. She became Lilith’s lifelong caddie and strategic partner, with comparable course-management insight."
         },
         {
           "heading": "Family",
-          "body": "Ellen married Draven, who adopted the Vale surname. Their son is Aeren Vale."
+          "body": "Ellen married Draven, who adopted the Vale surname. Their son is Aeren Vale, born when Ellen was approximately thirty."
         }
       ],
       "relatedIds": [
@@ -729,15 +745,15 @@
       "content": [
         {
           "heading": "Early life",
-          "body": "Born Lyra Northashe and named after Lyra Vale, Lilith began smithcraft at twelve and became financially independent at fifteen. She learned golf through clients and entered Ignition at seventeen."
+          "body": "Born Lyra Northashe and named after Lyra Vale, Lilith began smithcraft at twelve and became financially independent at fifteen. She completed several apprenticeships, learned golf from clients in exchange for daggers and entered Ignition at seventeen."
         },
         {
           "heading": "Competitive career",
-          "body": "Lilith won a Crucible before entering Ignition. She advanced quickly through Ash before facing a more demanding field in Cinder. Her accurate play eventually carried her to Obsidian, where she continued competing during Council service."
+          "body": "Lilith won a Crucible before entering Ignition. She advanced quickly through Ash before facing a more demanding field in Cinder, where she continued accepting commissions and working on personal daggers. Her deliberate, accurate and consistent play eventually carried her to Obsidian, where she continued competing during Council service."
         },
         {
           "heading": "Craftsmanship",
-          "body": "Lilith began learning smithcraft at twelve, completed multiple apprenticeships, and learned golf from clients in exchange for daggers. She owns a forge in Ash and forged her own Division Dagger and irons with obsidian heads, golden shafts and leather grips."
+          "body": "Lilith owns a forge in Ash and forged her own Division Dagger and irons with obsidian heads, gold-colored shafts and leather grips. Her earnings from smithcraft were sufficient to afford property and forges across the kingdoms; ownership outside Ash is not confirmed."
         },
         {
           "heading": "Professional associations",
@@ -759,7 +775,8 @@
         "literature-the-daggersmith-literary-work",
         "terminology-golden-dragons",
         "characters-kira",
-        "literature-the-daggersmith-game"
+        "literature-the-daggersmith-game",
+        "characters-vanthe-plouffe"
       ],
       "aliases": [
         "northashe-family"
@@ -778,7 +795,7 @@
       "content": [
         {
           "heading": "Leadership",
-          "body": "An Obsidian native competing in Damascus, Lyra founded FYI and guides the Administrative Council’s overall direction."
+          "body": "An Obsidian native competing in Damascus, Lyra founded FYI, sets its overall direction and delegates specialist administration to other Council offices. Her surname is not established."
         }
       ],
       "relatedIds": [
@@ -823,7 +840,7 @@
       "title": "Maera Sol",
       "slug": "maera-sol",
       "category": "Characters",
-      "description": "Maera Sol is a postwar champion whose repeated rebuilding symbolizes Ash resilience and Obsidian achievement.",
+      "description": "Maera Sol, known as the Twice-Fallen in the historical outline, is a postwar champion associated with repeated rebuilding and the connection between Ash resilience and Obsidian achievement.",
       "content": [],
       "relatedIds": [
         "geography-ash"
@@ -918,7 +935,7 @@
       "content": [
         {
           "heading": "Responsibilities",
-          "body": "A Damascus native who competes in Obsidian, PJ oversees accuracy, quality control and consistency."
+          "body": "A Damascus native who competes in Obsidian, PJ oversees accuracy, quality control and review of competitive records and systems. His stylized watching-eye sigil represents vigilance; the title Vaelorian Seer does not establish prophetic ability."
         }
       ],
       "relatedIds": [
@@ -963,7 +980,7 @@
       "content": [
         {
           "heading": "Career and craft",
-          "body": "Rowden advanced through Cinder and has an interest in smithcraft. His irons have bronze shafts and Cinderian brimstone heads."
+          "body": "Rowden advanced quickly through Cinder and is noted for exceptional competitive talent and a background in smithcraft. His irons have bronze shafts and Cinderian brimstone heads."
         }
       ],
       "relatedIds": [
@@ -1028,7 +1045,7 @@
       "content": [
         {
           "heading": "Responsibilities",
-          "body": "An Ember native who competes in Obsidian, he oversees team competition, captains and matchups."
+          "body": "An Ember native who competes in Obsidian, Soulless is the Aetherforge Inferno Administrator, responsible for team competition, captains, matchups and standards."
         }
       ],
       "relatedIds": [
@@ -1110,7 +1127,7 @@
       "content": [
         {
           "heading": "Competition",
-          "body": "A wealthy prodigy close to Lilith’s age, Travis travels for Crucibles and knows her from Ash-hosted competitions."
+          "body": "A wealthy Obsidian-born prodigy close to Lilith’s age, Travis competed in Crucibles across the kingdoms, including tournaments held in Ash. He is not a member of the Administrative Council."
         }
       ],
       "relatedIds": [
@@ -1132,9 +1149,15 @@
       "slug": "vanthe-plouffe",
       "category": "Characters",
       "description": "Vanthe Plouffe was a former partner of Lilith Vanthe who adopted Crownless ideology and attacked her. Lilith killed Vanthe in self-defense.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Historical significance",
+          "body": "The attack illustrates the survival of Crownless-inspired radicalization before the modern movement regained public visibility."
+        }
+      ],
       "relatedIds": [
-        "organizations-crownless"
+        "organizations-crownless",
+        "characters-lilith-vanthe"
       ],
       "aliases": [],
       "publication": {
@@ -1167,7 +1190,7 @@
       "content": [
         {
           "heading": "Responsibilities",
-          "body": "A Cinder native with Titanium competitive affiliation, he protects community standards and helps maintain order during competitive events."
+          "body": "A Cinder native with Titanium competitive affiliation, Whiskey is the Guardian of the Community. His responsibilities include standards, support, protection and maintaining order during competitive events."
         }
       ],
       "relatedIds": [
@@ -1246,11 +1269,15 @@
       "content": [
         {
           "heading": "Tradition",
-          "body": "Crucibles allow contenders to distinguish themselves outside ordinary divisional competition. The strongest competitors tend to come from the upper divisions."
+          "body": "Crucibles predate FYI and allow contenders to distinguish themselves outside ordinary divisional competition. The upper three divisions account for the overwhelming majority of victories according to the series canon."
         },
         {
           "heading": "Historical significance",
           "body": "Crucibles were a cornerstone of competitive society before FYI. They offered opportunities for recognition beyond the ordinary divisional system."
+        },
+        {
+          "heading": "Generations design reference",
+          "body": "The archived standalone Generations design schedules fifteen Crucibles, including singles and alternate-shot formats, distinct from regular divisional competition. This is not a universal in-world rule or verification of the current game build."
         }
       ],
       "relatedIds": [
@@ -1315,7 +1342,7 @@
         },
         {
           "heading": "Season II",
-          "body": "The Trial of Blades is the final Crown event in the Season II league rules."
+          "body": "Under archived Season II league rules each of the six divisions has twelve players, with eleven events comprising two head-to-head rounds against a divisional opponent. Standings include all twenty-two matches. The Trial of Blades is the final Crown event; no championship follows it."
         }
       ],
       "relatedIds": [
@@ -1329,7 +1356,8 @@
         "competition-postseason-division-challenges",
         "competition-ironbound-ranking",
         "competition-ironbound-arena",
-        "competition-inter-society-ryder-cup"
+        "competition-inter-society-ryder-cup",
+        "artifacts-division-daggers"
       ],
       "aliases": [],
       "publication": {
@@ -1367,6 +1395,10 @@
         {
           "heading": "Partnerships",
           "body": "Pair chemistry is persistent in the simulation and improves through playing together, not merely winning. Partners chosen for outside events do not override randomly assigned Bold teams."
+        },
+        {
+          "heading": "Archived regular-season design",
+          "body": "The v0.52 design uses six twelve-player divisions and eleven two-round regular-season events. New fictional golfers start in Ignition; taking over an existing golfer retains that golfer’s identity, division, ratings, membership and history. Ignition is an open feeder without its own playoffs. Score-to-par totals include actual played events only."
         }
       ],
       "relatedIds": [
@@ -1438,7 +1470,7 @@
       "content": [
         {
           "heading": "Season 1 format",
-          "body": "The finalists nominate five players each for best-of-five head-to-head competition. Each matchup compares the competitors’ four-round totals. The Championship determines the season champion rather than adding regular-season standings points."
+          "body": "The finalists nominate five players each for best-of-five head-to-head competition. Each matchup compares four-round totals; the lower total wins a point and a tied matchup splits the point. The Championship determines the season champion rather than adding regular-season standings points."
         }
       ],
       "relatedIds": [
@@ -1486,11 +1518,11 @@
         },
         {
           "heading": "Location and registration",
-          "body": "Ignition takes place in Sparkhaven at the First Forge. Competitors register their names and origins, receive a starting time and a blank Ignition dagger, and have their dagger personalized by a daggersmith."
+          "body": "Ignition takes place in Sparkhaven at the First Forge. Registration records competitors’ names, origins and appearances. Competitors receive an assigned starting time, credentials and a blank Ignition dagger to have personalized by a daggersmith. Registration uses counters and canvas awnings overlooking the course."
         },
         {
           "heading": "Qualification",
-          "body": "The literary competition uses open seeding followed by head-to-head qualification among sixteen contenders, with eight advancing to Ash. Scores do not carry into Ash."
+          "body": "The literary competition uses open seeding followed by four scheduled head-to-head matches among sixteen contenders, with eight advancing to Ash. A sudden-death match may resolve an otherwise tied final qualification place. Scores do not carry into Ash."
         },
         {
           "heading": "Generations",
@@ -1609,6 +1641,10 @@
         {
           "heading": "Significance",
           "body": "Golf is the principal competitive pursuit. Advancement is earned through performance; the Ladder’s traditions reject the notion that former champions own future crowns."
+        },
+        {
+          "heading": "Historical competition format",
+          "body": "Before FYI, ordinary Ladder tournaments were multi-round field competitions, with direct head-to-head matches reserved for playoff or promotion structures. Modern competitive seasons require advancement to be earned anew."
         }
       ],
       "relatedIds": [
@@ -1722,16 +1758,17 @@
       "content": [
         {
           "heading": "League",
-          "body": "Serialized daggers preserve their ownership chains, transfers and enhancements."
+          "body": "Serialized daggers preserve their ownership chains, transfers and enhancements. Under archived Season II rules, non-division golfers may earn and wager non-podium daggers and qualify for the Trial. Prior-season daggers remain collectible historical objects."
         },
         {
           "heading": "The Daggersmith game",
-          "body": "Repair and reforging preserve identity where possible; a near-total replacement creates a linked successor rather than a false historical record."
+          "body": "Named daggers retain identity through ownership changes, achievements, damage, loss, recovery and repairs. Reforging preserves provenance where possible; near-total replacement creates a linked successor or reconstruction rather than a false historical record."
         }
       ],
       "relatedIds": [
         "artifacts-daggers",
-        "literature-the-daggersmith-game"
+        "literature-the-daggersmith-game",
+        "artifacts-division-daggers"
       ],
       "aliases": [],
       "publication": {
@@ -2021,6 +2058,10 @@
         {
           "heading": "Appearance and use",
           "body": "The passages are generally translucent and illuminated, passing through mist and clouds with a waterlike transition at arrival. Travelers and mule carts can use them; ordinary crossings are familiar, convenient and normally safe."
+        },
+        {
+          "heading": "Historical layers",
+          "body": "A provisional historical outline distinguishes ancient infrastructure, early Ladder architecture, subsequent repairs, Reforging systems and modern FYI mechanisms. Some structures may predate the Ladder."
         }
       ],
       "relatedIds": [
@@ -2399,7 +2440,7 @@
       "content": [
         {
           "heading": "Landscape and architecture",
-          "body": "Basalt, obsidian and black volcanic walls characterize the approach. Above the entrance stands the motto “Every Legend Begins With a Spark.” The landscape is warm and dry beneath an orange sky."
+          "body": "Cobblestone approaches, basalt, obsidian, timber buildings and black volcanic walls characterize Sparkhaven. The eastern gate bears the motto “Every Legend Begins With a Spark.” The climate is warm and dry beneath an orange sky."
         },
         {
           "heading": "Life and competition",
@@ -2451,7 +2492,7 @@
         },
         {
           "heading": "Facilities",
-          "body": "The grounds contain practice areas, a scoring pavilion and spectator areas. Beneath the course is an older control chamber containing stone records and metal housings. Its origin and full function remain uncertain."
+          "body": "The grounds contain practice areas, a scoring pavilion, a starter’s platform and spectator galleries. Kingdom standards mark the course. Beneath it is an older control chamber containing stone records and metal housings; its origin and full function remain uncertain."
         }
       ],
       "relatedIds": [
@@ -2516,7 +2557,7 @@
         },
         {
           "heading": "Institutions",
-          "body": "The Citadel houses the Administrative Council, archives and the Crown Grounds, where major competitive ceremonies take place."
+          "body": "The Citadel houses the Administrative Council, archives and Crown Grounds, where major ceremonies occur. Broad processional avenues and kingdom standards characterize its ceremonial spaces."
         },
         {
           "heading": "Founding and neutrality",
@@ -2690,10 +2731,16 @@
       "slug": "lost-kael-period",
       "category": "History",
       "description": "The Lost Kael Period refers to the disputed history following Kael Varen’s First Ascension. Traditions diverge about his disappearance, death, return or silence; no single account is definitive.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Historical traditions",
+          "body": "A provisional chronology associates the disputed period with the decades following the First Ascension. Accounts include retirement, disappearance, death, survival or a connection with the Eternal Forge. None has been confirmed."
+        }
+      ],
       "relatedIds": [
         "characters-kael-varen",
-        "history-first-ascension"
+        "history-first-ascension",
+        "history-second-descent"
       ],
       "aliases": [],
       "publication": {
@@ -2763,7 +2810,8 @@
         "artifacts-identifier-117-3a",
         "history-first-ascension",
         "mythology-veyrath",
-        "terminology-calendar-of-aetherforge"
+        "terminology-calendar-of-aetherforge",
+        "history-lost-kael-period"
       ],
       "aliases": [],
       "publication": {
@@ -2810,6 +2858,10 @@
         {
           "heading": "Traditional accounts",
           "body": "The War of the Six Crowns began over competing philosophies of worthiness, not territory alone. Traditional accounts describe burned mountains, shattered fortresses, lost cities and fractured floating continents. No dragon won absolutely. Kharadon initially withheld intervention so the Six could learn their philosophies’ limits, then acted when their conflict endangered the Eternal Forge. The account has him issue a challenge rather than attack, replacing their war with successive trials of all six philosophies."
+        },
+        {
+          "heading": "Chronology",
+          "body": "The provisional chronology places the conflict in the final BL era, before the formal establishment of the Ladder."
         }
       ],
       "relatedIds": [
@@ -2881,11 +2933,15 @@
       "content": [
         {
           "heading": "Craft",
-          "body": "Gameplay centers on forging, materials, commissions, workmanship, reputation and mentorship."
+          "body": "The design uses modular, multi-stage forging with material compatibility, risk, workmanship, rarity, recognition and identity. Riskier choices can yield superior results or costly failure, and failure may produce salvage or learning. Research, training, mentorship, commissions and achievements contribute to mastery."
         },
         {
           "heading": "World",
-          "body": "Damascus is the fixed beta origin; the broader design envisages origins across all six kingdoms. Craft succession is distinct from inheriting Lilith’s Council office."
+          "body": "Damascus is the fixed beta origin; the full design envisages origins in all six kingdoms that converge later. All seven dragons can matter to patronage, while the Council becomes increasingly important as mastery develops. Craft succession is distinct from inheriting the Daggersmith’s Council office."
+        },
+        {
+          "heading": "Economy and progression",
+          "body": "Planned systems include markets, commissions with constraints and deadlines, regional reputation, rival smiths, apprentices and dispatched expeditions. The game focuses on one primary forge rather than a network of player-owned branch workshops. Apprentices may eventually establish independent forges. These are game-design references, not established literary history or verified implementation."
         }
       ],
       "relatedIds": [
@@ -3099,7 +3155,7 @@
       "content": [
         {
           "heading": "Origins",
-          "body": "Traditions disagree on whether Kharadon preceded, discovered or emerged from the Forge. The mythological Age of Kharadon takes its name from him."
+          "body": "Traditions disagree about Kharadon’s origin: he may have emerged from the Spark, discovered or been drawn to the Forge, been chosen by it, overcome an earlier guardian or predated it. None of these accounts is confirmed. The Age of Kharadon takes its name from him."
         },
         {
           "heading": "Role",
@@ -3117,7 +3173,8 @@
         "geography-kharadon-s-summit",
         "mythology-eternal-forge",
         "organizations-administrative-council",
-        "geography-vaelorian-citadel"
+        "geography-vaelorian-citadel",
+        "organizations-fyi"
       ],
       "aliases": [
         "age-of-kharadon"
@@ -3286,6 +3343,10 @@
         {
           "heading": "Institutional principles",
           "body": "Members with direct competitive interests recuse themselves from affected decisions. The Council protects earned results, verifies evidence before disrupting competition and does not treat ancestry or an unexplained response of ancient infrastructure as proof of wrongdoing."
+        },
+        {
+          "heading": "Representation",
+          "body": "Each of the six founders originated in a different kingdom. Their birthplaces are distinct from their competitive divisions. The Founder leads the Council and delegates administration to its specialist offices."
         }
       ],
       "relatedIds": [
@@ -3356,7 +3417,8 @@
         "organizations-reformers",
         "organizations-hollow-crown",
         "organizations-new-crownless",
-        "characters-darian-vex"
+        "characters-darian-vex",
+        "organizations-house-vex"
       ],
       "aliases": [],
       "publication": {
@@ -3369,17 +3431,18 @@
       "title": "FYI",
       "slug": "fyi",
       "category": "Organizations",
-      "description": "FYI is the organization founded by Lyra in the modern era to administer competition and support the community of contenders.",
+      "description": "FYI (Find Your Irons) is the organization founded by Lyra in the modern era to administer competition and support the community of contenders.",
       "content": [
         {
           "heading": "Governance",
-          "body": "Its Administrative Council grew from a reform circle of active competitors. The ancient Ladder and Crucibles existed before FYI."
+          "body": "Its Administrative Council grew from a reform circle of active competitors. The ancient Ladder and Crucibles existed before FYI; Kharadon recognized the Council rather than founding it."
         }
       ],
       "relatedIds": [
         "organizations-administrative-council",
         "culture-society-competitive-aliases",
-        "competition-aetherforge-inferno"
+        "competition-aetherforge-inferno",
+        "mythology-kharadon"
       ],
       "aliases": [],
       "publication": {
@@ -3651,10 +3714,17 @@
       "slug": "house-vex",
       "category": "Organizations",
       "description": "House Vex, the Crownless Line, was once a prestigious Obsidian House. After the Broken Summit the House was politically destroyed, with branches exiled, stripped of position or destroyed. Survivors scattered, adopted new names or severed public lineage.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Historical origins",
+          "body": "A provisional historical account places the rise of House Vex in late Middle AL and associates it with disputes about legitimacy, hierarchy and the right to earned advancement. Such debate did not initially constitute rebellion."
+        }
+      ],
       "relatedIds": [
         "history-war-of-the-broken-summit",
-        "geography-obsidian"
+        "geography-obsidian",
+        "characters-darian-vex",
+        "organizations-crownless"
       ],
       "aliases": [],
       "publication": {
@@ -3807,7 +3877,12 @@
       "slug": "calendar-of-aetherforge",
       "category": "Terminology",
       "description": "The traditional chronology distinguishes events before the founding of the Ladder (BL) from those after it (AL). Precise dates for much of Aetherforge’s ancient history remain uncertain.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Dating",
+          "body": "0 AL denotes the formal founding of the Ladder. BL refers to the time before it; AL refers to the time after it. Many ancient events have only relative dates. The Second Descent record is dated thirty-one years after Kael Varen’s first ascent."
+        }
+      ],
       "relatedIds": [
         "history-first-ascension",
         "history-second-descent"

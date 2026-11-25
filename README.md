@@ -37,3 +37,7 @@ Removed all public artwork and the visual archive navigation, homepage section a
 ## v0.13.0 — Lore restoration
 
 172 public articles; 55 updated through expanded lore and reciprocal links. Restores regional centers, dragon creeds, institutional and historical context, and carefully labeled provisional cultural details. See [reconciliation checkpoint](docs/LORE_COMPLETION_v0.13.0.md). No removed filler, images or plot recaps restored.
+
+## v0.13.1 — Archived claim reconciliation
+
+Reviewed the 491-claim original register (476 consolidated groups), restoring meaningful reference details without adding articles. See [claim reconciliation checkpoint](docs/CLAIM_RECONCILIATION_v0.13.1.md). Historical game and league specifications remain explicitly version-scoped. Later manuscript and core extraction passes are outside this register.
