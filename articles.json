@@ -197,7 +197,8 @@
         "characters-draven-vale",
         "characters-cassian-rourke",
         "characters-torrick-drake",
-        "literature-ignition-the-first-spark"
+        "literature-ignition-the-first-spark",
+        "characters-orin-cade"
       ],
       "aliases": [],
       "publication": {
@@ -314,7 +315,7 @@
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Established lore"
+        "canon": "Uncertain tradition"
       }
     },
     {
@@ -547,7 +548,8 @@
         "artifacts-golden-crucible-dagger",
         "craftsmanship-irons",
         "terminology-the-daggersmith-title",
-        "literature-the-daggersmith-literary-work"
+        "literature-the-daggersmith-literary-work",
+        "terminology-golden-dragons"
       ],
       "aliases": [
         "northashe-family"
@@ -578,7 +580,8 @@
         "artifacts-founder-s-seat",
         "characters-bustin",
         "characters-ellen-vale",
-        "characters-lilith-and-lyra"
+        "characters-lilith-and-lyra",
+        "terminology-sorceress-supreme"
       ],
       "aliases": [],
       "publication": {
@@ -617,7 +620,9 @@
       "category": "Characters",
       "description": "Maera Sol is a postwar champion whose repeated rebuilding symbolizes Ash resilience and Obsidian achievement.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-ash"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -705,7 +710,9 @@
           "body": "Orin defeats Aeren through consistent play and a disciplined routine, presenting a contrast to the more aggressive styles of other rivals."
         }
       ],
-      "relatedIds": [],
+      "relatedIds": [
+        "characters-aeren-vale"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -1238,7 +1245,8 @@
         "artifacts-golden-crucible-dagger",
         "characters-rowden-groves",
         "craftsmanship-cinderian-brimstone",
-        "craftsmanship-daggersmithing"
+        "craftsmanship-daggersmithing",
+        "craftsmanship-obsidian-material"
       ],
       "aliases": [],
       "publication": {
@@ -1253,7 +1261,9 @@
       "category": "World & Society",
       "description": "Obsidian appears alongside basalt on Sparkhaven's volcanic approach and forms the heads of Lilith's hand-forged irons. These references concern the material rather than the kingdom of the same name; precise metallurgy and physical properties remain open.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "craftsmanship-irons"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -1388,7 +1398,10 @@
       "relatedIds": [
         "competition-ignition",
         "culture-society-the-six-kingdoms",
-        "mythology-veyrath"
+        "mythology-veyrath",
+        "characters-maera-sol",
+        "organizations-greyhands",
+        "organizations-house-mourn"
       ],
       "aliases": [
         "ash-arrival-platform"
@@ -1412,7 +1425,9 @@
       ],
       "relatedIds": [
         "culture-society-the-six-kingdoms",
-        "mythology-drakhar"
+        "mythology-drakhar",
+        "organizations-house-mordane",
+        "organizations-ironbound"
       ],
       "aliases": [],
       "publication": {
@@ -1457,7 +1472,9 @@
       ],
       "relatedIds": [
         "culture-society-the-six-kingdoms",
-        "mythology-seraphyne"
+        "mythology-seraphyne",
+        "organizations-house-velora",
+        "organizations-thousand-hands"
       ],
       "aliases": [],
       "publication": {
@@ -1479,7 +1496,9 @@
       ],
       "relatedIds": [
         "culture-society-the-six-kingdoms",
-        "mythology-pyrakon"
+        "mythology-pyrakon",
+        "organizations-house-solvar",
+        "organizations-kindled"
       ],
       "aliases": [],
       "publication": {
@@ -1561,7 +1580,8 @@
       ],
       "relatedIds": [
         "culture-society-the-six-kingdoms",
-        "mythology-varkyros"
+        "mythology-varkyros",
+        "organizations-house-noirren"
       ],
       "aliases": [],
       "publication": {
@@ -1666,7 +1686,9 @@
       ],
       "relatedIds": [
         "culture-society-the-six-kingdoms",
-        "mythology-aurelith"
+        "mythology-aurelith",
+        "organizations-house-calix",
+        "organizations-sentinel-order"
       ],
       "aliases": [],
       "publication": {
@@ -2366,7 +2388,9 @@
       "category": "Organizations",
       "description": "The Greyhands are a respected rebuilding and engineering guild associated with Ash. Their influence is not hereditary nobility.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-ash"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2419,7 +2443,9 @@
       "category": "Organizations",
       "description": "House Calix is associated with Titanium. Known as the Keepers of Sequence, it is distinguished by logistics, organization and long-term planning.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-titanium"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2475,7 +2501,9 @@
       "category": "Organizations",
       "description": "House Mordane, the Wardens of Brazenhold, is a Cinder dynasty associated with defense and military service.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-cinder"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2489,7 +2517,9 @@
       "category": "Organizations",
       "description": "House Mourn is associated with Ash. Known as the Keepers of Memory, its archivists, historians, memorial keepers and chroniclers uphold the motto NOTHING LOST IS FORGOTTEN.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-ash"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2503,7 +2533,9 @@
       "category": "Organizations",
       "description": "House Noirren is associated with Obsidian. The Quiet Crown is distinguished by intelligence, diplomacy, secrets, leverage and political calculation.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-obsidian"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2543,7 +2575,9 @@
           "body": "The Flamecourt is described not only as commercially influential but as ambitious, connected and politically sophisticated."
         }
       ],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-ember"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2578,7 +2612,9 @@
       "category": "Organizations",
       "description": "House Velora, the Architects of Serathis, is a Damascus lineage associated with art and architecture.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-damascus"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2630,7 +2666,9 @@
       "category": "Organizations",
       "description": "The Ironbound are a Cinder coalition of veterans, smiths, guards, labor leaders and traditionalists devoted to endurance.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-cinder"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2644,7 +2682,9 @@
       "category": "Organizations",
       "description": "The Kindled are an Ember populist faction that challenges inherited privilege.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-ember"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2697,7 +2737,9 @@
       "category": "Organizations",
       "description": "Titanium's Sentinel Order is an elite institution whose membership is earned rather than hereditary. It performs military and administrative duties.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-titanium"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2711,7 +2753,9 @@
       "category": "Organizations",
       "description": "The Thousand Hands is a coalition of Damascus master guilds with substantial cultural influence.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "geography-damascus"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2742,7 +2786,9 @@
       "category": "World & Society",
       "description": "Golden Dragons are a currency denomination in Aetherforge, used to describe Lilith Vanthe’s substantial wealth.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "characters-lilith-vanthe"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2756,7 +2802,9 @@
       "category": "Terminology",
       "description": "Sorceress Supreme is Lyra’s title as Founder of FYI, associated with vision, identity, direction and legacy. The title does not by itself imply spellcasting.",
       "content": [],
-      "relatedIds": [],
+      "relatedIds": [
+        "characters-lyra-acolyte12"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
