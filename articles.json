@@ -1,6 +1,23 @@
 {
   "articles": [
     {
+      "id": "artifacts-ancient-inscription",
+      "title": "Ancient inscription",
+      "slug": "ancient-inscription",
+      "category": "Artifacts",
+      "description": "A damaged inscription discovered beneath the First Forge describes the Ladder as revealing what pressure has made rather than crowning the worthy. Another fragment refers to recognition of the Eight; its remaining text is missing.",
+      "content": [],
+      "relatedIds": [
+        "geography-the-first-forge",
+        "competition-the-eight"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Uncertain tradition"
+      }
+    },
+    {
       "id": "artifacts-daggers",
       "title": "Daggers",
       "slug": "daggers",
@@ -142,7 +159,7 @@
       "title": "Unbroken Star",
       "slug": "unbroken-star",
       "category": "Artifacts",
-      "description": "The evidence does not establish a physical artifact or its appearance.",
+      "description": "The Unbroken Star is associated in tradition with Kael Varen, the earliest contender to complete the Ladder. Whether the name refers to a physical artifact remains unknown.",
       "content": [],
       "relatedIds": [
         "characters-kael-varen"
@@ -186,6 +203,22 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "characters-aric-flare",
+      "title": "Aric Flare",
+      "slug": "aric-flare",
+      "category": "Characters",
+      "description": "Aric Flare, remembered as the Ember Wolf, is associated with House Flare and the pursuit of stronger opponents. His disappearance remains unexplained.",
+      "content": [],
+      "relatedIds": [
+        "organizations-house-flare"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Uncertain tradition"
       }
     },
     {
@@ -275,7 +308,8 @@
         "characters-edric-mourn",
         "characters-kael-varen",
         "characters-rheon-valek",
-        "mythology-eternal-forge"
+        "mythology-eternal-forge",
+        "literature-the-summit-and-the-chain"
       ],
       "aliases": [],
       "publication": {
@@ -720,7 +754,8 @@
         "artifacts-identifier-117-3a",
         "characters-darian-vex",
         "characters-kael-varen",
-        "characters-mira-ardyn"
+        "characters-mira-ardyn",
+        "literature-the-summit-and-the-chain"
       ],
       "aliases": [],
       "publication": {
@@ -816,7 +851,8 @@
         "characters-bustin",
         "characters-pj",
         "characters-whiskey",
-        "mythology-pyrakon"
+        "mythology-pyrakon",
+        "competition-aetherforge-inferno"
       ],
       "aliases": [],
       "publication": {
@@ -957,6 +993,28 @@
       }
     },
     {
+      "id": "competition-aetherforge-inferno",
+      "title": "Aetherforge Inferno",
+      "slug": "aetherforge-inferno",
+      "category": "Competition",
+      "description": "The Aetherforge Inferno is FYI’s team competition, overseen by Soulless, the Master of the Inferno.",
+      "content": [
+        {
+          "heading": "Purpose",
+          "body": "It emphasizes coordination, trust and leadership among contenders."
+        }
+      ],
+      "relatedIds": [
+        "characters-soulless",
+        "organizations-fyi"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Uncertain tradition"
+      }
+    },
+    {
       "id": "competition-crucibles",
       "title": "Crucibles",
       "slug": "crucibles",
@@ -1085,7 +1143,8 @@
         "characters-kaelen-rhyne",
         "characters-mira-ardyn",
         "characters-torrick-drake",
-        "characters-tessa-brann"
+        "characters-tessa-brann",
+        "artifacts-ancient-inscription"
       ],
       "aliases": [],
       "publication": {
@@ -1366,11 +1425,11 @@
       "title": "Crown Grounds",
       "slug": "crown-grounds",
       "category": "Geography",
-      "description": "The Crown Grounds are the ceremonial arena within Vaelorian Citadel. The narrative depicts terraces descending through plazas, galleries and stone courts toward a central arena and dais.",
+      "description": "The Crown Grounds are the ceremonial arena within Vaelorian Citadel.",
       "content": [
         {
-          "heading": "Traditional accounts",
-          "body": "The Citadel’s neutrality prevents any divisional dragon claiming primacy. Its towers are traditionally built around ancient Forge energy channels, and its Crown Grounds host champions, challengers and delegations."
+          "heading": "Architecture and purpose",
+          "body": "Terraces descend through plazas, galleries and stone courts toward a central arena and dais. The grounds host champions, challengers, delegations and major ceremonies."
         }
       ],
       "relatedIds": [
@@ -1433,7 +1492,7 @@
       "title": "Ember Ridge",
       "slug": "ember-ridge",
       "category": "Geography",
-      "description": "Pyrakon is the Flameborn; his creed is “Feed the Flame. ” He is portrayed as passionate, aggressive and charismatic, valuing a loss undertaken in pursuit of advancement over safe stagnation.",
+      "description": "Ember Ridge is associated with Ember in accounts of the kingdom’s geography. Its precise character and boundaries remain uncertain.",
       "content": [],
       "relatedIds": [
         "mythology-pyrakon"
@@ -1449,12 +1508,18 @@
       "title": "Hall of the Six",
       "slug": "hall-of-the-six",
       "category": "Geography",
-      "description": "The Founder’s Seat signifies leadership rather than a hereditary royal throne.",
-      "content": [],
+      "description": "The Hall of the Six is the Council chamber at Vaelorian Citadel.",
+      "content": [
+        {
+          "heading": "Seating",
+          "body": "Five seats face the Founder’s distinct seat. The arrangement represents mortal leadership rather than hereditary sovereignty."
+        }
+      ],
       "relatedIds": [
         "artifacts-founder-s-seat",
         "geography-vaelorian-citadel",
-        "mythology-kharadon"
+        "mythology-kharadon",
+        "organizations-administrative-council"
       ],
       "aliases": [],
       "publication": {
@@ -1576,7 +1641,8 @@
       "relatedIds": [
         "competition-ignition",
         "geography-sparkhaven",
-        "magic-ascension-infrastructure"
+        "magic-ascension-infrastructure",
+        "artifacts-ancient-inscription"
       ],
       "aliases": [
         "the-first-forge-control-chamber"
@@ -1733,6 +1799,22 @@
       }
     },
     {
+      "id": "history-reforging",
+      "title": "Reforging",
+      "slug": "reforging",
+      "category": "History",
+      "description": "The Reforging is remembered as the restoration of the Ladder and its bridges after the Broken Summit. Competition resumes as damaged infrastructure and institutions are rebuilt.",
+      "content": [],
+      "relatedIds": [
+        "history-war-of-the-broken-summit"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
+      }
+    },
+    {
       "id": "history-second-descent",
       "title": "Second Descent",
       "slug": "second-descent",
@@ -1766,7 +1848,8 @@
       "relatedIds": [
         "geography-kharadon-s-summit",
         "organizations-crownless",
-        "organizations-house-vex"
+        "organizations-house-vex",
+        "history-reforging"
       ],
       "aliases": [],
       "publication": {
@@ -1846,6 +1929,39 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "literature-the-summit-and-the-chain",
+      "title": "The Summit and the Chain",
+      "slug": "the-summit-and-the-chain",
+      "category": "Literature",
+      "description": "The Summit and the Chain is a work by Darian Vex concerning authority and access to the Summit. During The First Spark, Rheon Valek is familiar with its arguments through a family copy.",
+      "content": [],
+      "relatedIds": [
+        "characters-darian-vex",
+        "characters-rheon-valek"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established lore"
+      }
+    },
+    {
+      "id": "magic-aether",
+      "title": "Aether",
+      "slug": "aether",
+      "category": "Magic",
+      "description": "Aether is associated in Aetherforge’s creation traditions with the primordial elemental storm from which the First Spark emerged. Its origin and precise workings remain uncertain.",
+      "content": [],
+      "relatedIds": [
+        "mythology-unshaped-aether"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Mythological tradition"
       }
     },
     {
@@ -1975,15 +2091,15 @@
       "title": "Kharadon",
       "slug": "kharadon",
       "category": "Mythology",
-      "description": "Kharadon is revered as King of Dragons and Keeper of the Eternal Forge. His ancient sovereignty stands apart from the six divisional dragons and the ordinary Ladder hierarchy.",
+      "description": "Kharadon is revered as King of Dragons and Keeper of the Eternal Forge. His ancient sovereignty stands apart from the six kingdom dragons and the ordinary Ladder hierarchy.",
       "content": [
         {
-          "heading": "Traditional accounts",
-          "body": "Kharadon initially withheld intervention so the Six could learn their philosophies’ limits, then acted when their conflict endangered the Eternal Forge. The account has him issue a challenge rather than attack, replacing their war with successive trials of all six philosophies."
+          "heading": "Origins",
+          "body": "Traditions disagree on whether Kharadon preceded, discovered or emerged from the Forge."
         },
         {
-          "heading": "Governance reference",
-          "body": "Kharadon does not attend ordinary Council meetings; intervention is reserved for the Forge, the Dragon Covenant, the Summit or threats to the realm itself. The Council governs mortal institutions."
+          "heading": "Role",
+          "body": "The foundational tradition credits Kharadon with proposing the Ladder as an alternative to the dragons’ rivalry. His guardianship of the Forge and Summit is distinct from the Administrative Council’s governance of mortal institutions."
         }
       ],
       "relatedIds": [
@@ -2004,11 +2120,11 @@
       "title": "Pyrakon",
       "slug": "pyrakon",
       "category": "Mythology",
-      "description": "Pyrakon is the dragon of Ember in the foundational mythology. His philosophy is ambition; the later timeline emphasizes momentum and refusal to remain still, associating his domain with Ember Ridge.",
+      "description": "Pyrakon is the Flameborn, the dragon of Ember and the ideal of ambition.",
       "content": [
         {
-          "heading": "Traditional accounts",
-          "body": "Pyrakon is the Flameborn; his creed is “Feed the Flame. ” He is portrayed as passionate, aggressive and charismatic, valuing a loss undertaken in pursuit of advancement over safe stagnation."
+          "heading": "Philosophy",
+          "body": "His creed is “Feed the Flame.” He values the pursuit of advancement over safe stagnation."
         }
       ],
       "relatedIds": [
@@ -2029,11 +2145,11 @@
       "title": "Seraphyne",
       "slug": "seraphyne",
       "category": "Mythology",
-      "description": "Seraphyne is associated with Damascus and mastery through creation. Later historical material emphasizes craftsmanship, creativity and refinement, with Serathis as the associated center.",
+      "description": "Seraphyne is the dragon of Damascus, known as the Queen. She embodies mastery through creation.",
       "content": [
         {
-          "heading": "Traditional accounts",
-          "body": "Seraphyne is the Queen of Damascus, often called simply the Queen. Her creed is “Craftsmanship. Artistry. ” She regards creation, design, forging and perfection as a fuller expression of strength than destruction."
+          "heading": "Philosophy",
+          "body": "Her creed is “Craftsmanship. Artistry. Pride.” She regards design, forging and perfection as expressions of strength."
         }
       ],
       "relatedIds": [
@@ -2076,7 +2192,8 @@
       "description": "The oldest creation traditions describe an elemental storm before the existence of land and sky. The name Unshaped Aether refers to this primordial condition rather than a confirmed historical era.",
       "content": [],
       "relatedIds": [
-        "mythology-first-spark"
+        "mythology-first-spark",
+        "magic-aether"
       ],
       "aliases": [],
       "publication": {
@@ -2113,15 +2230,11 @@
       "title": "Veyrath",
       "slug": "veyrath",
       "category": "Mythology",
-      "description": "Veyrath is the dragon associated with Ash, representing recovery after ruin. Later historical material links this philosophy with rebuilding and remembrance.",
+      "description": "Veyrath is the dragon of Ash, representing recovery after ruin.",
       "content": [
         {
-          "heading": "Overview",
-          "body": "Veyrath is enormous, though smaller than Kharadon, with pale gray scales edged in white, an old chest injury and a broken horn tip. He welcomes the eight qualifiers to Ash and presents failure as a lesson in what one does next."
-        },
-        {
-          "heading": "Traditional accounts",
-          "body": "” His domain represents aftermath rather than death, and the choice to rise after failure."
+          "heading": "Philosophy",
+          "body": "His creed is “Where Ruin Becomes Resolve.” He represents the choice to rise after failure."
         }
       ],
       "relatedIds": [
@@ -2168,7 +2281,8 @@
         "characters-whiskey",
         "characters-soulless",
         "geography-vaelorian-citadel",
-        "organizations-fyi"
+        "organizations-fyi",
+        "geography-hall-of-the-six"
       ],
       "aliases": [],
       "publication": {
@@ -2236,7 +2350,8 @@
       ],
       "relatedIds": [
         "organizations-administrative-council",
-        "culture-society-competitive-aliases"
+        "culture-society-competitive-aliases",
+        "competition-aetherforge-inferno"
       ],
       "aliases": [],
       "publication": {
@@ -2344,7 +2459,9 @@
           "body": "House Flare’s history includes disastrous as well as successful periods; its bold and volatile reputation is not simply unbroken triumph."
         }
       ],
-      "relatedIds": [],
+      "relatedIds": [
+        "characters-aric-flare"
+      ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -2511,7 +2628,7 @@
       "title": "Ironbound",
       "slug": "ironbound",
       "category": "Organizations",
-      "description": "The Ironbound are a Cinder coalition of veterans, smiths, guards, labor leaders and traditionalists devoted to endurance. This institution is distinct from the separately scoped Ironbound competition systems.",
+      "description": "The Ironbound are a Cinder coalition of veterans, smiths, guards, labor leaders and traditionalists devoted to endurance.",
       "content": [],
       "relatedIds": [],
       "aliases": [],
