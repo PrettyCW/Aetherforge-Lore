@@ -29,3 +29,7 @@ The `/visuals` gallery and eight article pages use eleven recovered WebP copies 
 ## v0.12.2 — Text-only encyclopedia
 
 Removed all public artwork and the visual archive navigation, homepage section and route. Deleted the eleven web-sized artwork copies from the current site tree; source artwork and Git history remain preserved. All 180 lore articles remain unchanged.
+
+## v0.12.3 — Editorial cleanup
+
+172 public articles. Retired five filler or unfinished entries, merged three thin entries with redirects, removed repetitive relationship commentary and praise, and corrected malformed quotations and duplicate passages. Canon source documents are unchanged.

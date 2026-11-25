@@ -124,28 +124,11 @@
       }
     },
     {
-      "id": "artifacts-founder-s-seat",
-      "title": "Founder's Seat",
-      "slug": "founder-s-seat",
-      "category": "Artifacts",
-      "description": "The Founder’s Seat signifies leadership rather than a hereditary royal throne.",
-      "content": [],
-      "relatedIds": [
-        "characters-lyra-acolyte12",
-        "geography-hall-of-the-six"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Established lore"
-      }
-    },
-    {
       "id": "artifacts-golden-crucible-dagger",
       "title": "Golden Crucible Dagger",
       "slug": "golden-crucible-dagger",
       "category": "Artifacts",
-      "description": "The Golden Crucible Dagger is the award Lilith Vanthe receives for a Crucible victory before Ignition. The achievement brings her widespread competitive recognition.",
+      "description": "The Golden Crucible Dagger is an award for victory in a Crucible. Lilith Vanthe received one before entering Ignition.",
       "content": [],
       "relatedIds": [
         "characters-lilith-vanthe",
@@ -189,7 +172,7 @@
       "content": [
         {
           "heading": "Award",
-          "body": "The archived Season 1 rules assign five standings points. Crown tie treatment remains unconfirmed in the recovered rules. The award does not establish a physical crown in fictional lore."
+          "body": "Under Season 1 rules the award grants five standings points. Tie treatment is not specified."
         }
       ],
       "relatedIds": [
@@ -257,11 +240,11 @@
         },
         {
           "heading": "Flame",
-          "body": "Three points when at least 40% of the roster, rounded up, finishes at −40 or better under the recovered Season 1 scoring specification."
+          "body": "Three points when at least 40% of the roster, rounded up, finishes at −40 or better under the Season 1 scoring specification."
         },
         {
           "heading": "Roster completion (Endurance / Cinder)",
-          "body": "Three points at 85% roster completion or five points for full completion. The recovered workbook uses Endurance; the current naming has also used Cinder."
+          "body": "Three points at 85% roster completion or five points for full completion. This seal is also known as Cinder or Endurance."
         },
         {
           "heading": "Unbroken",
@@ -431,22 +414,6 @@
       }
     },
     {
-      "id": "characters-briar-sloane",
-      "title": "Briar Sloane",
-      "slug": "briar-sloane",
-      "category": "Characters",
-      "description": "Briar Sloane is a golfer associated with Lilith Vanthe’s competitive career.",
-      "content": [],
-      "relatedIds": [
-        "characters-lilith-vanthe"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Established lore"
-      }
-    },
-    {
       "id": "characters-bustin",
       "title": "Bustin",
       "slug": "bustin",
@@ -558,7 +525,7 @@
       "title": "Draven Vale",
       "slug": "draven-vale",
       "category": "Characters",
-      "description": "Draven, known competitively as Daggs, comes from a particularly prestigious and wealthy Obsidian family. After Travis qualifies for Ash, he becomes Travis's caddie. He marries Ellen, adopts her surname and is Aeren's father. He and Lauren are less accomplished golfers than Travis.",
+      "description": "Draven Vale, known competitively as Daggs, comes from a wealthy Obsidian family. He became Travis Pope’s caddie after Travis qualified for Ash. He married Ellen, adopted her surname and is Aeren Vale’s father.",
       "content": [],
       "relatedIds": [
         "characters-aeren-vale",
@@ -619,11 +586,11 @@
       "content": [
         {
           "heading": "Partnership",
-          "body": "Ellen meets Lilith while competing in Ember, where her advancement has stalled. Their shared aptitude for course management and analysis leads to a partnership. Ellen’s personable, enthusiastic nature contrasts with Lilith’s approach."
+          "body": "Ellen met Lilith while competing in Ember and became her caddie. Their partnership centers on course management and analysis."
         },
         {
           "heading": "Family",
-          "body": "Ellen marries Draven, who adopts the Vale surname. Their son Aeren competes in Ignition."
+          "body": "Ellen married Draven, who adopted the Vale surname. Their son is Aeren Vale."
         }
       ],
       "relatedIds": [
@@ -636,22 +603,6 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
-      }
-    },
-    {
-      "id": "characters-ilyse",
-      "title": "Ilyse",
-      "slug": "ilyse",
-      "category": "Characters",
-      "description": "Ilyse is a character associated with Kira in the developing Daggersmith-era story. Further biographical details are not finalized.",
-      "content": [],
-      "relatedIds": [
-        "characters-kira"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Provisional lore"
       }
     },
     {
@@ -675,19 +626,15 @@
       "title": "Kael Varen",
       "slug": "kael-varen",
       "category": "Characters",
-      "description": "Kael Varen is remembered as the earliest mortal to complete the Ladder. Official history places his ascent and return from the Summit in early AL, without a fixed year. Accounts of his subsequent fate disagree.",
+      "description": "Kael Varen is remembered as the first mortal to complete the Ladder and reach Kharadon’s Summit. Accounts of his subsequent fate disagree.",
       "content": [
         {
-          "heading": "The First Spark · Ch. 4 — Archival records",
-          "body": "The official chronology generally dates Kael's First Ascension to 103 AL, with his progression through six kingdoms surviving in fragments. This is an in-world accepted date, not a newly locked series timeline."
+          "heading": "First Ascension",
+          "body": "The official chronology generally dates Kael’s First Ascension to 103 AL, although surviving records of his advancement through the six kingdoms are fragmentary. Tradition describes him as entering Ignition without kingdom allegiance or celebrated lineage and discovering that the Summit lay beyond Obsidian."
         },
         {
-          "heading": "The First Spark · Ch. 4 — Historical traditions",
-          "body": "The familiar story says Kael climbed the Ladder and became First Ascendant; traditions differ between retirement, disappearance, death or silence afterward. A later descent is outside that familiar history."
-        },
-        {
-          "heading": "Traditional accounts",
-          "body": "Kael is traditionally portrayed as entering Ignition without kingdom allegiance or celebrated lineage. His repeated adaptation, rather than initial strength, explains his rise; after defeating the final Obsidian champion, he learns the Summit remains beyond the Ladder. This account does not settle the disputed outcome of his ascent."
+          "heading": "Historical traditions",
+          "body": "Accounts agree that Kael became the First Ascendant but differ on whether he retired, disappeared, died or remained silent afterward. A later descent is absent from the familiar account."
         }
       ],
       "relatedIds": [
@@ -727,19 +674,17 @@
       "title": "Kira",
       "slug": "kira",
       "category": "Characters",
-      "description": "Kira is an Ember-born smith from a family of modest means. She admires Lilith Vanthe’s craftsmanship and aspires to develop her own mastery.",
+      "description": "Kira is an Ember-born smith from a family of modest means who aspires to master her craft.",
       "content": [
         {
           "heading": "Family and background",
-          "body": "Her older sister Mara is a locally respected smith, her father works in mining, and she has three younger brothers. Her current character outline describes her as analytical, ambitious and inwardly emotional."
+          "body": "Her older sister Mara is a locally respected smith, her father works in mining, and she has three younger brothers."
         }
       ],
       "relatedIds": [
         "geography-ember",
         "characters-lilith-vanthe",
-        "craftsmanship-daggersmithing",
-        "characters-ilyse",
-        "characters-riven"
+        "craftsmanship-daggersmithing"
       ],
       "aliases": [],
       "publication": {
@@ -757,7 +702,6 @@
       "relatedIds": [
         "characters-draven-vale",
         "characters-travis-pope",
-        "culture-society-taverns",
         "literature-the-daggersmith-literary-work"
       ],
       "aliases": [],
@@ -775,23 +719,23 @@
       "content": [
         {
           "heading": "Early life",
-          "body": "Born Lyra Northashe and named in honor of Lyra Vale, Lilith begins smithcraft at twelve and becomes financially independent at fifteen. She learns golf through clients and establishes herself as a talented smith. She is seventeen, approaching eighteen, upon entering Ignition."
+          "body": "Born Lyra Northashe and named after Lyra Vale, Lilith began smithcraft at twelve and became financially independent at fifteen. She learned golf through clients and entered Ignition at seventeen."
         },
         {
           "heading": "Competitive career",
-          "body": "A Crucible victory earns Lilith widespread recognition. She progresses quickly through Ignition and Ash before encountering a more demanding field in Cinder. Her deliberate, accurate play eventually carries her to Obsidian, where she continues competing during her Council service."
+          "body": "Lilith won a Crucible before entering Ignition. She advanced quickly through Ash before facing a more demanding field in Cinder. Her accurate play eventually carried her to Obsidian, where she continued competing during Council service."
         },
         {
           "heading": "Craftsmanship",
-          "body": "Lilith owns a forge in Ash. She makes her own Division Dagger and hand-forged irons, with obsidian heads, golden shafts and leather grips. She possesses a deep practical understanding of balance, wear, repair and competitive strategy."
+          "body": "Lilith owns a forge in Ash. She forged her own Division Dagger and irons with obsidian heads, golden shafts and leather grips."
         },
         {
-          "heading": "Relationships",
-          "body": "Lilith meets Lyra in Cinder, and their rivalry develops into a romantic partnership. In Ember she meets Ellen Vale, who becomes her lifelong caddie and strategic partner. Travis Pope and Rowden Groves are among her competitive acquaintances. Her first significant relationship was with Vanthe Plouffe. Her birth family’s circumstances remain unknown."
+          "heading": "Professional associations",
+          "body": "Ellen Vale is her caddie and strategic partner. Travis Pope and Rowden Groves are fellow competitors."
         },
         {
           "heading": "Council service",
-          "body": "As the Daggersmith and Dragon’s Ascension Administrator, she oversees divisions, standings, head-to-head competition and daggers. She is a defender of earned advancement and competitive integrity."
+          "body": "As the Daggersmith and Dragon’s Ascension Administrator, she oversees divisions, standings, head-to-head competition and daggers."
         }
       ],
       "relatedIds": [
@@ -804,7 +748,6 @@
         "terminology-the-daggersmith-title",
         "literature-the-daggersmith-literary-work",
         "terminology-golden-dragons",
-        "characters-briar-sloane",
         "characters-kira",
         "literature-the-daggersmith-game"
       ],
@@ -825,19 +768,15 @@
       "content": [
         {
           "heading": "Leadership",
-          "body": "An Obsidian native with Damascus competitive affiliation, Lyra guides the Council’s vision, identity and direction. She values evidence, responsibility, and the integrity of earned results."
-        },
-        {
-          "heading": "Relationships",
-          "body": "She meets Lilith Vanthe in Cinder. Their competitive rivalry develops into a romantic partnership. As Founder, she relies on Lilith’s judgment in matters of competitive integrity."
+          "body": "An Obsidian native competing in Damascus, Lyra founded FYI and guides the Administrative Council’s overall direction."
         }
       ],
       "relatedIds": [
         "organizations-administrative-council",
-        "artifacts-founder-s-seat",
         "characters-bustin",
         "characters-ellen-vale",
-        "terminology-sorceress-supreme"
+        "terminology-sorceress-supreme",
+        "geography-hall-of-the-six"
       ],
       "aliases": [],
       "publication": {
@@ -1006,23 +945,6 @@
       }
     },
     {
-      "id": "characters-riven",
-      "title": "Riven",
-      "slug": "riven",
-      "category": "Characters",
-      "description": "Riven is an Obsidian character and rival associated with Kira. Further biographical details remain unsettled.",
-      "content": [],
-      "relatedIds": [
-        "characters-kira",
-        "geography-obsidian"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Provisional lore"
-      }
-    },
-    {
       "id": "characters-rowden-groves",
       "title": "Rowden Groves",
       "slug": "rowden-groves",
@@ -1031,13 +953,12 @@
       "content": [
         {
           "heading": "Career and craft",
-          "body": "Rowden advances rapidly through Cinder while Lilith and Travis Pope encounter difficulties. He has an interest in smithcraft and plays irons with bronze shafts and Cinderian brimstone heads."
+          "body": "Rowden advanced through Cinder and has an interest in smithcraft. His irons have bronze shafts and Cinderian brimstone heads."
         }
       ],
       "relatedIds": [
         "characters-lilith-vanthe",
         "characters-travis-pope",
-        "craftsmanship-cinderian-brimstone",
         "craftsmanship-daggersmithing",
         "craftsmanship-irons"
       ],
@@ -1200,7 +1121,7 @@
       "title": "Vanthe Plouffe",
       "slug": "vanthe-plouffe",
       "category": "Characters",
-      "description": "Vanthe Plouffe was Lilith Vanthe’s first significant love. The relationship ended tragically after Vanthe became radicalized by Crownless ideology and attacked Lilith, who killed Vanthe in self-defense.",
+      "description": "Vanthe Plouffe was a former partner of Lilith Vanthe who adopted Crownless ideology and attacked her. Lilith killed Vanthe in self-defense.",
       "content": [],
       "relatedIds": [
         "organizations-crownless"
@@ -1316,10 +1237,6 @@
         {
           "heading": "Tradition",
           "body": "Crucibles allow contenders to distinguish themselves outside ordinary divisional competition. The strongest competitors tend to come from the upper divisions."
-        },
-        {
-          "heading": "Notable champion",
-          "body": "Lilith Vanthe earns widespread recognition through a Crucible victory before entering Ignition, receiving the Golden Crucible Dagger."
         }
       ],
       "relatedIds": [
@@ -1783,23 +1700,6 @@
       }
     },
     {
-      "id": "craftsmanship-cinderian-brimstone",
-      "title": "Cinderian brimstone",
-      "slug": "cinderian-brimstone",
-      "category": "Craftsmanship",
-      "description": "Cinderian brimstone is the material named for Rowden's clubheads, paired with bronze shafts.",
-      "content": [],
-      "relatedIds": [
-        "characters-rowden-groves",
-        "craftsmanship-irons"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Established lore"
-      }
-    },
-    {
       "id": "craftsmanship-dagger-provenance",
       "title": "Dagger provenance",
       "slug": "dagger-provenance",
@@ -1833,8 +1733,8 @@
       "description": "Daggersmithing is the craft of making, engraving and maintaining competitive daggers in Aetherforge. Skilled smiths may also forge golf irons.",
       "content": [
         {
-          "heading": "Notable practitioner",
-          "body": "Lilith Vanthe, known as the Daggersmith, is renowned for her workmanship and understanding of equipment balance, wear and repair."
+          "heading": "Work",
+          "body": "Daggersmiths personalize Division Daggers, maintain competitive equipment and may forge irons. Engravings and records preserve a dagger’s identity and competitive history."
         }
       ],
       "relatedIds": [
@@ -1913,11 +1813,12 @@
         "characters-lilith-vanthe",
         "artifacts-golden-crucible-dagger",
         "characters-rowden-groves",
-        "craftsmanship-cinderian-brimstone",
         "craftsmanship-daggersmithing",
         "craftsmanship-obsidian-material"
       ],
-      "aliases": [],
+      "aliases": [
+        "cinderian-brimstone"
+      ],
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
@@ -1928,7 +1829,7 @@
       "title": "Obsidian (material)",
       "slug": "obsidian-material",
       "category": "World & Society",
-      "description": "Obsidian appears alongside basalt on Sparkhaven's volcanic approach and forms the heads of Lilith's hand-forged irons. These references concern the material rather than the kingdom of the same name; precise metallurgy and physical properties remain open.",
+      "description": "Obsidian is a material found alongside basalt in the volcanic landscape around Sparkhaven and used in the heads of forged golf irons. Its precise material properties are not established in the lore.",
       "content": [],
       "relatedIds": [
         "craftsmanship-irons"
@@ -2032,23 +1933,6 @@
       "publication": {
         "status": "author_approved",
         "canon": "Provisional lore"
-      }
-    },
-    {
-      "id": "culture-society-taverns",
-      "title": "Taverns",
-      "slug": "taverns",
-      "category": "Culture & Society",
-      "description": "Taverns are social gathering places in Aetherforge, including for travelers, smiths and competitors. They provide settings for friendships, informal discussions and the early relationships of the Council’s founders.",
-      "content": [],
-      "relatedIds": [
-        "characters-lauren",
-        "literature-the-daggersmith-literary-work"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Established lore"
       }
     },
     {
@@ -2301,16 +2185,18 @@
       "content": [
         {
           "heading": "Seating",
-          "body": "Five seats face the Founder’s distinct seat. The arrangement represents mortal leadership rather than hereditary sovereignty."
+          "body": "Five seats face the Founder’s Seat, which denotes the Founder’s leadership rather than hereditary monarchy."
         }
       ],
       "relatedIds": [
-        "artifacts-founder-s-seat",
         "geography-vaelorian-citadel",
         "mythology-kharadon",
-        "organizations-administrative-council"
+        "organizations-administrative-council",
+        "characters-lyra-acolyte12"
       ],
-      "aliases": [],
+      "aliases": [
+        "founder-s-seat"
+      ],
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
@@ -2386,7 +2272,6 @@
         "culture-society-the-six-kingdoms",
         "mythology-varkyros",
         "organizations-house-noirren",
-        "characters-riven",
         "geography-nocthar"
       ],
       "aliases": [],
@@ -2575,23 +2460,6 @@
       "publication": {
         "status": "author_approved",
         "canon": "Provisional lore"
-      }
-    },
-    {
-      "id": "history-age-of-kharadon",
-      "title": "Age of Kharadon",
-      "slug": "age-of-kharadon",
-      "category": "History",
-      "description": "The age takes its name from Kharadon, remembered as King of Dragons and Keeper of the Eternal Forge.",
-      "content": [],
-      "relatedIds": [
-        "mythology-eternal-forge",
-        "mythology-kharadon"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Mythological tradition"
       }
     },
     {
@@ -2859,7 +2727,7 @@
       "title": "The Daggersmith (game)",
       "slug": "the-daggersmith-game",
       "category": "Literature",
-      "description": "The Daggersmith is a smithcraft game set in Aetherforge. The player develops a novice smith into a master of the craft, with the ambition of becoming Pretty’s principal apprentice and eventual craft successor.",
+      "description": "The Daggersmith is a smithcraft game set in Aetherforge. Players develop a novice smith through commissions, craft mastery and mentorship, with the aim of becoming the Daggersmith’s apprentice and craft successor.",
       "content": [
         {
           "heading": "Craft",
@@ -2894,7 +2762,6 @@
       "relatedIds": [
         "characters-lilith-vanthe",
         "characters-lauren",
-        "culture-society-taverns",
         "terminology-the-daggersmith-title",
         "literature-saga-of-aetherforge"
       ],
@@ -2982,7 +2849,7 @@
       "content": [
         {
           "heading": "Traditional accounts",
-          "body": "” Tradition portrays him as the greatest battlefield strategist among the divisional dragons, and Titanium as a realm of silver fortifications, geometric towers, disciplined armies and exact engineering."
+          "body": "Tradition portrays Aurelith as the foremost battlefield strategist among the divisional dragons and Titanium as a realm of silver fortifications, geometric towers, disciplined armies and precise engineering."
         }
       ],
       "relatedIds": [
@@ -3004,7 +2871,7 @@
       "content": [
         {
           "heading": "Traditional accounts",
-          "body": "” His tradition tests continuation after exhaustion, failure and disappointment, not brilliance while rested and winning."
+          "body": "Drakhar’s tradition emphasizes perseverance through exhaustion, failure and adversity."
         }
       ],
       "relatedIds": [
@@ -3027,9 +2894,9 @@
       "content": [],
       "relatedIds": [
         "characters-darian-vex",
-        "history-age-of-kharadon",
         "history-age-of-the-first-spark",
-        "mythology-first-spark"
+        "mythology-first-spark",
+        "mythology-kharadon"
       ],
       "aliases": [],
       "publication": {
@@ -3064,7 +2931,7 @@
       "content": [
         {
           "heading": "Origins",
-          "body": "Traditions disagree on whether Kharadon preceded, discovered or emerged from the Forge."
+          "body": "Traditions disagree on whether Kharadon preceded, discovered or emerged from the Forge. The mythological Age of Kharadon takes its name from him."
         },
         {
           "heading": "Role",
@@ -3076,9 +2943,11 @@
         "artifacts-kharadon-s-seal",
         "geography-hall-of-the-six",
         "geography-kharadon-s-summit",
-        "history-age-of-kharadon"
+        "mythology-eternal-forge"
       ],
-      "aliases": [],
+      "aliases": [
+        "age-of-kharadon"
+      ],
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
@@ -3138,12 +3007,7 @@
       "slug": "seven-lessons-of-ascension",
       "category": "Mythology",
       "description": "The traditional sequence of lessons is Ignition — Begin; Ash — Rise; Cinder — Endure; Ember — Hunger; Damascus — Master; Titanium — Perfect; and Obsidian — Reign. Ascend belongs to Kharadon beyond the seven stages, rather than constituting another ordinary division.",
-      "content": [
-        {
-          "heading": "Traditional accounts",
-          "body": "The War of the Six Crowns began over competing philosophies of worthiness, not territory alone. Traditional accounts describe burned mountains, shattered fortresses, lost cities and fractured floating continents. No dragon won absolutely."
-        }
-      ],
+      "content": [],
       "relatedIds": [
         "history-war-of-the-six-crowns"
       ],
@@ -3179,7 +3043,7 @@
       "content": [
         {
           "heading": "Traditional accounts",
-          "body": "Varkyros is called the Black Sovereign. His creed is “Forged in Fire. ” He values command and remaining sovereign after victory; he recognizes Kharadon’s authority beyond the Ladder."
+          "body": "Varkyros is called the Black Sovereign. His creed is recorded as “Forged in Fire.” His tradition emphasizes maintaining command after victory and recognizes Kharadon’s authority beyond the Ladder."
         }
       ],
       "relatedIds": [
@@ -3248,8 +3112,7 @@
         "geography-vaelorian-citadel",
         "organizations-fyi",
         "geography-hall-of-the-six",
-        "culture-society-regional-dynasties",
-        "terminology-aetherforge-s-royal-family"
+        "culture-society-regional-dynasties"
       ],
       "aliases": [],
       "publication": {
@@ -3396,12 +3259,7 @@
       "slug": "house-ardyn",
       "category": "Organizations",
       "description": "House Ardyn is associated with Damascus. Known as the Masters of Adaptation, the House values strategy and competitive reinvention. Its motto is PERFECTION MOVES, and Selene Ardyn is associated with its legacy.",
-      "content": [
-        {
-          "heading": "Traditional accounts",
-          "body": "Selene’s ability to reinvent her approach between contests made her difficult to prepare against. Tradition alleges Seraphyne granted her access to Damascus’s deepest chambers."
-        }
-      ],
+      "content": [],
       "relatedIds": [
         "characters-mira-ardyn",
         "characters-selene-ardyn"
@@ -3434,12 +3292,7 @@
       "slug": "house-drake",
       "category": "Organizations",
       "description": "House Drake is associated with Cinder. The Long Watch emphasizes endurance, discipline and military service. Associated with Torren Drake, it bears the motto STAND AFTER STANDING FAILS.",
-      "content": [
-        {
-          "heading": "Traditional accounts",
-          "body": "Torren’s reputation comes from surviving the longest recorded Cinder campaign despite not being considered naturally gifted; Drakhar reportedly watched his final contest."
-        }
-      ],
+      "content": [],
       "relatedIds": [
         "characters-torren-drake"
       ],
@@ -3525,12 +3378,7 @@
       "slug": "house-rhyne",
       "category": "Organizations",
       "description": "House Rhyne is associated with Titanium. The Measured Line comprises strategists, judges, planners and champions, and is associated with Caelor Rhyne. Its motto is NOTHING WASTED.",
-      "content": [
-        {
-          "heading": "Traditional accounts",
-          "body": "Caelor’s victories exemplify exact execution rather than overwhelming force. Aurelith reportedly praised him as “Precise,” regarded as extraordinary praise in Titanium."
-        }
-      ],
+      "content": [],
       "relatedIds": [
         "characters-caelor-rhyne"
       ],
@@ -3567,12 +3415,7 @@
       "slug": "house-vale",
       "category": "Organizations",
       "description": "House Vale is associated with Ash. Known as the Rebuilders, it embodies reconstruction and resilience and bears the motto WE RISE AGAIN. Lyra Vale is associated with its legacy, and its crest includes a silver ash-leaf.",
-      "content": [
-        {
-          "heading": "Naming and family",
-          "body": "Draven's distinguished birth family welcomes his adoption of the Vale surname as an honor. This specific decision does not establish a universal marital naming custom."
-        }
-      ],
+      "content": [],
       "relatedIds": [
         "characters-lyra-vale"
       ],
@@ -3620,12 +3463,7 @@
       "slug": "house-voss",
       "category": "Organizations",
       "description": "House Voss is an Obsidian competitive dynasty known as the Black Line. Associated with Malrek Voss, it bears the motto TAKE THE HEIGHT. HOLD IT.",
-      "content": [
-        {
-          "heading": "Traditional accounts",
-          "body": "Malrek is remembered for an unprecedented undefeated period in Obsidian; despite conquering the Ladder, he never completed the Summit."
-        }
-      ],
+      "content": [],
       "relatedIds": [
         "characters-malrek-voss",
         "characters-sera-voss"
@@ -3751,22 +3589,6 @@
       }
     },
     {
-      "id": "terminology-aetherforge-s-royal-family",
-      "title": "Aetherforge's Royal Family",
-      "slug": "aetherforge-s-royal-family",
-      "category": "Terminology",
-      "description": "Royal Family is an honorific for the six members of the Administrative Council, signifying prominence and trust rather than a hereditary monarchy.",
-      "content": [],
-      "relatedIds": [
-        "organizations-administrative-council"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Provisional lore"
-      }
-    },
-    {
       "id": "terminology-calendar-of-aetherforge",
       "title": "Calendar of Aetherforge",
       "slug": "calendar-of-aetherforge",
@@ -3788,7 +3610,7 @@
       "title": "Golden Dragons",
       "slug": "golden-dragons",
       "category": "World & Society",
-      "description": "Golden Dragons are a currency denomination in Aetherforge, used to describe Lilith Vanthe’s substantial wealth.",
+      "description": "Golden Dragons are a denomination of currency used in Aetherforge.",
       "content": [],
       "relatedIds": [
         "characters-lilith-vanthe"
