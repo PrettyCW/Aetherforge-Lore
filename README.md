@@ -21,3 +21,7 @@ The `/visuals` gallery and eight article pages use eleven recovered WebP copies 
 ## v0.12.0 — Lore and information reference
 
 181 public articles. Restores meaningful reference subjects, distinguishes provisional lore from league and game systems, groups Kingdom Seals into one article, and removes fictional match recaps and novel synopsis sections. The source archive remains unchanged.
+
+## v0.12.1 — Character and visual cleanup
+
+180 public articles. Removed the combined Lilith and Lyra entry and its related links. Public visuals now contain only Lilith’s approved portrait and two equipment concepts; recovered scene files remain preserved in the repository.

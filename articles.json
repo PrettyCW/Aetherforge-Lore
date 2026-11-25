@@ -460,7 +460,6 @@
       ],
       "relatedIds": [
         "organizations-administrative-council",
-        "characters-lilith-and-lyra",
         "characters-lyra-acolyte12",
         "characters-pj",
         "characters-soulless"
@@ -631,7 +630,6 @@
         "characters-lilith-vanthe",
         "characters-aeren-vale",
         "characters-draven-vale",
-        "characters-lilith-and-lyra",
         "characters-lyra-acolyte12"
       ],
       "aliases": [],
@@ -769,35 +767,6 @@
       }
     },
     {
-      "id": "characters-lilith-and-lyra",
-      "title": "Lilith and Lyra",
-      "slug": "lilith-and-lyra",
-      "category": "Characters",
-      "description": "Lilith Vanthe and Lyra are competitive rivals, romantic partners and founding members of the Administrative Council.",
-      "content": [
-        {
-          "heading": "Relationship",
-          "body": "They first meet in the opening playing group of a Cinder tournament and later share drinks at a tavern. Their mutual attraction develops alongside their continuing rivalry."
-        },
-        {
-          "heading": "Council service",
-          "body": "Their professional relationship rests on mutual respect for earned results and Lyra’s trust in Lilith’s competitive judgment."
-        }
-      ],
-      "relatedIds": [
-        "characters-lilith-vanthe",
-        "characters-bustin",
-        "characters-ellen-vale",
-        "characters-lyra-acolyte12",
-        "characters-pj"
-      ],
-      "aliases": [],
-      "publication": {
-        "status": "author_approved",
-        "canon": "Established lore"
-      }
-    },
-    {
       "id": "characters-lilith-vanthe",
       "title": "Lilith Vanthe",
       "slug": "lilith-vanthe",
@@ -827,7 +796,6 @@
       ],
       "relatedIds": [
         "organizations-administrative-council",
-        "characters-lilith-and-lyra",
         "characters-ellen-vale",
         "characters-rowden-groves",
         "characters-travis-pope",
@@ -869,7 +837,6 @@
         "artifacts-founder-s-seat",
         "characters-bustin",
         "characters-ellen-vale",
-        "characters-lilith-and-lyra",
         "terminology-sorceress-supreme"
       ],
       "aliases": [],
@@ -1008,7 +975,6 @@
       "relatedIds": [
         "organizations-administrative-council",
         "characters-bustin",
-        "characters-lilith-and-lyra",
         "characters-soulless",
         "characters-whiskey"
       ],

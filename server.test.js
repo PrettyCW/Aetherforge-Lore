@@ -12,7 +12,7 @@ test('reject unallowlisted records, extra private fields and invalid status',()=
 test('reject duplicate routes, dangling links, incomplete allowlists',()=>{for(const mutate of [d=>{d.articles[1].slug=d.articles[0].slug},d=>{d.articles[0].relatedIds.push('synthetic-missing')},d=>{d.articles.pop()},d=>{d.articles[0].aliases.push(d.articles[1].slug)}]){const d=clone(data);mutate(d);assert.throws(()=>validate(d,allow))}});
 test('sitemap only published URLs; article SEO and breadcrumb',()=>{for(const a of articles){assert.ok(sitemap().includes(link(a)));const page=render(link(a))[1];assert.match(page,/rel="canonical"/);assert.match(page,/aria-label="Breadcrumb"/);assert.ok(page.includes(esc(a.description)))}assert.ok(!sitemap().includes('/search'));assert.ok(!sitemap().includes('synthetic-missing'));assert.match(render('/wiki/missing')[1],/noindex/)});
 test('every internal link resolves',()=>{const paths=['/','/articles','/kingdoms','/search','/visuals',...categories.map(catLink),...articles.map(link)];for(const p of paths){const html=render(p)[1];for(const m of html.matchAll(/href="(\/[^"]*)"/g))assert.equal(render(m[1])[0],200,p+' -> '+m[1])}});
-test('HTTP health, sitemap, no raw files and no candidate disclosure',async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));try{const base='http://127.0.0.1:'+server.address().port;const health=await (await fetch(base+'/health')).json();assert.equal(health.version,'0.12.0');assert.equal(health.articles,articles.length);for(const p of ['/articles.json','/publication-allowlist.json','/private/','/wiki/synthetic-unapproved','/docs/PUBLIC_ENCYCLOPEDIA_v0.4.md'])assert.equal((await fetch(base+p)).status,404);assert.equal((await fetch(base+'/sitemap.xml')).status,200);assert.equal((await fetch(base+'/',{method:'HEAD'})).status,200);assert.equal((await fetch(base+'/',{method:'POST'})).status,405)}finally{await new Promise(r=>server.close(r))}});
+test('HTTP health, sitemap, no raw files and no candidate disclosure',async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));try{const base='http://127.0.0.1:'+server.address().port;const health=await (await fetch(base+'/health')).json();assert.equal(health.version,'0.12.1');assert.equal(health.articles,articles.length);for(const p of ['/articles.json','/publication-allowlist.json','/private/','/wiki/synthetic-unapproved','/docs/PUBLIC_ENCYCLOPEDIA_v0.4.md'])assert.equal((await fetch(base+p)).status,404);assert.equal((await fetch(base+'/sitemap.xml')).status,200);assert.equal((await fetch(base+'/',{method:'HEAD'})).status,200);assert.equal((await fetch(base+'/',{method:'POST'})).status,405)}finally{await new Promise(r=>server.close(r))}});
 
 test('curated encyclopedia has reciprocal links and searchable canonical articles',()=>{assert.ok(articles.length>0);for(const a of articles){assert.equal(a.publication.status,'author_approved');for(const id of a.relatedIds)assert.ok(articles.find(b=>b.id===id).relatedIds.includes(a.id));assert.ok(search(a.title).some(b=>b.id===a.id))}for(const slug of ['ash','cinder','ember','damascus','titanium','obsidian','six-kingdoms'])assert.equal(render('/wiki/'+slug)[0],200)});
 
@@ -26,11 +26,11 @@ test('encyclopedia preserves reference subjects without novel match ledgers',()=
 
 test('recovered visual archive, scope and exact article associations',()=>{
  const {visuals}=require('./visual-content');
- assert.equal(visuals.length,11);
+ assert.equal(visuals.length,3);
  assert.equal(visuals.filter(v=>v.classification==='canonical').length,1);
- assert.equal(visuals.filter(v=>v.classification==='scene').length,8);
+ assert.equal(visuals.filter(v=>v.classification==='scene').length,0);
  assert.equal(visuals.filter(v=>v.classification==='equipment_concept').length,2);
- assert.equal(new Set(visuals.flatMap(v=>v.article_ids)).size,8);
+ assert.equal(new Set(visuals.flatMap(v=>v.article_ids)).size,2);
  const archive=render('/visuals');assert.equal(archive[0],200);assert.ok(sitemap().includes('/visuals'));
  for(const v of visuals){const src='src="/media/'+v.id+'.webp"';assert.ok(archive[1].includes(src));assert.ok(archive[1].includes(esc(v.label)));assert.ok(archive[1].includes(esc(v.note)));for(const a of articles){assert.equal(render(link(a))[1].includes(src),v.article_ids.includes(a.id),v.id+' '+a.id)}}
  assert.ok(!render('/wiki/aeren-vale')[1].includes('src="/media/'));
@@ -46,3 +46,5 @@ test('allowlisted WebP HTTP bytes, content policy, HEAD and missing assets',asyn
  for(const p of ['/media/vis-999.webp','/media/vis-001.png','/media/','/visual-manifest.json','/visual-content.js','/media/%2e%2e/articles.json'])assert.equal((await fetch(base+p)).status,404,p);
  }finally{await new Promise(r=>server.close(r))}
 });
+
+test('combined character article and repeated scene imagery are not published',()=>{assert.equal(render('/wiki/lilith-and-lyra')[0],404);assert.ok(!sitemap().includes('/wiki/lilith-and-lyra'));assert.equal(render('/wiki/lilith-vanthe')[0],200);assert.equal(render('/wiki/lyra-acolyte12')[0],200);assert.ok(render('/wiki/lilith-vanthe')[1].includes('src="/media/vis-001.webp"'));assert.ok(!render('/wiki/lyra-acolyte12')[1].includes('src="/media/'));});
