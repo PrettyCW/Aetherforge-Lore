@@ -41,3 +41,7 @@ Removed all public artwork and the visual archive navigation, homepage section a
 ## v0.13.1 — Archived claim reconciliation
 
 Reviewed the 491-claim original register (476 consolidated groups), restoring meaningful reference details without adding articles. See [claim reconciliation checkpoint](docs/CLAIM_RECONCILIATION_v0.13.1.md). Historical game and league specifications remain explicitly version-scoped. Later manuscript and core extraction passes are outside this register.
+
+## v0.13.2 — Remaining evidence and canon reconciliation
+
+Reviewed the 236 First Spark, 65 core and 49 remaining-core evidence records. Expanded 33 existing articles; 172 articles remain. Resolved documented genealogy without inventing its chronology, clarified conflicting award names and retained separate literary/game scopes. See [reconciliation report](docs/EVIDENCE_RECONCILIATION_v0.13.2.md).

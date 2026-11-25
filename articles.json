@@ -138,7 +138,7 @@
       "content": [
         {
           "heading": "Terminology",
-          "body": "This award is for victory in a regular Crucible, not a separate Golden Crucible tournament. It is also called the Golden Emerald Dagger in the manuscript."
+          "body": "The approved series canon names Lilith’s award for winning a regular Crucible the Golden Crucible Dagger; the draft manuscript uses Golden Emerald Dagger. The terminology discrepancy remains unresolved. Neither wording establishes a separate Golden Crucible tournament or a second award."
         }
       ],
       "relatedIds": [
@@ -160,13 +160,19 @@
       "slug": "identifier-117-3a",
       "category": "Artifacts",
       "description": "117-3A is an identifier recorded in ancient archives and associated with Rheon Valek’s modern credential. The relationship between the historical and modern records is unresolved.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Historical records",
+          "body": "The identifier appears in the historical register associated with Kael Varen and was not reused for centuries before its assignment to Rheon Valek. Its repeated recognition by older infrastructure is an unexplained anomaly. A temporary change in a credential’s visible display did not alter its official registry entry and does not establish that the two golfers are the same person."
+        }
+      ],
       "relatedIds": [
         "characters-edric-mourn",
         "characters-kael-varen",
         "characters-rheon-valek",
         "history-second-descent",
-        "literature-ignition-the-first-spark"
+        "literature-ignition-the-first-spark",
+        "magic-ascension-infrastructure"
       ],
       "aliases": [],
       "publication": {
@@ -350,7 +356,12 @@
       "slug": "the-ashen-reach",
       "category": "Artifacts",
       "description": "The Ashen Reach is a dark-metal dagger with a split guard and an inscription. Disagreement between its display and archival dates makes it significant to the Council’s investigation of the realm’s historical records.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Provenance",
+          "body": "The Ashen Reach is remembered as an award to an Ash competitor for a notable comeback in an early post-Ladder cycle. Its display and registry disagree, giving 518 AL and 522 AL respectively; archival copies and a restoration catalogue give other dates. These refer to one physical dagger, and none of the conflicting dates is confirmed."
+        }
+      ],
       "relatedIds": [
         "characters-darian-vex",
         "literature-ignition-the-first-spark"
@@ -386,7 +397,7 @@
       "content": [
         {
           "heading": "Family and identity",
-          "body": "Aeren belongs to House Vale, a family associated with resilience and the legendary champion Lyra Vale. He seeks recognition independent of the family name."
+          "body": "Aeren belongs to House Vale and is the grandson of the legendary champion Lyra Vale through his mother Ellen. He seeks recognition independent of his family's competitive reputation."
         },
         {
           "heading": "Associations",
@@ -400,7 +411,8 @@
         "characters-cassian-rourke",
         "characters-torrick-drake",
         "literature-ignition-the-first-spark",
-        "characters-orin-cade"
+        "characters-orin-cade",
+        "characters-lyra-vale"
       ],
       "aliases": [],
       "publication": {
@@ -413,7 +425,7 @@
       "title": "Aric Flare",
       "slug": "aric-flare",
       "category": "Characters",
-      "description": "Aric Flare, remembered as the Ember Wolf, is associated with House Flare and the pursuit of stronger opponents. His disappearance remains unexplained.",
+      "description": "Aric Flare, the Ember Wolf, is remembered for challenging stronger opponents rather than avoiding them. The surviving traditions leave his ultimate career and fate uncertain.",
       "content": [],
       "relatedIds": [
         "organizations-house-flare"
@@ -478,7 +490,7 @@
       "title": "Cassian Rourke",
       "slug": "cassian-rourke",
       "category": "Characters",
-      "description": "Cassian Rourke is a golfer known for powerful, aggressive play and his competitive rivalry with Aeren Vale.",
+      "description": "Cassian Rourke, known to spectators as the Golden Spark, is a golfer noted for powerful, aggressive play and his competitive rivalry with Aeren Vale.",
       "content": [],
       "relatedIds": [
         "characters-aeren-vale",
@@ -567,13 +579,20 @@
       "slug": "edric-mourn",
       "category": "Characters",
       "description": "Edric Mourn is associated with archival research at Vaelorian Citadel and the investigation of historical records.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Research",
+          "body": "Edric works in the archives of Vaelorian Citadel, investigating discrepancies between original registers, copies, restoration records and official histories. He is associated with House Mourn’s tradition of preserving historical memory."
+        }
+      ],
       "relatedIds": [
         "artifacts-identifier-117-3a",
         "characters-darian-vex",
         "characters-kael-varen",
         "geography-vaelorian-citadel",
-        "mythology-seraphyne"
+        "mythology-seraphyne",
+        "organizations-house-mourn",
+        "history-sanitization-of-history"
       ],
       "aliases": [],
       "publication": {
@@ -607,18 +626,19 @@
       "content": [
         {
           "heading": "Partnership",
-          "body": "Ellen met Lilith while competing in Ember, where her advancement had stalled. She became Lilith’s lifelong caddie and strategic partner, with comparable course-management insight."
+          "body": "Ellen met Lilith while competing in Ember, where her advancement had stalled. They first partnered in competition and subsequently developed a lifelong caddie partnership. Ellen has comparable strategic insight and course-management skill; the partnership did not originate from a lack of strategic ability in Lilith."
         },
         {
           "heading": "Family",
-          "body": "Ellen married Draven, who adopted the Vale surname. Their son is Aeren Vale, born when Ellen was approximately thirty."
+          "body": "Ellen is the daughter of the legendary champion Lyra Vale. She married Draven, who adopted the Vale surname. Their son Aeren was born when Ellen was approximately thirty. The chronology of Lyra Vale’s earlier career and her daughter's birth is not yet established."
         }
       ],
       "relatedIds": [
         "characters-lilith-vanthe",
         "characters-aeren-vale",
         "characters-draven-vale",
-        "characters-lyra-acolyte12"
+        "characters-lyra-acolyte12",
+        "characters-lyra-vale"
       ],
       "aliases": [],
       "publication": {
@@ -683,7 +703,7 @@
       "title": "Kaelen Rhyne",
       "slug": "kaelen-rhyne",
       "category": "Characters",
-      "description": "Kaelen Rhyne is a golfer and member of the Eight.",
+      "description": "Kaelen Rhyne is a golfer and member of the Eight whose approach emphasizes precision, preparation and planned execution.",
       "content": [],
       "relatedIds": [
         "competition-the-eight",
@@ -821,11 +841,17 @@
         {
           "heading": "Legacy",
           "body": "Tradition recalls eleven early challenge losses before her emergence as a champion. Her legacy is expressed in the words “The fall is not the end.” Lilith Vanthe was originally named Lyra Northashe in her honor."
+        },
+        {
+          "heading": "Family",
+          "body": "Lyra Vale is the mother of Ellen Vale and maternal grandmother of Aeren Vale. The exact chronology of her career and family remains open."
         }
       ],
       "relatedIds": [
         "characters-draven-vale",
-        "organizations-house-vale"
+        "organizations-house-vale",
+        "characters-ellen-vale",
+        "characters-aeren-vale"
       ],
       "aliases": [
         "ashborn"
@@ -878,7 +904,7 @@
       "title": "Mira Ardyn",
       "slug": "mira-ardyn",
       "category": "Characters",
-      "description": "Mira Ardyn is a golfer and member of the Eight.",
+      "description": "Mira Ardyn is a golfer and member of the Eight. Her approach to competition emphasizes improvisation, indirect solutions and adaptability.",
       "content": [],
       "relatedIds": [
         "competition-the-eight",
@@ -915,7 +941,7 @@
       "title": "Orin Cade",
       "slug": "orin-cade",
       "category": "Characters",
-      "description": "Orin Cade is a golfer whose competitive style emphasizes consistency and a disciplined routine.",
+      "description": "Orin Cade represents Cinder and is known for low-error golf, a disciplined routine and a consistent approach to risk.",
       "content": [],
       "relatedIds": [
         "characters-aeren-vale"
@@ -980,7 +1006,7 @@
       "content": [
         {
           "heading": "Career and craft",
-          "body": "Rowden advanced quickly through Cinder and is noted for exceptional competitive talent and a background in smithcraft. His irons have bronze shafts and Cinderian brimstone heads."
+          "body": "Rowden entered Ignition without prior Crucible experience, advanced quickly through Cinder and is noted for exceptional competitive talent and a background in smithcraft. His irons have bronze shafts and Cinderian brimstone heads. Their wear does not establish their provenance."
         }
       ],
       "relatedIds": [
@@ -1399,6 +1425,14 @@
         {
           "heading": "Archived regular-season design",
           "body": "The v0.52 design uses six twelve-player divisions and eleven two-round regular-season events. New fictional golfers start in Ignition; taking over an existing golfer retains that golfer’s identity, division, ratings, membership and history. Ignition is an open feeder without its own playoffs. Score-to-par totals include actual played events only."
+        },
+        {
+          "heading": "Simulation design",
+          "body": "Archived design specifies six distinct golfer attributes without a single overall rating. It simulates individual strokes using numerical distances, abstract course conditions and named courses with hybrid hole archetypes. Conditions may vary between rounds but are standardized for competitors within the same event-round."
+        },
+        {
+          "heading": "Shot mechanics",
+          "body": "The archived design uses standardized equipment, meaningful club choice, common reference club-distance potential, uncertain wind reads, situational recovery play, distinct short-game shots and choices between aggressive and lag putting. These are simulation abstractions, not universal literary rules or verification of the current implementation."
         }
       ],
       "relatedIds": [
@@ -1527,6 +1561,10 @@
         {
           "heading": "Generations",
           "body": "The simulation uses Ignition as an open feeder. Its top two promote to Ash, with additional advancement possible when vacancies arise. This game format is distinct from the literary format."
+        },
+        {
+          "heading": "Match format",
+          "body": "In the era of The First Spark, head-to-head qualification uses hole-by-hole match play, with standard concessions and official score verification. A win earns one point and a halved match earns half a point. A sudden-death playoff for the final qualifying place is known as the Last Spark; the first player to win a hole advances."
         }
       ],
       "relatedIds": [
@@ -1708,7 +1746,12 @@
       "slug": "the-eight",
       "category": "Competition",
       "description": "The Eight is the collective designation for Rheon Valek, Nyra Solvar, Sera Voss, Kaelen Rhyne, Mira Ardyn, Torrick Drake, Tessa Brann and Aeren Vale, the group of qualifiers associated with the First Spark era.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Historical significance",
+          "body": "The designation also occurs in a damaged ancient inscription referring to recognition of the Eight. The meaning of the reference is unresolved. Observed infrastructure behavior was consistent with recognition of earned qualifiers, not proof that qualification was predetermined."
+        }
+      ],
       "relatedIds": [
         "competition-ignition",
         "characters-aeren-vale",
@@ -1719,7 +1762,8 @@
         "characters-mira-ardyn",
         "characters-torrick-drake",
         "characters-tessa-brann",
-        "artifacts-ancient-inscription"
+        "artifacts-ancient-inscription",
+        "history-ladder-awakening"
       ],
       "aliases": [],
       "publication": {
@@ -2057,7 +2101,7 @@
         },
         {
           "heading": "Appearance and use",
-          "body": "The passages are generally translucent and illuminated, passing through mist and clouds with a waterlike transition at arrival. Travelers and mule carts can use them; ordinary crossings are familiar, convenient and normally safe."
+          "body": "The passages are generally translucent and illuminated, passing through mist and clouds with a waterlike transition at arrival. A purple, blue and black expanse has been described between kingdoms. Travelers and mule carts can use the bridges; ordinary crossings are familiar, convenient and normally safe."
         },
         {
           "heading": "Historical layers",
@@ -2088,7 +2132,7 @@
       "content": [
         {
           "heading": "Landscape",
-          "body": "Pale forests, ruined towers, waterfalls and new construction stand together. Travelers from Ignition arrive at a broad black stone platform overlooking the ruins. A road descends toward a course that incorporates the remains of older structures."
+          "body": "Pale forests, broken towers, cliff waterfalls and new construction among ancient ruins characterize the landscape surrounding the arrival platform. The course incorporates ruined buildings and uses broken towers as sightline features; a road descends from the broad black stone landing toward the grounds."
         },
         {
           "heading": "Culture and tradition",
@@ -2203,7 +2247,8 @@
       "relatedIds": [
         "geography-ascension-bridges",
         "geography-the-first-ascension-bridge",
-        "geography-vaelorian-citadel"
+        "geography-vaelorian-citadel",
+        "magic-ascension-infrastructure"
       ],
       "aliases": [],
       "publication": {
@@ -2444,7 +2489,7 @@
         },
         {
           "heading": "Life and competition",
-          "body": "Crowded streets, forge lamps, mule carts, taverns and competitor lodgings serve the settlement. Horns mark the opening of the gates, and an avenue descends toward the First Forge. Registration takes place under awnings overlooking the course."
+          "body": "Crowded streets, forge lamps, mule carts, taverns and competitor lodgings serve the settlement. Horns and bells mark the opening of the gates, and a broad avenue descends toward the First Forge. Registration takes place under awnings overlooking the course. The motto also appears on banners and tournament credentials."
         }
       ],
       "relatedIds": [
@@ -2492,7 +2537,7 @@
         },
         {
           "heading": "Facilities",
-          "body": "The grounds contain practice areas, a scoring pavilion, a starter’s platform and spectator galleries. Kingdom standards mark the course. Beneath it is an older control chamber containing stone records and metal housings; its origin and full function remain uncertain."
+          "body": "The grounds contain practice areas, a halfway pavilion, a scoring pavilion, starter’s platform and spectator galleries. Beneath the course is a control chamber older than the modern grounds, with stone records, metal housings and ancient channels. Its original function remains uncertain."
         }
       ],
       "relatedIds": [
@@ -2557,7 +2602,7 @@
         },
         {
           "heading": "Institutions",
-          "body": "The Citadel houses the Administrative Council, archives and Crown Grounds, where major ceremonies occur. Broad processional avenues and kingdom standards characterize its ceremonial spaces."
+          "body": "The Citadel houses the Administrative Council, western archives and Crown Grounds, where major ceremonies occur. Broad processional avenues and kingdom standards characterize its ceremonial spaces; outer plazas host food stalls and music during public ceremonies."
         },
         {
           "heading": "Founding and neutrality",
@@ -2713,11 +2758,17 @@
       "slug": "ladder-awakening",
       "category": "History",
       "description": "The Ladder Awakening is a documented instance of extraordinary activity in ancient infrastructure across the six kingdoms and toward the Summit. Its underlying cause is unknown.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Extent",
+          "body": "The awakening involved deeper channels beneath ordinary bridge infrastructure, with activity across all six kingdoms and toward ancient geometry on Kharadon’s Summit. The older illumination subsequently faded while ordinary bridge lighting remained. Its cause and purpose are unresolved."
+        }
+      ],
       "relatedIds": [
         "geography-kharadon-s-summit",
         "geography-the-first-ascension-bridge",
-        "magic-ascension-infrastructure"
+        "magic-ascension-infrastructure",
+        "competition-the-eight"
       ],
       "aliases": [],
       "publication": {
@@ -2782,11 +2833,18 @@
       "slug": "sanitization-of-history",
       "category": "History",
       "description": "The sanitization of history refers to the simplification and alteration of historical accounts surrounding Kael Varen, Darian Vex, Kharadon and the Ladder after the Reforging. The relative roles of deliberate suppression and ordinary cultural mythmaking remain unresolved.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Archival evidence",
+          "body": "Surviving records of the Second Descent illustrate several forms of alteration: a name is physically scraped from the original register, a certified copy omits the entry, and a restoration transcript labels it illegible. The evidence establishes differences in the treatment of the record, not the motives of every person responsible."
+        }
+      ],
       "relatedIds": [
         "history-reforging",
         "characters-kael-varen",
-        "characters-darian-vex"
+        "characters-darian-vex",
+        "characters-edric-mourn",
+        "history-second-descent"
       ],
       "aliases": [],
       "publication": {
@@ -2811,7 +2869,8 @@
         "history-first-ascension",
         "mythology-veyrath",
         "terminology-calendar-of-aetherforge",
-        "history-lost-kael-period"
+        "history-lost-kael-period",
+        "history-sanitization-of-history"
       ],
       "aliases": [],
       "publication": {
@@ -2904,6 +2963,10 @@
         {
           "heading": "Current working titles",
           "body": "Ignition: The First Spark; Ash: Where Ruin Becomes Resolve; Cinder: The Unyielding; Ember: Feed the Flame; Damascus: The Queen’s Forge; Titanium: The Silver Measure; Obsidian: The Black Crown; Kharadon’s Summit: Every Legend Must Ascend. The later titles and final volume structure remain provisional."
+        },
+        {
+          "heading": "Planned structure",
+          "body": "The recovered saga outline contains both a seven-volume proposal and a later eight-volume proposal in which Obsidian and Kharadon’s Summit have separate volumes. The final volume count and future events are not fixed."
         }
       ],
       "relatedIds": [
@@ -2983,7 +3046,12 @@
       "slug": "the-summit-and-the-chain",
       "category": "Literature",
       "description": "The Summit and the Chain is a work attributed to Darian Vex concerning authority and access to Kharadon’s Summit.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Ideas",
+          "body": "The work examines the political and legal foundations of ascension and the tension between earned advancement and permission to approach the Summit. The relationship between Darian’s original arguments and later abbreviated Crownless slogans remains a subject of interpretation."
+        }
+      ],
       "relatedIds": [
         "characters-darian-vex",
         "characters-rheon-valek"
@@ -3021,12 +3089,23 @@
       "slug": "ascension-infrastructure",
       "category": "Magic",
       "description": "Ancient infrastructure underlies parts of the Ladder, its bridges and competitive grounds. Older systems survive beneath modern facilities, including the control chamber under the First Forge. Their origins, full purpose and operation remain unknown.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Modern and ancient networks",
+          "body": "The modern network supports competitive scoring, bridge access, ceremonial power, communications and archive links. Beneath the Crown Grounds is a chamber where mapped modern channels can be distinguished from deeper, unmapped gold-lit infrastructure. Pre-Reforging surveys describe older structures beneath modern foundations."
+        },
+        {
+          "heading": "Known anomalies",
+          "body": "Ancient markers and the older network have displayed activity without registered commands or mapped power connections. Credential registration consults legacy competitive tables for continuity and duplicate avoidance, but the known modern mechanisms do not explain the older system’s responses. Display anomalies do not necessarily alter official records."
+        }
+      ],
       "relatedIds": [
         "characters-cassian-rourke",
         "characters-tessa-brann",
         "geography-the-first-forge",
-        "history-ladder-awakening"
+        "history-ladder-awakening",
+        "artifacts-identifier-117-3a",
+        "geography-crown-grounds"
       ],
       "aliases": [],
       "publication": {
@@ -3164,6 +3243,10 @@
         {
           "heading": "Authority",
           "body": "The governance tradition describes his role as guarding the Eternal Forge, the Dragon Covenant, the Summit and the realm itself. He does not attend ordinary Council meetings and does not administer routine mortal affairs."
+        },
+        {
+          "heading": "Appearance",
+          "body": "Kharadon is described in The First Spark with black scales edged in gold, backward-swept crown-like horns, and white-gold light beneath his chest armor. His wings span more than the upper plaza of the Crown Grounds."
         }
       ],
       "relatedIds": [
@@ -3342,11 +3425,15 @@
         },
         {
           "heading": "Institutional principles",
-          "body": "Members with direct competitive interests recuse themselves from affected decisions. The Council protects earned results, verifies evidence before disrupting competition and does not treat ancestry or an unexplained response of ancient infrastructure as proof of wrongdoing."
+          "body": "Members with direct competitive interests recuse themselves from affected decisions. The Council protects earned results, verifies evidence before disrupting competition, and does not treat ancestry or unexplained infrastructure responses as proof of wrongdoing. Possession of dissenting material or agreement with a political question is distinct from misconduct, threats or disruptive action. Its exact charter and voting rules remain open."
         },
         {
           "heading": "Representation",
           "body": "Each of the six founders originated in a different kingdom. Their birthplaces are distinct from their competitive divisions. The Founder leads the Council and delegates administration to its specialist offices."
+        },
+        {
+          "heading": "Historical formation",
+          "body": "The Council is a modern institution, formed after the Reforging; it is not the founder of the ancient Ladder or Vaelorian Citadel. The original founders built broad support over years, and their one-per-kingdom representation arose partly by intent and partly by circumstance."
         }
       ],
       "relatedIds": [
@@ -3613,7 +3700,8 @@
       "description": "House Mourn is associated with Ash. Known as the Keepers of Memory, its archivists, historians, memorial keepers and chroniclers uphold the motto NOTHING LOST IS FORGOTTEN.",
       "content": [],
       "relatedIds": [
-        "geography-ash"
+        "geography-ash",
+        "characters-edric-mourn"
       ],
       "aliases": [],
       "publication": {
@@ -3792,6 +3880,10 @@
         {
           "heading": "Continuity",
           "body": "Crownless ideology and adherents survived the Broken Summit, including underground activity. The movement’s modern visibility therefore represents renewed activity rather than a resurrection of an extinct organization."
+        },
+        {
+          "heading": "Messages",
+          "body": "Unsigned black cards question the legitimacy of restrictions on advancement and the authority that determines the Ladder’s end. The cards use language resembling Darian Vex’s writings, but their authorship, access to historical material and organizational origin remain unresolved."
         }
       ],
       "relatedIds": [
@@ -3881,6 +3973,10 @@
         {
           "heading": "Dating",
           "body": "0 AL denotes the formal founding of the Ladder. BL refers to the time before it; AL refers to the time after it. Many ancient events have only relative dates. The Second Descent record is dated thirty-one years after Kael Varen’s first ascent."
+        },
+        {
+          "heading": "Ascension cycles",
+          "body": "Early Ascension cycles were not necessarily annual, and surviving registers differ considerably in completeness. Missing or inconsistent records complicate the dating of historical achievements."
         }
       ],
       "relatedIds": [
