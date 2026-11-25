@@ -25,3 +25,7 @@ The `/visuals` gallery and eight article pages use eleven recovered WebP copies 
 ## v0.12.1 — Character and visual cleanup
 
 180 public articles. Removed the combined Lilith and Lyra entry and its related links. Public visuals now contain only Lilith’s approved portrait and two equipment concepts; recovered scene files remain preserved in the repository.
+
+## v0.12.2 — Text-only encyclopedia
+
+Removed all public artwork and the visual archive navigation, homepage section and route. Deleted the eleven web-sized artwork copies from the current site tree; source artwork and Git history remain preserved. All 180 lore articles remain unchanged.
