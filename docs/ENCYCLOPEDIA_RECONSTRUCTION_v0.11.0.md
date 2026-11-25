@@ -1,0 +1,242 @@
+# v0.11.0 — Encyclopedia reconstruction
+
+The encyclopedia is curated lore, not a raw manuscript evidence ledger. All 216 original records were screened; 83 entries received authored replacements, and 44 retained entries received conservative section/sentence edits. This is an editorial pass, not a claim that every primary manuscript has been independently revalidated.
+
+## Results
+
+- 127 public articles (previously 216)
+- 108 substantive article sections, plus introductory paragraphs (previously 617 sections)
+- 199 reciprocal relationships (previously 645)
+- Eight merged routes redirect to their surviving article.
+- Eleven visual assets and eight article associations remain unchanged.
+- No new access-control tier. No new lore or artwork is intended.
+
+## Source preservation
+
+The complete pre-reconstruction public dataset is preserved at [v0.10.2 articles.json](https://github.com/PrettyCW/Aetherforge-Lore/blob/14bebbeeb63bfcb71fc5fd58ba65f7cd912c8e7c/articles.json). Existing lore source documents and visual assets are unchanged. Removed entries are not erased from history; they can be restored if supported by canon and editorial relevance.
+
+## Editorial standard
+
+Lead with what the subject is. Provide its significance, history, relationships and relevant world context. Keep only meaningful results. Separate literary lore from simulator and league mechanics. Use mythology or uncertainty labels where appropriate; do not promote proposals into established facts. Do not publish manuscript observations, internal reconciliation notes, future plot plans or shot-by-shot records as article sections. New article count is not a success metric.
+
+## Retired public routes
+
+- Bloodied Daggers (bloodied-daggers) — retained in source history, not public
+- Crucible Daggers (crucible-daggers) — retained in source history, not public
+- Dragonsteel Daggers (dragonsteel-daggers) — retained in source history, not public
+- Golden Emerald Dagger (golden-emerald-dagger) — merged into Golden Crucible Dagger
+- Kharadon’s Crown (kharadon-s-crown) — retained in source history, not public
+- Kickoff Dagger (kickoff-dagger) — retained in source history, not public
+- Legendary daggers (legendary-daggers) — retained in source history, not public
+- Participation Daggers (participation-daggers) — retained in source history, not public
+- Placement Daggers (placement-daggers) — retained in source history, not public
+- Playoff Daggers (playoff-daggers) — retained in source history, not public
+- Seal of Dominion (seal-of-dominion) — retained in source history, not public
+- Seal of Endurance (seal-of-endurance) — retained in source history, not public
+- Seal of Flame (seal-of-flame) — retained in source history, not public
+- Seal of Mastery (seal-of-mastery) — retained in source history, not public
+- Seal of Precision (seal-of-precision) — retained in source history, not public
+- Seal of the Unbroken (seal-of-the-unbroken) — retained in source history, not public
+- Briar Sloane (briar-sloane) — retained in source history, not public
+- Corin Thale (corin-thale) — retained in source history, not public
+- Damien Lorav (damien-lorav) — retained in source history, not public
+- Elias Kest (elias-kest) — retained in source history, not public
+- Ilyse (ilyse) — retained in source history, not public
+- Kira (kira) — retained in source history, not public
+- Lyssa Noirren (lyssa-noirren) — retained in source history, not public
+- Riven (riven) — retained in source history, not public
+- Vael Torren (vael-torren) — retained in source history, not public
+- Vela Sorn (vela-sorn) — retained in source history, not public
+- Bold challenges (bold-challenges) — retained in source history, not public
+- Christmas exhibition (christmas-exhibition) — retained in source history, not public
+- Dagger System (dagger-system) — merged into Daggers
+- Direct challenges (direct-challenges) — retained in source history, not public
+- Division movement (division-movement) — retained in source history, not public
+- Dragon’s Ascension (dragon-s-ascension) — retained in source history, not public
+- Dragon’s Ascension: Generations (dragon-s-ascension-generations) — retained in source history, not public
+- Dragon’s Ascension playoffs (dragon-s-ascension-playoffs) — retained in source history, not public
+- FYI Guilds Season 1 (fyi-guilds-season-1) — retained in source history, not public
+- Generations calendar (generations-calendar) — retained in source history, not public
+- Guild Championship (guild-championship) — retained in source history, not public
+- Guild placement scoring (guild-placement-scoring) — retained in source history, not public
+- Guild scoring tiebreaks (guild-scoring-tiebreaks) — retained in source history, not public
+- Inter-Society Ryder Cup (inter-society-ryder-cup) — retained in source history, not public
+- Ironbound Arena (ironbound-arena) — retained in source history, not public
+- Ironbound Ranking (ironbound-ranking) — retained in source history, not public
+- Kharadon’s Ascension (kharadon-s-ascension) — retained in source history, not public
+- Kharadon's Ascension — Season I (kharadon-s-ascension-season-i) — retained in source history, not public
+- Kharadon's Ascension — Season II (kharadon-s-ascension-season-ii) — retained in source history, not public
+- Postseason Division Challenges (postseason-division-challenges) — retained in source history, not public
+- The Convergence (the-convergence) — retained in source history, not public
+- Trial of Blades (trial-of-blades) — retained in source history, not public
+- Dagger provenance (dagger-provenance) — retained in source history, not public
+- Enchantments (enchantments) — retained in source history, not public
+- Forging stages (forging-stages) — retained in source history, not public
+- Competitive records (competitive-records) — retained in source history, not public
+- Guild membership (guild-membership) — retained in source history, not public
+- Hall of Works (hall-of-works) — retained in source history, not public
+- Partnerships (partnerships) — retained in source history, not public
+- Regional dynasties (regional-dynasties) — retained in source history, not public
+- Ash arrival platform (ash-arrival-platform) — merged into Ash
+- Aurelion (aurelion) — retained in source history, not public
+- Brazenhold (brazenhold) — retained in source history, not public
+- Competitor dining hall (competitor-dining-hall) — merged into Sparkhaven
+- Ignition registration area (ignition-registration-area) — merged into Ignition
+- Morrowfall (morrowfall) — retained in source history, not public
+- Nocthar (nocthar) — retained in source history, not public
+- Serathis (serathis) — retained in source history, not public
+- The Apex (the-apex) — retained in source history, not public
+- The First Forge control chamber (the-first-forge-control-chamber) — merged into The First Forge
+- Age of Ascendants (age-of-ascendants) — retained in source history, not public
+- Age of Champions (age-of-champions) — retained in source history, not public
+- Darian's Ascension (darian-s-ascension) — retained in source history, not public
+- Historical mysteries (historical-mysteries) — retained in source history, not public
+- Lost Kael Period (lost-kael-period) — retained in source history, not public
+- Sanitization of History (sanitization-of-history) — retained in source history, not public
+- Ash: Where Ruin Becomes Resolve (saga-ash) — retained in source history, not public
+- Cinder: The Unyielding (saga-cinder) — retained in source history, not public
+- Damascus: The Queen’s Forge (saga-damascus) — retained in source history, not public
+- Ember: Feed the Flame (saga-ember) — retained in source history, not public
+- Kharadon’s Summit: Every Legend Must Ascend (saga-kharadons-summit) — retained in source history, not public
+- Obsidian: The Black Crown (saga-obsidian) — retained in source history, not public
+- Saga of Aetherforge (saga-of-aetherforge) — retained in source history, not public
+- Titanium: The Silver Measure (saga-titanium) — retained in source history, not public
+- The Daggersmith (game) (the-daggersmith-game) — retained in source history, not public
+- FYI Guilds (fyi-guilds) — retained in source history, not public
+- Northashe family (northashe-family) — merged into Lilith Vanthe
+- Outside societies (outside-societies) — retained in source history, not public
+- Smithing licenses (smithing-licenses) — retained in source history, not public
+- Vaelorian Conclave (vaelorian-conclave) — retained in source history, not public
+- Aetherforge's Royal Family (aetherforge-s-royal-family) — retained in source history, not public
+- Ashborn (ashborn) — merged into Lyra Vale
+- Generations fictional identities (generations-fictional-identities) — retained in source history, not public
+
+## Retained entries
+
+- Ancient inscription — Artifacts; 0 sections
+- Daggers — World & Society; 1 sections
+- Division Daggers — Artifacts; 1 sections
+- Founder's Seat — Artifacts; 0 sections
+- Golden Crucible Dagger — Artifacts; 0 sections
+- Identifier 117-3A — Artifacts; 0 sections
+- Kharadon's seal — Artifacts; 0 sections
+- The Ashen Reach — Artifacts; 0 sections
+- Unbroken Star — Artifacts; 0 sections
+- Aeren Vale — Characters; 3 sections
+- Aric Flare — Characters; 0 sections
+- Bustin — Characters; 1 sections
+- Caelor Rhyne — Characters; 1 sections
+- Cassian Rourke — Characters; 1 sections
+- Darian Vex — Characters; 1 sections
+- Draven Vale — Characters; 0 sections
+- Edric Mourn — Characters; 1 sections
+- Ellen Vale — Characters; 2 sections
+- Jalen Marr — Characters; 0 sections
+- Kael Varen — Characters; 3 sections
+- Kaelen Rhyne — Characters; 1 sections
+- Lauren — Characters; 0 sections
+- Lilith and Lyra — Characters; 2 sections
+- Lilith Vanthe — Characters; 5 sections
+- Lyra (Acolyte12) — Characters; 2 sections
+- Lyra Vale — Characters; 1 sections
+- Maera Sol — Characters; 0 sections
+- Malrek Voss — Characters; 1 sections
+- Mira Ardyn — Characters; 1 sections
+- Nyra Solvar — Characters; 1 sections
+- Orin Cade — Characters; 1 sections
+- PJ — Characters; 1 sections
+- Rheon Valek — Characters; 1 sections
+- Rowden Groves — Characters; 1 sections
+- Selene Ardyn — Characters; 1 sections
+- Sera Voss — Characters; 1 sections
+- Soulless — Characters; 1 sections
+- Tessa Brann — Characters; 1 sections
+- Torren Drake — Characters; 1 sections
+- Torrick Drake — Characters; 1 sections
+- Travis Pope — Characters; 1 sections
+- Vanthe Plouffe — Characters; 0 sections
+- Whiskey — Characters; 1 sections
+- Aetherforge Inferno — Competition; 1 sections
+- Crucibles — Competition; 2 sections
+- Ignition — Competition; 4 sections
+- Ladder of Legends — Competition; 3 sections
+- The Eight — Competition; 2 sections
+- The Last Spark — Competition; 2 sections
+- Cinderian brimstone — Craftsmanship; 0 sections
+- Daggersmithing — Craftsmanship; 1 sections
+- Irons — Craftsmanship; 1 sections
+- Obsidian (material) — World & Society; 0 sections
+- Competitive aliases — Culture & Society; 0 sections
+- Material culture — Culture & Society; 0 sections
+- Taverns — Culture & Society; 0 sections
+- The Six Kingdoms — World & Society; 2 sections
+- Ascension Bridges — Geography; 2 sections
+- Ash — Geography; 2 sections
+- Cinder — Geography; 1 sections
+- Crown Grounds — Geography; 1 sections
+- Damascus — Geography; 1 sections
+- Ember — Geography; 1 sections
+- Ember Ridge — Geography; 0 sections
+- Hall of the Six — Geography; 1 sections
+- Kharadon’s Summit — Geography; 0 sections
+- Obsidian — Geography; 1 sections
+- Sparkhaven — Geography; 2 sections
+- The First Ascension Bridge — Geography; 1 sections
+- The First Forge — Geography; 2 sections
+- Titanium — Geography; 1 sections
+- Vaelorian Citadel — Geography; 2 sections
+- Age of Kharadon — History; 0 sections
+- Age of Six Wings — History; 0 sections
+- Age of the First Spark — History; 0 sections
+- First Ascension — History; 0 sections
+- Ladder Awakening — History; 1 sections
+- Reforging — History; 0 sections
+- Second Descent — History; 0 sections
+- War of the Broken Summit — History; 1 sections
+- War of the Six Crowns — History; 1 sections
+- Ignition: The First Spark — Literature; 2 sections
+- The Daggersmith (literary work) — Literature; 1 sections
+- The Summit and the Chain — Literature; 0 sections
+- Aether — Magic; 0 sections
+- Ascension infrastructure — Magic; 1 sections
+- Magic — World & Society; 0 sections
+- Aurelith — Mythology; 1 sections
+- Drakhar — Mythology; 1 sections
+- Eternal Forge — Mythology; 0 sections
+- First Spark — Mythology; 0 sections
+- Kharadon — Mythology; 2 sections
+- Pyrakon — Mythology; 1 sections
+- Seraphyne — Mythology; 1 sections
+- Seven Lessons of Ascension — Mythology; 1 sections
+- Unshaped Aether — Mythology; 0 sections
+- Varkyros — Mythology; 1 sections
+- Veyrath — Mythology; 1 sections
+- Administrative Council — World & Society; 4 sections
+- Ascendants (Crownless) — Organizations; 0 sections
+- Crownless — Organizations; 2 sections
+- FYI — Organizations; 1 sections
+- Greyhands — Organizations; 0 sections
+- Hollow Crown — Organizations; 0 sections
+- House Ardyn — Organizations; 1 sections
+- House Calix — Organizations; 0 sections
+- House Drake — Organizations; 1 sections
+- House Flare — Organizations; 1 sections
+- House Mordane — Organizations; 0 sections
+- House Mourn — Organizations; 0 sections
+- House Noirren — Organizations; 0 sections
+- House Rhyne — Organizations; 1 sections
+- House Solvar — Organizations; 1 sections
+- House Vale — Organizations; 1 sections
+- House Velora — Organizations; 0 sections
+- House Vex — Organizations; 0 sections
+- House Voss — Organizations; 1 sections
+- Ironbound — Organizations; 0 sections
+- Kindled — Organizations; 0 sections
+- New Crownless — Organizations; 1 sections
+- Reformers — Organizations; 0 sections
+- Sentinel Order — Organizations; 0 sections
+- Thousand Hands — Organizations; 0 sections
+- Calendar of Aetherforge — Terminology; 0 sections
+- Golden Dragons — World & Society; 0 sections
+- Sorceress Supreme — Terminology; 0 sections
+- The Daggersmith (title) — Terminology; 0 sections
