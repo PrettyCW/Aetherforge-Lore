@@ -18,6 +18,38 @@
       }
     },
     {
+      "id": "artifacts-bloodied-daggers",
+      "title": "Bloodied Daggers",
+      "slug": "bloodied-daggers",
+      "category": "Artifacts",
+      "description": "A Bloodied Dagger is a serialized wagered dagger enhanced through its first Bold victory. Further victories add Prestige at Fibonacci milestones, with no hard cap. Progress belongs to the exact dagger: transfer preserves it and defeat does not reset it.",
+      "content": [],
+      "relatedIds": [
+        "artifacts-daggers"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "artifacts-crucible-daggers",
+      "title": "Crucible Daggers",
+      "slug": "crucible-daggers",
+      "category": "Artifacts",
+      "description": "Crucible awards use Emerald daggers with Bronze, Silver and Gold base Prestige of 9, 11 and 13; Dragonsteel equivalents carry 10, 13 and 16. Participation has base Prestige 1. Season II does not award relegation daggers.",
+      "content": [],
+      "relatedIds": [
+        "artifacts-daggers"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
       "id": "artifacts-daggers",
       "title": "Daggers",
       "slug": "daggers",
@@ -27,10 +59,23 @@
         {
           "heading": "Significance",
           "body": "A dagger carries the identity and accomplishments of its owner. Daggersmiths engrave, craft and maintain these objects; the Council safeguards competitive records."
+        },
+        {
+          "heading": "FYI awards and game systems",
+          "body": "FYI league and game systems distinguish daggers by award, competitive achievement, provenance and wager history. These rules are separate from the physical nature of daggers in the fictional setting."
         }
       ],
       "relatedIds": [
-        "craftsmanship-daggersmithing"
+        "craftsmanship-daggersmithing",
+        "craftsmanship-dagger-provenance",
+        "artifacts-bloodied-daggers",
+        "artifacts-crucible-daggers",
+        "artifacts-dragonsteel-daggers",
+        "artifacts-kickoff-dagger",
+        "artifacts-legendary-daggers",
+        "artifacts-participation-daggers",
+        "artifacts-placement-daggers",
+        "artifacts-playoff-daggers"
       ],
       "aliases": [
         "dagger-system"
@@ -60,6 +105,22 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "artifacts-dragonsteel-daggers",
+      "title": "Dragonsteel Daggers",
+      "slug": "dragonsteel-daggers",
+      "category": "Artifacts",
+      "description": "Weekly Dragonsteel awards recognize Bold wins: Bronze at one, Silver at three and Gold for the most wins. The awards stack, and a 2v2 win counts twice. Generations explicitly awards Gold to all golfers tied for the weekly lead.",
+      "content": [],
+      "relatedIds": [
+        "artifacts-daggers"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
       }
     },
     {
@@ -104,7 +165,7 @@
       "title": "Identifier 117-3A",
       "slug": "identifier-117-3a",
       "category": "Artifacts",
-      "description": "117-3A is an identifier connecting Rheon Valek’s modern credential with ancient archival records examined during The First Spark. The relationship between the records and Rheon remains unresolved.",
+      "description": "117-3A is an identifier recorded in ancient archives and associated with Rheon Valek’s modern credential. The relationship between the historical and modern records is unresolved.",
       "content": [],
       "relatedIds": [
         "characters-edric-mourn",
@@ -120,11 +181,33 @@
       }
     },
     {
+      "id": "artifacts-kharadon-s-crown",
+      "title": "Kharadon’s Crown",
+      "slug": "kharadon-s-crown",
+      "category": "Artifacts",
+      "description": "Kharadon’s Crown is a FYI Guilds standings award for the guild with the best cumulative raw score across all finishers.",
+      "content": [
+        {
+          "heading": "Award",
+          "body": "The archived Season 1 rules assign five standings points. Crown tie treatment remains unconfirmed in the recovered rules. The award does not establish a physical crown in fictional lore."
+        }
+      ],
+      "relatedIds": [
+        "organizations-fyi-guilds",
+        "artifacts-kingdom-seals"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
       "id": "artifacts-kharadon-s-seal",
       "title": "Kharadon's seal",
       "slug": "kharadon-s-seal",
       "category": "Artifacts",
-      "description": "Kharadon’s seal is a seven-pointed forge-star surrounding a central flame. PJ discovers the emblem in a chamber beneath the First Forge during The First Spark.",
+      "description": "Kharadon’s seal is a seven-pointed forge-star surrounding a central flame. It is present in ancient infrastructure beneath the First Forge.",
       "content": [],
       "relatedIds": [
         "literature-ignition-the-first-spark",
@@ -135,6 +218,136 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "artifacts-kickoff-dagger",
+      "title": "Kickoff Dagger",
+      "slug": "kickoff-dagger",
+      "category": "Artifacts",
+      "description": "The Season 2 Kickoff Dagger is a non-wagerable commemorative award with zero Prestige. It is granted once to simulated FYI members present in the entry snapshot, excluding visiting outsiders.",
+      "content": [],
+      "relatedIds": [
+        "artifacts-daggers"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
+      }
+    },
+    {
+      "id": "artifacts-kingdom-seals",
+      "title": "Kingdom Seals",
+      "slug": "kingdom-seals",
+      "category": "Artifacts",
+      "description": "Kingdom Seals are FYI Guilds awards recognizing individual performance, collective mastery and roster participation. They award additional standings points under the applicable season rules.",
+      "content": [
+        {
+          "heading": "Dominion",
+          "body": "Five points for an event winner, or three for a top-five finisher when the guild has no winner."
+        },
+        {
+          "heading": "Precision",
+          "body": "Three points when at least one-third of the roster, rounded up, finishes within ten strokes of the leader."
+        },
+        {
+          "heading": "Mastery",
+          "body": "Three points when at least half the roster, rounded up, finishes in the top half of the field."
+        },
+        {
+          "heading": "Flame",
+          "body": "Three points when at least 40% of the roster, rounded up, finishes at −40 or better under the recovered Season 1 scoring specification."
+        },
+        {
+          "heading": "Roster completion (Endurance / Cinder)",
+          "body": "Three points at 85% roster completion or five points for full completion. The recovered workbook uses Endurance; the current naming has also used Cinder."
+        },
+        {
+          "heading": "Unbroken",
+          "body": "At least 85% of the roster must complete the event. The best two scores outside the top twelve count; with exactly thirteen finishers, use the thirteenth score, and with exactly twelve eligible finishers, use the twelfth. The lowest eligible total earns five points; tied guilds all win."
+        }
+      ],
+      "relatedIds": [
+        "organizations-fyi-guilds",
+        "competition-guild-placement-scoring",
+        "artifacts-kharadon-s-crown"
+      ],
+      "aliases": [
+        "seal-of-dominion",
+        "seal-of-endurance",
+        "seal-of-flame",
+        "seal-of-mastery",
+        "seal-of-precision",
+        "seal-of-the-unbroken"
+      ],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "artifacts-legendary-daggers",
+      "title": "Legendary daggers",
+      "slug": "legendary-daggers",
+      "category": "Artifacts",
+      "description": "Legendary significance may arise from extraordinary workmanship, exceptional materials, dragon recognition or the achievements of a wielder. These four paths can accumulate on a single dagger in the game design.",
+      "content": [],
+      "relatedIds": [
+        "artifacts-daggers"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
+      }
+    },
+    {
+      "id": "artifacts-participation-daggers",
+      "title": "Participation Daggers",
+      "slug": "participation-daggers",
+      "category": "Artifacts",
+      "description": "Competitors earn one Participation Dagger for completing three society events in an eligible week through week six. Playoff weeks and non-division entrants are included.",
+      "content": [],
+      "relatedIds": [
+        "artifacts-daggers"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "artifacts-placement-daggers",
+      "title": "Placement Daggers",
+      "slug": "placement-daggers",
+      "category": "Artifacts",
+      "description": "Placement Daggers are reserved for divisional entrants in standalone Season 1. Base Prestige rises by division: Ashen 2, Cinder 4, Ember 6, Damascus 8, Titanium 10 and Obsidian 12.",
+      "content": [],
+      "relatedIds": [
+        "artifacts-daggers"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
+      }
+    },
+    {
+      "id": "artifacts-playoff-daggers",
+      "title": "Playoff Daggers",
+      "slug": "playoff-daggers",
+      "category": "Artifacts",
+      "description": "Each playoff qualifier receives one gold-handled dagger. The award progression is Pearl (3 Prestige), Lapis Lazuli (5), Opal (8), Moonstone (12), Amethyst (16), Topaz (22), Sapphire (40), Ruby (55) and Diamond (70).",
+      "content": [],
+      "relatedIds": [
+        "artifacts-daggers"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
       }
     },
     {
@@ -175,23 +388,18 @@
       "title": "Aeren Vale",
       "slug": "aeren-vale",
       "category": "Characters",
-      "description": "Aeren Vale is an Ash-born golfer who earns the final place in Ash during the Ignition depicted in The First Spark.",
+      "description": "Aeren Vale is an Ash-born golfer, the son of Ellen and Draven Vale and a member of the Eight.",
       "content": [
         {
-          "heading": "Background",
-          "body": "Aeren is the son of Ellen and Draven Vale. The reputation of the Vale family, especially the legendary Lyra Vale, weighs heavily on him. He wants recognition for his own achievements rather than his surname."
+          "heading": "Family and identity",
+          "body": "Aeren belongs to House Vale, a family associated with resilience and the legendary champion Lyra Vale. He seeks recognition independent of the family name."
         },
         {
-          "heading": "Ignition",
-          "body": "Aeren befriends Torrick Drake and develops a rivalry with Cassian Rourke. His early difficulties teach him to distinguish sound judgment from the desire to impress spectators."
-        },
-        {
-          "heading": "The Last Spark",
-          "body": "Aeren defeats Cassian in sudden death to become the eighth qualifier. His advancement reflects lessons in patience, decision-making and choosing appropriate risks."
+          "heading": "Associations",
+          "body": "Torrick Drake is his friend and Cassian Rourke is a competitive rival."
         }
       ],
       "relatedIds": [
-        "competition-the-last-spark",
         "competition-the-eight",
         "characters-ellen-vale",
         "characters-draven-vale",
@@ -220,6 +428,22 @@
       "publication": {
         "status": "author_approved",
         "canon": "Uncertain tradition"
+      }
+    },
+    {
+      "id": "characters-briar-sloane",
+      "title": "Briar Sloane",
+      "slug": "briar-sloane",
+      "category": "Characters",
+      "description": "Briar Sloane is a golfer associated with Lilith Vanthe’s competitive career.",
+      "content": [],
+      "relatedIds": [
+        "characters-lilith-vanthe"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established lore"
       }
     },
     {
@@ -273,18 +497,28 @@
       "title": "Cassian Rourke",
       "slug": "cassian-rourke",
       "category": "Characters",
-      "description": "Cassian Rourke is an Ignition competitor and Aeren Vale’s rival in The First Spark.",
-      "content": [
-        {
-          "heading": "Rivalry and qualification",
-          "body": "A powerful hitter, Cassian draws attention through his aggressive play. He and Aeren finish level in qualifying and contest the Last Spark for the remaining Ash place. Cassian loses the playoff but acknowledges Aeren’s judgment."
-        }
-      ],
+      "description": "Cassian Rourke is a golfer known for powerful, aggressive play and his competitive rivalry with Aeren Vale.",
+      "content": [],
       "relatedIds": [
-        "competition-the-last-spark",
         "characters-aeren-vale",
         "literature-ignition-the-first-spark",
         "magic-ascension-infrastructure"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established lore"
+      }
+    },
+    {
+      "id": "characters-corin-thale",
+      "title": "Corin Thale",
+      "slug": "corin-thale",
+      "category": "Characters",
+      "description": "Corin Thale is a golfer associated with Ignition.",
+      "content": [],
+      "relatedIds": [
+        "competition-ignition"
       ],
       "aliases": [],
       "publication": {
@@ -310,7 +544,9 @@
         "characters-kael-varen",
         "characters-rheon-valek",
         "mythology-eternal-forge",
-        "literature-the-summit-and-the-chain"
+        "literature-the-summit-and-the-chain",
+        "history-darian-s-ascension",
+        "history-sanitization-of-history"
       ],
       "aliases": [],
       "publication": {
@@ -343,19 +579,31 @@
       "title": "Edric Mourn",
       "slug": "edric-mourn",
       "category": "Characters",
-      "description": "Edric Mourn is associated with archival investigation at Vaelorian Citadel.",
-      "content": [
-        {
-          "heading": "Discovery",
-          "body": "While comparing tournament registers, Edric identifies a connection between a modern credential and ancient records. His discovery contributes to the Council’s investigation during The First Spark."
-        }
-      ],
+      "description": "Edric Mourn is associated with archival research at Vaelorian Citadel and the investigation of historical records.",
+      "content": [],
       "relatedIds": [
         "artifacts-identifier-117-3a",
         "characters-darian-vex",
         "characters-kael-varen",
         "geography-vaelorian-citadel",
         "mythology-seraphyne"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established lore"
+      }
+    },
+    {
+      "id": "characters-elias-kest",
+      "title": "Elias Kest",
+      "slug": "elias-kest",
+      "category": "Characters",
+      "description": "Elias Kest is a golfer who represents Titanium at Ignition.",
+      "content": [],
+      "relatedIds": [
+        "geography-titanium",
+        "competition-ignition"
       ],
       "aliases": [],
       "publication": {
@@ -393,11 +641,27 @@
       }
     },
     {
+      "id": "characters-ilyse",
+      "title": "Ilyse",
+      "slug": "ilyse",
+      "category": "Characters",
+      "description": "Ilyse is a character associated with Kira in the developing Daggersmith-era story. Further biographical details are not finalized.",
+      "content": [],
+      "relatedIds": [
+        "characters-kira"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
+      }
+    },
+    {
       "id": "characters-jalen-marr",
       "title": "Jalen Marr",
       "slug": "jalen-marr",
       "category": "Characters",
-      "description": "Jalen Marr is an Ignition competitor who shares a seeding group with Aeren Vale, Torrick Drake and Corin Thale. He later faces Aeren during head-to-head qualifying.",
+      "description": "Jalen Marr is a golfer associated with the Ignition competition.",
       "content": [],
       "relatedIds": [
         "characters-torrick-drake"
@@ -433,7 +697,9 @@
         "artifacts-unbroken-star",
         "characters-darian-vex",
         "characters-edric-mourn",
-        "characters-rheon-valek"
+        "characters-rheon-valek",
+        "history-lost-kael-period",
+        "history-sanitization-of-history"
       ],
       "aliases": [],
       "publication": {
@@ -446,13 +712,8 @@
       "title": "Kaelen Rhyne",
       "slug": "kaelen-rhyne",
       "category": "Characters",
-      "description": "Kaelen Rhyne is one of the Eight who earn passage to Ash during Ignition.",
-      "content": [
-        {
-          "heading": "Ignition",
-          "body": "Kaelen competes against Mira Ardyn and urges her to report a discovery beneath the First Forge to the Council."
-        }
-      ],
+      "description": "Kaelen Rhyne is a golfer and member of the Eight.",
+      "content": [],
       "relatedIds": [
         "competition-the-eight",
         "characters-mira-ardyn"
@@ -461,6 +722,31 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "characters-kira",
+      "title": "Kira",
+      "slug": "kira",
+      "category": "Characters",
+      "description": "Kira is an Ember-born smith from a family of modest means. She admires Lilith Vanthe’s craftsmanship and aspires to develop her own mastery.",
+      "content": [
+        {
+          "heading": "Family and background",
+          "body": "Her older sister Mara is a locally respected smith, her father works in mining, and she has three younger brothers. Her current character outline describes her as analytical, ambitious and inwardly emotional."
+        }
+      ],
+      "relatedIds": [
+        "geography-ember",
+        "characters-lilith-vanthe",
+        "craftsmanship-daggersmithing",
+        "characters-ilyse",
+        "characters-riven"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -532,7 +818,7 @@
         },
         {
           "heading": "Relationships",
-          "body": "Lilith meets Lyra in Cinder, and their rivalry develops into a romantic partnership. In Ember she meets Ellen Vale, who becomes her lifelong caddie and strategic partner. Travis Pope and Rowden Groves are among her competitive acquaintances."
+          "body": "Lilith meets Lyra in Cinder, and their rivalry develops into a romantic partnership. In Ember she meets Ellen Vale, who becomes her lifelong caddie and strategic partner. Travis Pope and Rowden Groves are among her competitive acquaintances. Her first significant relationship was with Vanthe Plouffe. Her birth family’s circumstances remain unknown."
         },
         {
           "heading": "Council service",
@@ -549,7 +835,10 @@
         "craftsmanship-irons",
         "terminology-the-daggersmith-title",
         "literature-the-daggersmith-literary-work",
-        "terminology-golden-dragons"
+        "terminology-golden-dragons",
+        "characters-briar-sloane",
+        "characters-kira",
+        "literature-the-daggersmith-game"
       ],
       "aliases": [
         "northashe-family"
@@ -656,13 +945,8 @@
       "title": "Mira Ardyn",
       "slug": "mira-ardyn",
       "category": "Characters",
-      "description": "Mira Ardyn is an Ignition competitor and one of the Eight.",
-      "content": [
-        {
-          "heading": "Discovery",
-          "body": "During the qualifying competition, Mira discovers a vertically split crown carved into a wall exposed beneath the First Forge. Kaelen Rhyne urges her to report it to the Council."
-        }
-      ],
+      "description": "Mira Ardyn is a golfer and member of the Eight.",
+      "content": [],
       "relatedIds": [
         "competition-the-eight",
         "characters-kaelen-rhyne",
@@ -681,13 +965,8 @@
       "title": "Nyra Solvar",
       "slug": "nyra-solvar",
       "category": "Characters",
-      "description": "Nyra Solvar is an Ignition competitor and one of the Eight who earn passage into Ash.",
-      "content": [
-        {
-          "heading": "Competition",
-          "body": "Her play at Ignition demonstrates an aggressive approach to opportunity and risk."
-        }
-      ],
+      "description": "Nyra Solvar is a golfer and member of the Eight. She is characterized by an aggressive approach to opportunity and risk.",
+      "content": [],
       "relatedIds": [
         "competition-the-eight",
         "organizations-new-crownless"
@@ -703,13 +982,8 @@
       "title": "Orin Cade",
       "slug": "orin-cade",
       "category": "Characters",
-      "description": "Orin Cade is an Ignition competitor who faces Aeren Vale during head-to-head qualifying.",
-      "content": [
-        {
-          "heading": "Competition",
-          "body": "Orin defeats Aeren through consistent play and a disciplined routine, presenting a contrast to the more aggressive styles of other rivals."
-        }
-      ],
+      "description": "Orin Cade is a golfer whose competitive style emphasizes consistency and a disciplined routine.",
+      "content": [],
       "relatedIds": [
         "characters-aeren-vale"
       ],
@@ -728,7 +1002,7 @@
       "content": [
         {
           "heading": "Responsibilities",
-          "body": "A Damascus native who competes in Obsidian, PJ oversees accuracy and consistency. During Ignition he investigates ancient records and unexplained activity at the First Forge."
+          "body": "A Damascus native who competes in Obsidian, PJ oversees accuracy, quality control and consistency."
         }
       ],
       "relatedIds": [
@@ -749,13 +1023,8 @@
       "title": "Rheon Valek",
       "slug": "rheon-valek",
       "category": "Characters",
-      "description": "Rheon Valek is an Ignition competitor and one of the Eight.",
-      "content": [
-        {
-          "heading": "Qualification and mystery",
-          "body": "Rheon qualifies directly for Ash without losing a qualifying match. His credential and the ancient infrastructure display unusual responses during the competition, attracting the Council’s attention. Their cause is not established."
-        }
-      ],
+      "description": "Rheon Valek is a golfer and member of the Eight, associated with the unexplained credential identifier 117-3A.",
+      "content": [],
       "relatedIds": [
         "competition-the-eight",
         "artifacts-identifier-117-3a",
@@ -768,6 +1037,23 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "characters-riven",
+      "title": "Riven",
+      "slug": "riven",
+      "category": "Characters",
+      "description": "Riven is an Obsidian character and rival associated with Kira. Further biographical details remain unsettled.",
+      "content": [],
+      "relatedIds": [
+        "characters-kira",
+        "geography-obsidian"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -821,13 +1107,8 @@
       "title": "Sera Voss",
       "slug": "sera-voss",
       "category": "Characters",
-      "description": "Sera Voss is an Ignition competitor associated with House Voss and one of the Eight.",
-      "content": [
-        {
-          "heading": "Competition",
-          "body": "Sera demonstrates precise wedge control and consistent play. She challenges Aeren Vale’s approach to competition and faces him in head-to-head qualifying. She earns direct passage into Ash."
-        }
-      ],
+      "description": "Sera Voss is a golfer associated with House Voss and a member of the Eight. Her playing style emphasizes precision and consistency.",
+      "content": [],
       "relatedIds": [
         "competition-the-eight",
         "characters-malrek-voss",
@@ -872,13 +1153,8 @@
       "title": "Tessa Brann",
       "slug": "tessa-brann",
       "category": "Characters",
-      "description": "Tessa Brann is one of the Eight who qualify for Ash during The First Spark.",
-      "content": [
-        {
-          "heading": "Ignition",
-          "body": "She earns direct passage into Ash after qualifying competition that includes a halved match with Rheon Valek. She witnesses an unusual response involving Rheon’s credential."
-        }
-      ],
+      "description": "Tessa Brann is a golfer and member of the Eight.",
+      "content": [],
       "relatedIds": [
         "competition-the-eight",
         "magic-ascension-infrastructure"
@@ -915,13 +1191,8 @@
       "title": "Torrick Drake",
       "slug": "torrick-drake",
       "category": "Characters",
-      "description": "Torrick Drake is a Cinder contender and one of the Eight who earn passage into Ash.",
-      "content": [
-        {
-          "heading": "Ignition",
-          "body": "Torrick meets Aeren Vale during seeding and becomes his friend. His encouragement helps Aeren confront the pressure of his family reputation."
-        }
-      ],
+      "description": "Torrick Drake is a Cinder contender, friend of Aeren Vale and member of the Eight.",
+      "content": [],
       "relatedIds": [
         "competition-the-eight",
         "characters-aeren-vale",
@@ -967,6 +1238,22 @@
       "content": [],
       "relatedIds": [
         "organizations-crownless"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Established lore"
+      }
+    },
+    {
+      "id": "characters-vela-sorn",
+      "title": "Vela Sorn",
+      "slug": "vela-sorn",
+      "category": "Characters",
+      "description": "Vela Sorn is a golfer associated with Ignition.",
+      "content": [],
+      "relatedIds": [
+        "competition-ignition"
       ],
       "aliases": [],
       "publication": {
@@ -1022,6 +1309,38 @@
       }
     },
     {
+      "id": "competition-bold-challenges",
+      "title": "Bold challenges",
+      "slug": "bold-challenges",
+      "category": "Competition",
+      "description": "In a one-on-one Bold Challenge, the winner keeps the wagered dagger and captures the loser's. Teams in two-on-two play are randomized, and each winning dagger receives two Bold wins. Losing daggers are selected according to winning-wager Prestige, then signup order.",
+      "content": [],
+      "relatedIds": [
+        "competition-dragon-s-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-christmas-exhibition",
+      "title": "Christmas exhibition",
+      "slug": "christmas-exhibition",
+      "category": "Competition",
+      "description": "The Christmas Exhibition is the week-five special event of FYI Guilds Season 1. It recognizes the best individual performance and best cumulative guild score without awarding regular-season standings or Seal points.",
+      "content": [],
+      "relatedIds": [
+        "competition-fyi-guilds-season-1"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
       "id": "competition-crucibles",
       "title": "Crucibles",
       "slug": "crucibles",
@@ -1050,27 +1369,235 @@
       }
     },
     {
+      "id": "competition-direct-challenges",
+      "title": "Direct challenges",
+      "slug": "direct-challenges",
+      "category": "Competition",
+      "description": "Direct Challenges permit multiple daggers of unequal value to be wagered. Ownership transfers on a loss, but Direct wins do not advance Bloodied progression. Winning teammates alternate picks from the losing pool.",
+      "content": [],
+      "relatedIds": [
+        "competition-dragon-s-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-division-movement",
+      "title": "Division movement",
+      "slug": "division-movement",
+      "category": "Competition",
+      "description": "The top two competitors promote and the bottom two relegate where a neighboring division exists. Event podium daggers use two-round aggregate results, with competition-ranking ties.",
+      "content": [
+        {
+          "heading": "Generations rules",
+          "body": "In the standalone simulation, main-league rosters change only during the offseason. Departures create no-show losses while records and inactive identities persist; vacancies cascade upward, with further generalization still open."
+        }
+      ],
+      "relatedIds": [
+        "competition-dragon-s-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-dragon-s-ascension",
+      "title": "Dragon’s Ascension",
+      "slug": "dragon-s-ascension",
+      "category": "Competition",
+      "description": "Dragon’s Ascension is FYI’s individual league competition, distinct from the team-based Inferno.",
+      "content": [
+        {
+          "heading": "Divisional structure",
+          "body": "The league is organized around the six divisions of the Ladder, with movement between divisions based on performance."
+        },
+        {
+          "heading": "Season II",
+          "body": "The Trial of Blades is the final Crown event in the Season II league rules."
+        }
+      ],
+      "relatedIds": [
+        "competition-ladder-of-legends",
+        "competition-trial-of-blades",
+        "competition-division-movement",
+        "competition-dragon-s-ascension-playoffs",
+        "competition-dragon-s-ascension-generations",
+        "competition-bold-challenges",
+        "competition-direct-challenges",
+        "competition-postseason-division-challenges",
+        "competition-ironbound-ranking",
+        "competition-ironbound-arena",
+        "competition-inter-society-ryder-cup"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-dragon-s-ascension-generations",
+      "title": "Dragon’s Ascension: Generations",
+      "slug": "dragon-s-ascension-generations",
+      "category": "Competition",
+      "description": "Dragon’s Ascension: Generations is a simulated golf career manager set in fictional FYI.",
+      "content": [
+        {
+          "heading": "Career",
+          "body": "Golfers compete across six divisions, advance or relegate, build careers and collect daggers. Results come from the simulation rather than real-world player performance. Collectible daggers do not improve golfer skill."
+        },
+        {
+          "heading": "Competition systems",
+          "body": "The game includes regular divisional competition, Crucibles, the Trial of Blades, Bold matches through the Ironbound Arena and inter-society invitationals."
+        },
+        {
+          "heading": "Calendar",
+          "body": "A repeating 49-day cycle runs weeks 1–6 followed by Week 0. Week 0 contains the previous season's Trial and promotion event while preparing the next season."
+        },
+        {
+          "heading": "Outside societies",
+          "body": "Outside societies host occasional standalone invitationals rather than fully simulated leagues. Visitors may later enter FYI, but external results grant neither direct placement nor FYI Prestige. Outside awards are separate recognition; FYI remains the home society."
+        },
+        {
+          "heading": "Career records",
+          "body": "League news and career histories in Generations derive from actual simulated results rather than invented accomplishments. Rivalries, partnerships, dagger provenance and standings persist across the simulation."
+        },
+        {
+          "heading": "Partnerships",
+          "body": "Pair chemistry is persistent in the simulation and improves through playing together, not merely winning. Partners chosen for outside events do not override randomly assigned Bold teams."
+        }
+      ],
+      "relatedIds": [
+        "competition-dragon-s-ascension",
+        "competition-ironbound-arena",
+        "competition-trial-of-blades"
+      ],
+      "aliases": [
+        "generations-calendar",
+        "outside-societies",
+        "competitive-records",
+        "partnerships"
+      ],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
+      }
+    },
+    {
+      "id": "competition-dragon-s-ascension-playoffs",
+      "title": "Dragon’s Ascension playoffs",
+      "slug": "dragon-s-ascension-playoffs",
+      "category": "Competition",
+      "description": "Six competitors per division qualify for the playoffs, except Obsidian, which supplies eight. Across eight stages, higher divisions enter progressively and seeding pairs high against low. Playoff results do not govern division movement.",
+      "content": [],
+      "relatedIds": [
+        "competition-dragon-s-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-fyi-guilds-season-1",
+      "title": "FYI Guilds Season 1",
+      "slug": "fyi-guilds-season-1",
+      "category": "Competition",
+      "description": "FYI Guilds Season 1 begins November 22, 2026, and spans nine weeks.",
+      "content": [
+        {
+          "heading": "Schedule",
+          "body": "Weeks 1–4: regular season. Week 5: Christmas special. Weeks 6–7: regular season. Week 8: The Convergence. Week 9: Championship Final."
+        },
+        {
+          "heading": "Format",
+          "body": "Regular events use four rounds. Only finalized results count toward official standings. The Christmas event is a seasonal special rather than a permanent fixture."
+        }
+      ],
+      "relatedIds": [
+        "organizations-fyi-guilds",
+        "competition-christmas-exhibition",
+        "competition-guild-championship",
+        "competition-the-convergence"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-guild-championship",
+      "title": "Guild Championship",
+      "slug": "guild-championship",
+      "category": "Competition",
+      "description": "The Guild Championship is the season-ending contest between the two highest-ranked guilds.",
+      "content": [
+        {
+          "heading": "Season 1 format",
+          "body": "The finalists nominate five players each for best-of-five head-to-head competition. Each matchup compares the competitors’ four-round totals. The Championship determines the season champion rather than adding regular-season standings points."
+        }
+      ],
+      "relatedIds": [
+        "organizations-fyi-guilds",
+        "competition-fyi-guilds-season-1"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-guild-placement-scoring",
+      "title": "Guild placement scoring",
+      "slug": "guild-placement-scoring",
+      "category": "Competition",
+      "description": "Regular-season FYI Guilds scoring uses two placement brackets based on cumulative raw scores.",
+      "content": [
+        {
+          "heading": "Brackets",
+          "body": "The six best finishers in each guild form the first bracket; finishers seven through twelve form the second. Lower totals rank higher. The first bracket awards 20, 16, 12, 8, 4 and 2 points; the second awards 10, 8, 6, 4, 2 and 1. Ties split occupied placement points and round each share up."
+        }
+      ],
+      "relatedIds": [
+        "organizations-fyi-guilds",
+        "artifacts-kingdom-seals"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
       "id": "competition-ignition",
       "title": "Ignition",
       "slug": "ignition",
       "category": "Competition",
-      "description": "Ignition is the gateway to the Ladder of Legends. It stands outside the six kingdoms and has neither a permanent division nor a patron dragon.",
+      "description": "Ignition is the gateway to the Ladder of Legends, outside the six kingdoms. It has no permanent division or patron dragon.",
       "content": [
         {
           "heading": "Philosophy",
-          "body": "Its traditional words are “Where Sparks Become Flame.” Ignition offers competitors a beginning regardless of past success, failure or reputation. Where Ash represents recovery, Ignition represents the opportunity to begin."
+          "body": "Its traditional words are “Where Sparks Become Flame.” Ignition offers a beginning regardless of past reputation, success or failure. Where Ash represents recovery, Ignition represents the opportunity to begin."
         },
         {
-          "heading": "Location and traditions",
-          "body": "Ignition takes place at Sparkhaven, on the grounds of the First Forge. Competitors register their names and origins, receive a starting time and a blank Ignition dagger, and have the dagger personalized by a daggersmith."
+          "heading": "Location and registration",
+          "body": "Ignition takes place in Sparkhaven at the First Forge. Competitors register their names and origins, receive a starting time and a blank Ignition dagger, and have their dagger personalized by a daggersmith."
         },
         {
           "heading": "Qualification",
-          "body": "In The First Spark, an open seeding competition is followed by head-to-head matches among sixteen qualifiers. Eight earn passage into Ash. Scores reset upon advancement; the experience gained remains with the competitors."
+          "body": "The literary competition uses open seeding followed by head-to-head qualification among sixteen contenders, with eight advancing to Ash. Scores do not carry into Ash."
         },
         {
-          "heading": "Notable events",
-          "body": "Seven competitors qualify directly during The First Spark. Aeren Vale defeats Cassian Rourke in a sunset playoff for the final place, completing the group known as the Eight."
+          "heading": "Generations",
+          "body": "The simulation uses Ignition as an open feeder. Its top two promote to Ash, with additional advancement possible when vacancies arise. This game format is distinct from the literary format."
         }
       ],
       "relatedIds": [
@@ -1079,15 +1606,92 @@
         "competition-ladder-of-legends",
         "geography-ash",
         "competition-the-eight",
-        "competition-the-last-spark",
-        "artifacts-division-daggers"
+        "artifacts-division-daggers",
+        "characters-corin-thale",
+        "characters-elias-kest",
+        "characters-vela-sorn"
       ],
       "aliases": [
-        "ignition-registration-area"
+        "ignition-registration-area",
+        "the-last-spark"
       ],
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "competition-inter-society-ryder-cup",
+      "title": "Inter-Society Ryder Cup",
+      "slug": "inter-society-ryder-cup",
+      "category": "Competition",
+      "description": "Two twelve-player societies contest twenty-eight matches over three days: eight foursomes, eight four-ball and twelve singles. A win earns one point and a tie half a point; 14.5 wins outright. Eight automatic qualifiers must have participated in the latest Trial, joined by four captain's picks. Captaincy rotates and may be playing or non-playing. The design targets one Cup every two to three seasons, never before a completed Trial. The inaugural 14–14 tie triggers a deciding match; later ties favor the defending society. Captains select willing replacements.",
+      "content": [],
+      "relatedIds": [
+        "competition-dragon-s-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
+      }
+    },
+    {
+      "id": "competition-ironbound-arena",
+      "title": "Ironbound Arena",
+      "slug": "ironbound-arena",
+      "category": "Competition",
+      "description": "The standalone Ironbound Arena forms Bold matches immediately among genuine eligible simulated golfers rather than creating queues, fabricated opponents or pending escrow. It has a five-completed-match daily cap, randomized two-on-two play and serialized wager histories. Direct Challenges remain a real FYI bot function outside this arena.",
+      "content": [],
+      "relatedIds": [
+        "competition-dragon-s-ascension",
+        "competition-dragon-s-ascension-generations"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
+      }
+    },
+    {
+      "id": "competition-ironbound-ranking",
+      "title": "Ironbound Ranking",
+      "slug": "ironbound-ranking",
+      "category": "Competition",
+      "description": "Ironbound Ranking totals the five best eligible current-season non-playoff daggers and a separate sixth playoff dagger. The ranking freezes when playoffs conclude.",
+      "content": [],
+      "relatedIds": [
+        "competition-dragon-s-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-kharadon-s-ascension",
+      "title": "Kharadon’s Ascension",
+      "slug": "kharadon-s-ascension",
+      "category": "Competition",
+      "description": "Kharadon’s Ascension is the name associated with the literary competitive era spanning Season I and Season II. It is distinct from the mythic destination of Kharadon’s Summit.",
+      "content": [
+        {
+          "heading": "Seasons",
+          "body": "Season I precedes the present era of The First Spark. Season II is associated with head-to-head competition. Their relationship to the real FYI league formats is not assumed to be identical."
+        }
+      ],
+      "relatedIds": [
+        "geography-kharadon-s-summit",
+        "competition-ladder-of-legends"
+      ],
+      "aliases": [
+        "kharadon-s-ascension-season-i",
+        "kharadon-s-ascension-season-ii"
+      ],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -1116,7 +1720,10 @@
         "geography-kharadon-s-summit",
         "mythology-kharadon",
         "competition-crucibles",
-        "geography-ascension-bridges"
+        "geography-ascension-bridges",
+        "history-age-of-ascendants",
+        "competition-dragon-s-ascension",
+        "competition-kharadon-s-ascension"
       ],
       "aliases": [],
       "publication": {
@@ -1125,24 +1732,52 @@
       }
     },
     {
+      "id": "competition-postseason-division-challenges",
+      "title": "Postseason Division Challenges",
+      "slug": "postseason-division-challenges",
+      "category": "Competition",
+      "description": "After automatic movement, a challenger stakes original daggers from the target division numbering the division gap plus one. Two-round aggregate decides the match, with ties favoring the defender. A losing challenger returns the staked daggers; a winner retains them and swaps divisions. Auto-relegated competitors, non-division entrants and Trial participants cannot issue challenges. Each issuer and target may participate once, and cannot occupy both roles. Priority is based on qualifying daggers, division and placement.",
+      "content": [],
+      "relatedIds": [
+        "competition-dragon-s-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "competition-the-convergence",
+      "title": "The Convergence",
+      "slug": "the-convergence",
+      "category": "Competition",
+      "description": "The Convergence is a cooperative FYI Guilds event held in week eight of Season 1.",
+      "content": [
+        {
+          "heading": "Scoring",
+          "body": "Guilds are ranked by combined relative-to-par scores from complete four-round results. Placement points are 40, 30, 20, 16, 12 and 8. These points double if the Council declares the Convergence successful. No numerical success threshold has been finalized in the available rules."
+        }
+      ],
+      "relatedIds": [
+        "organizations-fyi-guilds",
+        "competition-fyi-guilds-season-1"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
       "id": "competition-the-eight",
       "title": "The Eight",
       "slug": "the-eight",
       "category": "Competition",
-      "description": "The Eight are the competitors who earn passage from Ignition into Ash during The First Spark.",
-      "content": [
-        {
-          "heading": "Members",
-          "body": "Rheon Valek, Nyra Solvar, Sera Voss, Kaelen Rhyne, Mira Ardyn, Torrick Drake, Tessa Brann and Aeren Vale."
-        },
-        {
-          "heading": "Qualification and significance",
-          "body": "Seven qualify directly; Aeren earns the final place by defeating Cassian Rourke in the Last Spark. After the competitive result is decided, the ancient infrastructure appears to recognize all eight. The meaning of this response remains unknown."
-        }
-      ],
+      "description": "The Eight is the collective designation for Rheon Valek, Nyra Solvar, Sera Voss, Kaelen Rhyne, Mira Ardyn, Torrick Drake, Tessa Brann and Aeren Vale, the group of qualifiers associated with the First Spark era.",
+      "content": [],
       "relatedIds": [
         "competition-ignition",
-        "competition-the-last-spark",
         "characters-aeren-vale",
         "characters-rheon-valek",
         "characters-nyra-solvar",
@@ -1160,31 +1795,25 @@
       }
     },
     {
-      "id": "competition-the-last-spark",
-      "title": "The Last Spark",
-      "slug": "the-last-spark",
+      "id": "competition-trial-of-blades",
+      "title": "Trial of Blades",
+      "slug": "trial-of-blades",
       "category": "Competition",
-      "description": "The Last Spark is the deciding playoff for the eighth and final place in Ash during the Ignition depicted in The First Spark.",
+      "description": "The eight highest Prestige competitors qualify across the league, with cutoff ties eligible for play-ins to reduce the field to eight. There are no division quotas. Matches are private eighteen-hole match play without wagers or Bloodied progression. Seeding tiebreaks are playoff showing, regular placement, head-to-head results, dagger count and server tenure.",
       "content": [
         {
-          "heading": "The playoff",
-          "body": "Aeren Vale and Cassian Rourke enter sudden death after finishing level in the qualifying competition. Neither wins any of the first seventeen holes. Aeren secures passage into Ash on the eighteenth."
-        },
-        {
-          "heading": "Significance",
-          "body": "The contest demonstrates Aeren’s growing ability to choose shots for the situation rather than for reputation or spectacle. Cassian acknowledges his rival’s judgment; their rivalry survives the result."
+          "heading": "Generations implementation design",
+          "body": "The standalone game schedules the eight actual qualifiers in a seven-day Week 0 bracket after cutoff play-ins. Wagering and Bloodied progression are excluded."
         }
       ],
       "relatedIds": [
-        "competition-ignition",
-        "characters-aeren-vale",
-        "characters-cassian-rourke",
-        "competition-the-eight"
+        "competition-dragon-s-ascension",
+        "competition-dragon-s-ascension-generations"
       ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Established lore"
+        "canon": "FYI competition rules"
       }
     },
     {
@@ -1205,6 +1834,32 @@
       }
     },
     {
+      "id": "craftsmanship-dagger-provenance",
+      "title": "Dagger provenance",
+      "slug": "dagger-provenance",
+      "category": "Craftsmanship",
+      "description": "Dagger provenance is the recorded identity, ownership and history of a dagger.",
+      "content": [
+        {
+          "heading": "League",
+          "body": "Serialized daggers preserve their ownership chains, transfers and enhancements."
+        },
+        {
+          "heading": "The Daggersmith game",
+          "body": "Repair and reforging preserve identity where possible; a near-total replacement creates a linked successor rather than a false historical record."
+        }
+      ],
+      "relatedIds": [
+        "artifacts-daggers",
+        "literature-the-daggersmith-game"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game and league reference"
+      }
+    },
+    {
       "id": "craftsmanship-daggersmithing",
       "title": "Daggersmithing",
       "slug": "daggersmithing",
@@ -1220,12 +1875,60 @@
         "artifacts-daggers",
         "artifacts-division-daggers",
         "characters-rowden-groves",
-        "craftsmanship-irons"
+        "craftsmanship-irons",
+        "characters-kira",
+        "literature-the-daggersmith-game",
+        "craftsmanship-enchantments",
+        "craftsmanship-forging-stages"
       ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "craftsmanship-enchantments",
+      "title": "Enchantments",
+      "slug": "enchantments",
+      "category": "Craftsmanship",
+      "description": "Enchantments are exceptional magical properties associated with equipment. Magic is rare in Aetherforge; no universal mechanism for enchanted equipment has been established.",
+      "content": [
+        {
+          "heading": "The Daggersmith game",
+          "body": "Rare properties may arise during forging or use and may remain hidden until discovered. This is a game system, not proof of a specific literary enchantment mechanism."
+        }
+      ],
+      "relatedIds": [
+        "magic-magic",
+        "craftsmanship-daggersmithing"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference and lore"
+      }
+    },
+    {
+      "id": "craftsmanship-forging-stages",
+      "title": "Forging stages",
+      "slug": "forging-stages",
+      "category": "Craftsmanship",
+      "description": "The Daggersmith game organizes the forging process into five stages.",
+      "content": [
+        {
+          "heading": "Stages",
+          "body": "Design and materials; forging; refinement and heat treatment; assembly; finishing and appraisal. These are game systems, not a universal historical manufacturing sequence."
+        }
+      ],
+      "relatedIds": [
+        "literature-the-daggersmith-game",
+        "craftsmanship-daggersmithing"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
       }
     },
     {
@@ -1287,6 +1990,43 @@
       }
     },
     {
+      "id": "culture-society-guild-membership",
+      "title": "Guild membership",
+      "slug": "guild-membership",
+      "category": "Culture & Society",
+      "description": "Guild membership in FYI Guilds persists across seasons. Roster changes, participation requirements and release decisions are governed by the applicable season rules.",
+      "content": [
+        {
+          "heading": "Season 1",
+          "body": "Guilds have a roster limit of fifteen. Leaders may release members after the season for insufficient participation."
+        }
+      ],
+      "relatedIds": [
+        "organizations-fyi-guilds"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
+      }
+    },
+    {
+      "id": "culture-society-hall-of-works",
+      "title": "Hall of Works",
+      "slug": "hall-of-works",
+      "category": "Culture & Society",
+      "description": "The Hall of Works is a planned Daggersmith game feature combining a physical display with an illustrated catalogue of notable daggers, including pieces retained or sold.",
+      "content": [],
+      "relatedIds": [
+        "literature-the-daggersmith-game"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
+      }
+    },
+    {
       "id": "culture-society-material-culture",
       "title": "Material culture",
       "slug": "material-culture",
@@ -1300,6 +2040,32 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "culture-society-regional-dynasties",
+      "title": "Regional dynasties",
+      "slug": "regional-dynasties",
+      "category": "Culture & Society",
+      "description": "Regional dynasties are the Houses and local institutions of Aetherforge. Some exercise hereditary influence, while others gain standing through craft, public service, commerce or competitive achievement.",
+      "content": [
+        {
+          "heading": "Regional organization",
+          "body": "Ash is associated with Houses Vale and Mourn and the Greyhands; Cinder with Houses Drake and Mordane and the Ironbound; Ember with Houses Flare and Solvar and the Kindled; Damascus with Houses Ardyn and Velora and the Thousand Hands; Titanium with Houses Rhyne and Calix and the Sentinel Order; Obsidian with Houses Voss, Noirren and Vex."
+        },
+        {
+          "heading": "Governance",
+          "body": "These local institutions are distinct from the realm-wide Administrative Council. Their exact jurisdictions are not finalized."
+        }
+      ],
+      "relatedIds": [
+        "culture-society-the-six-kingdoms",
+        "organizations-administrative-council"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -1342,7 +2108,8 @@
         "geography-damascus",
         "geography-titanium",
         "geography-obsidian",
-        "competition-ladder-of-legends"
+        "competition-ladder-of-legends",
+        "culture-society-regional-dynasties"
       ],
       "aliases": [],
       "publication": {
@@ -1401,7 +2168,8 @@
         "mythology-veyrath",
         "characters-maera-sol",
         "organizations-greyhands",
-        "organizations-house-mourn"
+        "organizations-house-mourn",
+        "geography-morrowfall"
       ],
       "aliases": [
         "ash-arrival-platform"
@@ -1409,6 +2177,39 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "geography-aurelion",
+      "title": "Aurelion",
+      "slug": "aurelion",
+      "category": "Geography",
+      "description": "Aurelion is identified in the current geographical outline as the center of Titanium.",
+      "content": [],
+      "relatedIds": [
+        "geography-titanium"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
+      }
+    },
+    {
+      "id": "geography-brazenhold",
+      "title": "Brazenhold",
+      "slug": "brazenhold",
+      "category": "Geography",
+      "description": "Brazenhold is identified in the current geographical outline as the center of Cinder.",
+      "content": [],
+      "relatedIds": [
+        "geography-cinder",
+        "organizations-house-mordane"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -1427,7 +2228,8 @@
         "culture-society-the-six-kingdoms",
         "mythology-drakhar",
         "organizations-house-mordane",
-        "organizations-ironbound"
+        "organizations-ironbound",
+        "geography-brazenhold"
       ],
       "aliases": [],
       "publication": {
@@ -1474,7 +2276,8 @@
         "culture-society-the-six-kingdoms",
         "mythology-seraphyne",
         "organizations-house-velora",
-        "organizations-thousand-hands"
+        "organizations-thousand-hands",
+        "geography-serathis"
       ],
       "aliases": [],
       "publication": {
@@ -1498,7 +2301,8 @@
         "culture-society-the-six-kingdoms",
         "mythology-pyrakon",
         "organizations-house-solvar",
-        "organizations-kindled"
+        "organizations-kindled",
+        "characters-kira"
       ],
       "aliases": [],
       "publication": {
@@ -1558,12 +2362,46 @@
         "history-first-ascension",
         "history-ladder-awakening",
         "history-war-of-the-broken-summit",
-        "mythology-kharadon"
+        "mythology-kharadon",
+        "history-darian-s-ascension",
+        "competition-kharadon-s-ascension"
       ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
         "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "geography-morrowfall",
+      "title": "Morrowfall",
+      "slug": "morrowfall",
+      "category": "Geography",
+      "description": "Morrowfall is identified in the current geographical outline as the center of Ash.",
+      "content": [],
+      "relatedIds": [
+        "geography-ash"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
+      }
+    },
+    {
+      "id": "geography-nocthar",
+      "title": "Nocthar",
+      "slug": "nocthar",
+      "category": "Geography",
+      "description": "Nocthar, known as the Black Crown, is identified in the current geographical outline as the center of Obsidian.",
+      "content": [],
+      "relatedIds": [
+        "geography-obsidian"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -1581,12 +2419,30 @@
       "relatedIds": [
         "culture-society-the-six-kingdoms",
         "mythology-varkyros",
-        "organizations-house-noirren"
+        "organizations-house-noirren",
+        "characters-riven",
+        "geography-nocthar"
       ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
         "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "geography-serathis",
+      "title": "Serathis",
+      "slug": "serathis",
+      "category": "Geography",
+      "description": "Serathis, known as the City of a Thousand Forges, is identified in the current geographical outline as the center of Damascus.",
+      "content": [],
+      "relatedIds": [
+        "geography-damascus"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -1623,13 +2479,8 @@
       "title": "The First Ascension Bridge",
       "slug": "the-first-ascension-bridge",
       "category": "Geography",
-      "description": "The First Ascension Bridge connects Ignition with Ash.",
-      "content": [
-        {
-          "heading": "The Eight",
-          "body": "After earning qualification, the Eight gather before sunrise at the Crown Grounds and cross under Council supervision. They arrive at Ash’s black stone landing overlooking the ruins."
-        }
-      ],
+      "description": "The First Ascension Bridge connects Ignition with Ash, reaching the black stone landing overlooking Ash’s ruins.",
+      "content": [],
       "relatedIds": [
         "geography-ascension-bridges",
         "geography-crown-grounds",
@@ -1654,8 +2505,8 @@
           "body": "The grounds wind through volcanic ridges, dark stone, towers, streams and long grass. Elevated tees, canyons and uneven winds demand judgment and accuracy."
         },
         {
-          "heading": "Facilities and history",
-          "body": "The grounds contain practice areas, a scoring pavilion and spectator areas. During The First Spark, unusual activity beneath the course leads to the discovery of an older control chamber containing stone records and metal housings. Its origins and function remain incompletely understood."
+          "heading": "Facilities",
+          "body": "The grounds contain practice areas, a scoring pavilion and spectator areas. Beneath the course is an older control chamber containing stone records and metal housings. Its origin and full function remain uncertain."
         }
       ],
       "relatedIds": [
@@ -1688,7 +2539,9 @@
         "culture-society-the-six-kingdoms",
         "mythology-aurelith",
         "organizations-house-calix",
-        "organizations-sentinel-order"
+        "organizations-sentinel-order",
+        "characters-elias-kest",
+        "geography-aurelion"
       ],
       "aliases": [],
       "publication": {
@@ -1723,6 +2576,39 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "history-age-of-ascendants",
+      "title": "Age of Ascendants",
+      "slug": "age-of-ascendants",
+      "category": "History",
+      "description": "The Age of Ascendants describes the period in which the Ladder became institutionalized. Academies, Houses, divisional competitions, ceremonial honors and rival schools of golf developed around it.",
+      "content": [],
+      "relatedIds": [
+        "competition-ladder-of-legends"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
+      }
+    },
+    {
+      "id": "history-age-of-champions",
+      "title": "Age of Champions",
+      "slug": "age-of-champions",
+      "category": "History",
+      "description": "The Age of Champions is a historical designation for the era of legendary contenders following the First Ascension and preceding the Broken Summit. Its precise chronological boundaries remain unsettled.",
+      "content": [],
+      "relatedIds": [
+        "history-first-ascension",
+        "history-war-of-the-broken-summit"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -1780,6 +2666,23 @@
       }
     },
     {
+      "id": "history-darian-s-ascension",
+      "title": "Darian's Ascension",
+      "slug": "darian-s-ascension",
+      "category": "History",
+      "description": "Darian Vex’s ascent is associated with his challenge to Kharadon’s authority over Summit access. Historical accounts describe a reform grievance that eventually developed into a struggle for supremacy.",
+      "content": [],
+      "relatedIds": [
+        "characters-darian-vex",
+        "geography-kharadon-s-summit"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
+      }
+    },
+    {
       "id": "history-first-ascension",
       "title": "First Ascension",
       "slug": "first-ascension",
@@ -1789,7 +2692,9 @@
       "relatedIds": [
         "geography-kharadon-s-summit",
         "history-second-descent",
-        "terminology-calendar-of-aetherforge"
+        "terminology-calendar-of-aetherforge",
+        "history-age-of-champions",
+        "history-lost-kael-period"
       ],
       "aliases": [],
       "publication": {
@@ -1802,13 +2707,8 @@
       "title": "Ladder Awakening",
       "slug": "ladder-awakening",
       "category": "History",
-      "description": "The Ladder Awakening describes the extraordinary activity accompanying the Eight’s crossing into Ash.",
-      "content": [
-        {
-          "heading": "Event",
-          "body": "Ancient channels illuminate beneath the bridge and across the six kingdoms toward the Summit. The lights later disappear while the ordinary bridge lights remain active. The cause is unknown."
-        }
-      ],
+      "description": "The Ladder Awakening is a documented instance of extraordinary activity in ancient infrastructure across the six kingdoms and toward the Summit. Its underlying cause is unknown.",
+      "content": [],
       "relatedIds": [
         "geography-kharadon-s-summit",
         "geography-the-first-ascension-bridge",
@@ -1821,6 +2721,23 @@
       }
     },
     {
+      "id": "history-lost-kael-period",
+      "title": "Lost Kael Period",
+      "slug": "lost-kael-period",
+      "category": "History",
+      "description": "The Lost Kael Period refers to the disputed history following Kael Varen’s First Ascension. Traditions diverge about his disappearance, death, return or silence; no single account is definitive.",
+      "content": [],
+      "relatedIds": [
+        "characters-kael-varen",
+        "history-first-ascension"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
+      }
+    },
+    {
       "id": "history-reforging",
       "title": "Reforging",
       "slug": "reforging",
@@ -1828,12 +2745,31 @@
       "description": "The Reforging is remembered as the restoration of the Ladder and its bridges after the Broken Summit. Competition resumes as damaged infrastructure and institutions are rebuilt.",
       "content": [],
       "relatedIds": [
-        "history-war-of-the-broken-summit"
+        "history-war-of-the-broken-summit",
+        "history-sanitization-of-history"
       ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
         "canon": "Mythological tradition"
+      }
+    },
+    {
+      "id": "history-sanitization-of-history",
+      "title": "Sanitization of History",
+      "slug": "sanitization-of-history",
+      "category": "History",
+      "description": "The sanitization of history refers to the simplification and alteration of historical accounts surrounding Kael Varen, Darian Vex, Kharadon and the Ladder after the Reforging. The relative roles of deliberate suppression and ordinary cultural mythmaking remain unresolved.",
+      "content": [],
+      "relatedIds": [
+        "history-reforging",
+        "characters-kael-varen",
+        "characters-darian-vex"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
@@ -1871,7 +2807,8 @@
         "geography-kharadon-s-summit",
         "organizations-crownless",
         "organizations-house-vex",
-        "history-reforging"
+        "history-reforging",
+        "history-age-of-champions"
       ],
       "aliases": [],
       "publication": {
@@ -1905,28 +2842,80 @@
       "title": "Ignition: The First Spark",
       "slug": "ignition-the-first-spark",
       "category": "Literature",
-      "description": "The First Spark is the opening story of the Aetherforge saga, following Aeren Vale through Ignition.",
-      "content": [
-        {
-          "heading": "Synopsis",
-          "body": "Aeren seeks to earn advancement on his own merits while contending with his family’s reputation. His friendships, rivalries and competitive setbacks shape his approach to golf. Meanwhile, the Administrative Council investigates unusual behavior in ancient infrastructure and signs of renewed Crownless activity."
-        },
-        {
-          "heading": "Conclusion",
-          "body": "Aeren wins the Last Spark and joins the Eight in crossing to Ash. The journey reveals further mysteries surrounding the Ladder."
-        }
-      ],
+      "description": "Ignition: The First Spark is the opening work of the Aetherforge saga, centered on Aeren Vale and the entry stage of the Ladder of Legends.",
+      "content": [],
       "relatedIds": [
         "characters-aeren-vale",
         "artifacts-identifier-117-3a",
         "artifacts-kharadon-s-seal",
         "artifacts-the-ashen-reach",
-        "characters-cassian-rourke"
+        "characters-cassian-rourke",
+        "literature-saga-of-aetherforge"
       ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Established lore"
+        "canon": "Literature"
+      }
+    },
+    {
+      "id": "literature-saga-of-aetherforge",
+      "title": "Saga of Aetherforge",
+      "slug": "saga-of-aetherforge",
+      "category": "Literature",
+      "description": "The Saga of Aetherforge is the planned literary series organized around Ignition, the six kingdoms and Kharadon’s Summit.",
+      "content": [
+        {
+          "heading": "Current working titles",
+          "body": "Ignition: The First Spark; Ash: Where Ruin Becomes Resolve; Cinder: The Unyielding; Ember: Feed the Flame; Damascus: The Queen’s Forge; Titanium: The Silver Measure; Obsidian: The Black Crown; Kharadon’s Summit: Every Legend Must Ascend. The later titles and final volume structure remain provisional."
+        }
+      ],
+      "relatedIds": [
+        "literature-ignition-the-first-spark",
+        "literature-the-daggersmith-literary-work"
+      ],
+      "aliases": [
+        "saga-ash",
+        "saga-cinder",
+        "saga-damascus",
+        "saga-ember",
+        "saga-kharadons-summit",
+        "saga-obsidian",
+        "saga-titanium"
+      ],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional literature"
+      }
+    },
+    {
+      "id": "literature-the-daggersmith-game",
+      "title": "The Daggersmith (game)",
+      "slug": "the-daggersmith-game",
+      "category": "Literature",
+      "description": "The Daggersmith is a smithcraft game set in Aetherforge. The player develops a novice smith into a master of the craft, with the ambition of becoming Pretty’s principal apprentice and eventual craft successor.",
+      "content": [
+        {
+          "heading": "Craft",
+          "body": "Gameplay centers on forging, materials, commissions, workmanship, reputation and mentorship."
+        },
+        {
+          "heading": "World",
+          "body": "Damascus is the fixed beta origin; the broader design envisages origins across all six kingdoms. Craft succession is distinct from inheriting Lilith’s Council office."
+        }
+      ],
+      "relatedIds": [
+        "craftsmanship-daggersmithing",
+        "characters-lilith-vanthe",
+        "craftsmanship-dagger-provenance",
+        "craftsmanship-forging-stages",
+        "culture-society-hall-of-works",
+        "organizations-smithing-licenses"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Game reference"
       }
     },
     {
@@ -1934,23 +2923,19 @@
       "title": "The Daggersmith (literary work)",
       "slug": "the-daggersmith-literary-work",
       "category": "Literature",
-      "description": "The Daggersmith is a prequel centered on Lilith Vanthe’s early career as a smith and golfer.",
-      "content": [
-        {
-          "heading": "Opening",
-          "body": "The story opens with Lilith, seventeen and approaching eighteen, traveling from Ash to Ignition to pursue her competitive ambitions."
-        }
-      ],
+      "description": "The Daggersmith is a prequel centered on Lilith Vanthe’s early career as a smith and golfer, before the modern Council era.",
+      "content": [],
       "relatedIds": [
         "characters-lilith-vanthe",
         "characters-lauren",
         "culture-society-taverns",
-        "terminology-the-daggersmith-title"
+        "terminology-the-daggersmith-title",
+        "literature-saga-of-aetherforge"
       ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Established lore"
+        "canon": "Literature"
       }
     },
     {
@@ -1958,7 +2943,7 @@
       "title": "The Summit and the Chain",
       "slug": "the-summit-and-the-chain",
       "category": "Literature",
-      "description": "The Summit and the Chain is a work by Darian Vex concerning authority and access to the Summit. During The First Spark, Rheon Valek is familiar with its arguments through a family copy.",
+      "description": "The Summit and the Chain is a work attributed to Darian Vex concerning authority and access to Kharadon’s Summit.",
       "content": [],
       "relatedIds": [
         "characters-darian-vex",
@@ -1991,13 +2976,8 @@
       "title": "Ascension infrastructure",
       "slug": "ascension-infrastructure",
       "category": "Magic",
-      "description": "Ancient infrastructure underlies parts of the Ladder, its bridges and competitive grounds.",
-      "content": [
-        {
-          "heading": "Unexplained activity",
-          "body": "During The First Spark, unusual lights, symbols and credential responses attract the attention of the Council. Discoveries beneath the First Forge suggest older systems remain beneath the modern facilities. Their full purpose and operation are unknown."
-        }
-      ],
+      "description": "Ancient infrastructure underlies parts of the Ladder, its bridges and competitive grounds. Older systems survive beneath modern facilities, including the control chamber under the First Forge. Their origins, full purpose and operation remain unknown.",
+      "content": [],
       "relatedIds": [
         "characters-cassian-rourke",
         "characters-tessa-brann",
@@ -2018,7 +2998,8 @@
       "description": "Magic exists in Aetherforge but is exceptional rather than a routine part of everyday life. The Ascension Bridges are an established example of magical travel; the mechanisms behind extraordinary craftsmanship and ancient infrastructure remain uncertain.",
       "content": [],
       "relatedIds": [
-        "culture-society-material-culture"
+        "culture-society-material-culture",
+        "craftsmanship-enchantments"
       ],
       "aliases": [],
       "publication": {
@@ -2289,10 +3270,6 @@
         {
           "heading": "Principles",
           "body": "The Council’s members were accomplished contenders before becoming governors. Its principle is to stand among competitors, not apart from them. Members do not decide matters directly affecting their own competitive interests."
-        },
-        {
-          "heading": "Role in The First Spark",
-          "body": "The Council investigates anomalies in ancient infrastructure while protecting earned competitive results. It refuses to penalize competitors on the basis of unexplained system responses."
         }
       ],
       "relatedIds": [
@@ -2304,7 +3281,9 @@
         "characters-soulless",
         "geography-vaelorian-citadel",
         "organizations-fyi",
-        "geography-hall-of-the-six"
+        "geography-hall-of-the-six",
+        "culture-society-regional-dynasties",
+        "terminology-aetherforge-s-royal-family"
       ],
       "aliases": [],
       "publication": {
@@ -2342,7 +3321,7 @@
         },
         {
           "heading": "Symbols",
-          "body": "A vertically split crown and the declaration “No height beyond reach” are associated with the Crownless. Both recur during the events of The First Spark."
+          "body": "A vertically split crown and the declaration “No height beyond reach” are associated with the Crownless."
         }
       ],
       "relatedIds": [
@@ -2379,6 +3358,37 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "organizations-fyi-guilds",
+      "title": "FYI Guilds",
+      "slug": "fyi-guilds",
+      "category": "Organizations",
+      "description": "FYI Guilds is a team competition organized around six guilds named for the kingdom dragons: Veyrath, Drakhar, Pyrakon, Seraphyne, Aurelith and Varkyros.",
+      "content": [
+        {
+          "heading": "Competition",
+          "body": "Guilds earn standings points through regular-event placements, Kingdom Seals and Kharadon’s Crown. The season also includes a cooperative Convergence and a Championship."
+        },
+        {
+          "heading": "Roster",
+          "body": "The Season 1 roster limit is fifteen members per guild. Membership persists between seasons."
+        }
+      ],
+      "relatedIds": [
+        "competition-fyi-guilds-season-1",
+        "competition-guild-championship",
+        "competition-the-convergence",
+        "artifacts-kharadon-s-crown",
+        "culture-society-guild-membership",
+        "competition-guild-placement-scoring",
+        "artifacts-kingdom-seals"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "FYI competition rules"
       }
     },
     {
@@ -2502,7 +3512,8 @@
       "description": "House Mordane, the Wardens of Brazenhold, is a Cinder dynasty associated with defense and military service.",
       "content": [],
       "relatedIds": [
-        "geography-cinder"
+        "geography-cinder",
+        "geography-brazenhold"
       ],
       "aliases": [],
       "publication": {
@@ -2696,13 +3707,8 @@
       "title": "New Crownless",
       "slug": "new-crownless",
       "category": "Organizations",
-      "description": "Renewed Crownless activity becomes visible during Ignition in The First Spark.",
-      "content": [
-        {
-          "heading": "Signs of activity",
-          "body": "Unsigned black cards question the origins and limits of the Ladder, and a split crown appears in unusual places. The Council investigates the messages and their connection to older records without assuming that every dissenter is involved."
-        }
-      ],
+      "description": "The New Crownless is a contemporary expression of Crownless ideology, questioning authority over the Ladder and access to its highest stages. Its messages include unsigned black cards and the split crown symbol; the extent of its organization remains uncertain.",
+      "content": [],
       "relatedIds": [
         "characters-mira-ardyn",
         "characters-nyra-solvar"
@@ -2747,6 +3753,22 @@
       }
     },
     {
+      "id": "organizations-smithing-licenses",
+      "title": "Smithing licenses",
+      "slug": "smithing-licenses",
+      "category": "Organizations",
+      "description": "Smithing licenses are a proposed professional qualification system in The Daggersmith game. Licensing, revocation and reinstatement are design concepts; the responsible in-world institutions have not been finalized.",
+      "content": [],
+      "relatedIds": [
+        "literature-the-daggersmith-game"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional game reference"
+      }
+    },
+    {
       "id": "organizations-thousand-hands",
       "title": "Thousand Hands",
       "slug": "thousand-hands",
@@ -2760,6 +3782,22 @@
       "publication": {
         "status": "author_approved",
         "canon": "Established lore"
+      }
+    },
+    {
+      "id": "terminology-aetherforge-s-royal-family",
+      "title": "Aetherforge's Royal Family",
+      "slug": "aetherforge-s-royal-family",
+      "category": "Terminology",
+      "description": "Royal Family is an honorific for the six members of the Administrative Council, signifying prominence and trust rather than a hereditary monarchy.",
+      "content": [],
+      "relatedIds": [
+        "organizations-administrative-council"
+      ],
+      "aliases": [],
+      "publication": {
+        "status": "author_approved",
+        "canon": "Provisional lore"
       }
     },
     {
