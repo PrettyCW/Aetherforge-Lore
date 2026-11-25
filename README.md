@@ -45,3 +45,7 @@ Reviewed the 491-claim original register (476 consolidated groups), restoring me
 ## v0.13.2 — Remaining evidence and canon reconciliation
 
 Reviewed the 236 First Spark, 65 core and 49 remaining-core evidence records. Expanded 33 existing articles; 172 articles remain. Resolved documented genealogy without inventing its chronology, clarified conflicting award names and retained separate literary/game scopes. See [reconciliation report](docs/EVIDENCE_RECONCILIATION_v0.13.2.md).
+
+## v0.14.0 — Encyclopedia usability
+
+172 articles; improved kingdom hubs, chronology, title and alias search, contextual links and related-topic navigation. Responsive compact category menu. No lore changes. See [usability checkpoint](docs/USABILITY_v0.14.0.md).

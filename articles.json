@@ -25,7 +25,9 @@
       "description": "A Bloodied Dagger is a serialized wagered dagger enhanced through its first Bold victory. Further victories add Prestige at Fibonacci milestones, with no hard cap. Progress belongs to the exact dagger: transfer preserves it and defeat does not reset it.",
       "content": [],
       "relatedIds": [
-        "artifacts-daggers"
+        "artifacts-daggers",
+        "competition-bold-challenges",
+        "craftsmanship-dagger-provenance"
       ],
       "aliases": [],
       "publication": {
@@ -41,7 +43,8 @@
       "description": "Crucible awards use Emerald daggers with Bronze, Silver and Gold base Prestige of 9, 11 and 13; Dragonsteel equivalents carry 10, 13 and 16. Participation has base Prestige 1. Season II does not award relegation daggers.",
       "content": [],
       "relatedIds": [
-        "artifacts-daggers"
+        "artifacts-daggers",
+        "competition-crucibles"
       ],
       "aliases": [],
       "publication": {
@@ -105,7 +108,8 @@
         "competition-ignition",
         "craftsmanship-daggersmithing",
         "competition-dragon-s-ascension",
-        "craftsmanship-dagger-provenance"
+        "craftsmanship-dagger-provenance",
+        "characters-lilith-vanthe"
       ],
       "aliases": [],
       "publication": {
@@ -121,7 +125,9 @@
       "description": "Weekly Dragonsteel awards recognize Bold wins: Bronze at one, Silver at three and Gold for the most wins. The awards stack, and a 2v2 win counts twice. Generations explicitly awards Gold to all golfers tied for the weekly lead.",
       "content": [],
       "relatedIds": [
-        "artifacts-daggers"
+        "artifacts-daggers",
+        "competition-bold-challenges",
+        "competition-ironbound-arena"
       ],
       "aliases": [],
       "publication": {
@@ -228,7 +234,8 @@
       "description": "The Season 2 Kickoff Dagger is a non-wagerable commemorative award with zero Prestige. It is granted once to simulated FYI members present in the entry snapshot, excluding visiting outsiders.",
       "content": [],
       "relatedIds": [
-        "artifacts-daggers"
+        "artifacts-daggers",
+        "competition-dragon-s-ascension-generations"
       ],
       "aliases": [],
       "publication": {
@@ -294,7 +301,8 @@
       "description": "Legendary significance may arise from extraordinary workmanship, exceptional materials, dragon recognition or the achievements of a wielder. These four paths can accumulate on a single dagger in the game design.",
       "content": [],
       "relatedIds": [
-        "artifacts-daggers"
+        "artifacts-daggers",
+        "craftsmanship-daggersmithing"
       ],
       "aliases": [],
       "publication": {
@@ -310,7 +318,8 @@
       "description": "Competitors earn one Participation Dagger for completing three society events in an eligible week through week six. Playoff weeks and non-division entrants are included.",
       "content": [],
       "relatedIds": [
-        "artifacts-daggers"
+        "artifacts-daggers",
+        "competition-dragon-s-ascension"
       ],
       "aliases": [],
       "publication": {
@@ -326,7 +335,8 @@
       "description": "Placement Daggers are reserved for divisional entrants in standalone Season 1. Base Prestige rises by division: Ashen 2, Cinder 4, Ember 6, Damascus 8, Titanium 10 and Obsidian 12.",
       "content": [],
       "relatedIds": [
-        "artifacts-daggers"
+        "artifacts-daggers",
+        "competition-dragon-s-ascension-generations"
       ],
       "aliases": [],
       "publication": {
@@ -342,7 +352,8 @@
       "description": "Each playoff qualifier receives one gold-handled dagger. The award progression is Pearl (3 Prestige), Lapis Lazuli (5), Opal (8), Moonstone (12), Amethyst (16), Topaz (22), Sapphire (40), Ruby (55) and Diamond (70).",
       "content": [],
       "relatedIds": [
-        "artifacts-daggers"
+        "artifacts-daggers",
+        "competition-dragon-s-ascension-playoffs"
       ],
       "aliases": [],
       "publication": {
@@ -363,7 +374,6 @@
         }
       ],
       "relatedIds": [
-        "characters-darian-vex",
         "literature-ignition-the-first-spark"
       ],
       "aliases": [],
@@ -411,8 +421,8 @@
         "characters-cassian-rourke",
         "characters-torrick-drake",
         "literature-ignition-the-first-spark",
-        "characters-orin-cade",
-        "characters-lyra-vale"
+        "characters-lyra-vale",
+        "organizations-house-vale"
       ],
       "aliases": [],
       "publication": {
@@ -456,7 +466,8 @@
         "organizations-administrative-council",
         "characters-lyra-acolyte12",
         "characters-pj",
-        "characters-soulless"
+        "characters-soulless",
+        "geography-vaelorian-citadel"
       ],
       "aliases": [],
       "publication": {
@@ -494,8 +505,7 @@
       "content": [],
       "relatedIds": [
         "characters-aeren-vale",
-        "literature-ignition-the-first-spark",
-        "magic-ascension-infrastructure"
+        "literature-ignition-the-first-spark"
       ],
       "aliases": [],
       "publication": {
@@ -536,7 +546,6 @@
         }
       ],
       "relatedIds": [
-        "artifacts-the-ashen-reach",
         "characters-edric-mourn",
         "characters-kael-varen",
         "characters-rheon-valek",
@@ -590,7 +599,6 @@
         "characters-darian-vex",
         "characters-kael-varen",
         "geography-vaelorian-citadel",
-        "mythology-seraphyne",
         "organizations-house-mourn",
         "history-sanitization-of-history"
       ],
@@ -637,8 +645,8 @@
         "characters-lilith-vanthe",
         "characters-aeren-vale",
         "characters-draven-vale",
-        "characters-lyra-acolyte12",
-        "characters-lyra-vale"
+        "characters-lyra-vale",
+        "organizations-house-vale"
       ],
       "aliases": [],
       "publication": {
@@ -653,9 +661,7 @@
       "category": "Characters",
       "description": "Jalen Marr is a golfer associated with the Ignition competition.",
       "content": [],
-      "relatedIds": [
-        "characters-torrick-drake"
-      ],
+      "relatedIds": [],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -707,7 +713,9 @@
       "content": [],
       "relatedIds": [
         "competition-the-eight",
-        "characters-mira-ardyn"
+        "characters-mira-ardyn",
+        "organizations-house-rhyne",
+        "geography-titanium"
       ],
       "aliases": [],
       "publication": {
@@ -793,10 +801,12 @@
         "craftsmanship-irons",
         "terminology-the-daggersmith-title",
         "literature-the-daggersmith-literary-work",
-        "terminology-golden-dragons",
         "characters-kira",
         "literature-the-daggersmith-game",
-        "characters-vanthe-plouffe"
+        "characters-vanthe-plouffe",
+        "craftsmanship-daggersmithing",
+        "artifacts-division-daggers",
+        "geography-ash"
       ],
       "aliases": [
         "northashe-family"
@@ -821,7 +831,6 @@
       "relatedIds": [
         "organizations-administrative-council",
         "characters-bustin",
-        "characters-ellen-vale",
         "terminology-sorceress-supreme",
         "geography-hall-of-the-six"
       ],
@@ -909,9 +918,8 @@
       "relatedIds": [
         "competition-the-eight",
         "characters-kaelen-rhyne",
-        "characters-rheon-valek",
         "organizations-house-ardyn",
-        "organizations-new-crownless"
+        "geography-damascus"
       ],
       "aliases": [],
       "publication": {
@@ -928,7 +936,9 @@
       "content": [],
       "relatedIds": [
         "competition-the-eight",
-        "organizations-new-crownless"
+        "organizations-new-crownless",
+        "organizations-house-solvar",
+        "geography-ember"
       ],
       "aliases": [],
       "publication": {
@@ -943,9 +953,7 @@
       "category": "Characters",
       "description": "Orin Cade represents Cinder and is known for low-error golf, a disciplined routine and a consistent approach to risk.",
       "content": [],
-      "relatedIds": [
-        "characters-aeren-vale"
-      ],
+      "relatedIds": [],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -968,7 +976,8 @@
         "organizations-administrative-council",
         "characters-bustin",
         "characters-soulless",
-        "characters-whiskey"
+        "characters-whiskey",
+        "geography-vaelorian-citadel"
       ],
       "aliases": [],
       "publication": {
@@ -988,7 +997,6 @@
         "artifacts-identifier-117-3a",
         "characters-darian-vex",
         "characters-kael-varen",
-        "characters-mira-ardyn",
         "literature-the-summit-and-the-chain"
       ],
       "aliases": [],
@@ -1053,8 +1061,8 @@
         "competition-the-eight",
         "characters-malrek-voss",
         "mythology-varkyros",
-        "organizations-crownless",
-        "organizations-house-voss"
+        "organizations-house-voss",
+        "geography-obsidian"
       ],
       "aliases": [],
       "publication": {
@@ -1096,8 +1104,7 @@
       "description": "Tessa Brann is a golfer and member of the Eight.",
       "content": [],
       "relatedIds": [
-        "competition-the-eight",
-        "magic-ascension-infrastructure"
+        "competition-the-eight"
       ],
       "aliases": [],
       "publication": {
@@ -1136,7 +1143,8 @@
       "relatedIds": [
         "competition-the-eight",
         "characters-aeren-vale",
-        "characters-jalen-marr"
+        "organizations-house-drake",
+        "geography-cinder"
       ],
       "aliases": [],
       "publication": {
@@ -1224,7 +1232,8 @@
         "characters-pj",
         "characters-soulless",
         "mythology-drakhar",
-        "mythology-veyrath"
+        "mythology-veyrath",
+        "organizations-fyi"
       ],
       "aliases": [],
       "publication": {
@@ -1262,7 +1271,10 @@
       "description": "In a one-on-one Bold Challenge, the winner keeps the wagered dagger and captures the loser's. Teams in two-on-two play are randomized, and each winning dagger receives two Bold wins. Losing daggers are selected according to winning-wager Prestige, then signup order.",
       "content": [],
       "relatedIds": [
-        "competition-dragon-s-ascension"
+        "competition-dragon-s-ascension",
+        "artifacts-bloodied-daggers",
+        "artifacts-dragonsteel-daggers",
+        "competition-ironbound-arena"
       ],
       "aliases": [],
       "publication": {
@@ -1310,7 +1322,7 @@
         "competition-ladder-of-legends",
         "artifacts-golden-crucible-dagger",
         "characters-travis-pope",
-        "organizations-crownless"
+        "artifacts-crucible-daggers"
       ],
       "aliases": [],
       "publication": {
@@ -1326,7 +1338,8 @@
       "description": "Direct Challenges permit multiple daggers of unequal value to be wagered. Ownership transfers on a loss, but Direct wins do not advance Bloodied progression. Winning teammates alternate picks from the losing pool.",
       "content": [],
       "relatedIds": [
-        "competition-dragon-s-ascension"
+        "competition-dragon-s-ascension",
+        "craftsmanship-dagger-provenance"
       ],
       "aliases": [],
       "publication": {
@@ -1347,7 +1360,9 @@
         }
       ],
       "relatedIds": [
-        "competition-dragon-s-ascension"
+        "competition-dragon-s-ascension",
+        "competition-ladder-of-legends",
+        "competition-postseason-division-challenges"
       ],
       "aliases": [],
       "publication": {
@@ -1383,7 +1398,8 @@
         "competition-ironbound-ranking",
         "competition-ironbound-arena",
         "competition-inter-society-ryder-cup",
-        "artifacts-division-daggers"
+        "artifacts-division-daggers",
+        "artifacts-participation-daggers"
       ],
       "aliases": [],
       "publication": {
@@ -1438,7 +1454,10 @@
       "relatedIds": [
         "competition-dragon-s-ascension",
         "competition-ironbound-arena",
-        "competition-trial-of-blades"
+        "competition-trial-of-blades",
+        "artifacts-kickoff-dagger",
+        "artifacts-placement-daggers",
+        "competition-inter-society-ryder-cup"
       ],
       "aliases": [
         "generations-calendar",
@@ -1459,7 +1478,9 @@
       "description": "Six competitors per division qualify for the playoffs, except Obsidian, which supplies eight. Across eight stages, higher divisions enter progressively and seeding pairs high against low. Playoff results do not govern division movement.",
       "content": [],
       "relatedIds": [
-        "competition-dragon-s-ascension"
+        "competition-dragon-s-ascension",
+        "artifacts-playoff-daggers",
+        "competition-trial-of-blades"
       ],
       "aliases": [],
       "publication": {
@@ -1487,7 +1508,9 @@
         "organizations-fyi-guilds",
         "competition-christmas-exhibition",
         "competition-guild-championship",
-        "competition-the-convergence"
+        "competition-the-convergence",
+        "competition-guild-placement-scoring",
+        "culture-society-guild-membership"
       ],
       "aliases": [],
       "publication": {
@@ -1531,7 +1554,8 @@
       ],
       "relatedIds": [
         "organizations-fyi-guilds",
-        "artifacts-kingdom-seals"
+        "artifacts-kingdom-seals",
+        "competition-fyi-guilds-season-1"
       ],
       "aliases": [],
       "publication": {
@@ -1595,7 +1619,8 @@
       "description": "Two twelve-player societies contest twenty-eight matches over three days: eight foursomes, eight four-ball and twelve singles. A win earns one point and a tie half a point; 14.5 wins outright. Eight automatic qualifiers must have participated in the latest Trial, joined by four captain's picks. Captaincy rotates and may be playing or non-playing. The design targets one Cup every two to three seasons, never before a completed Trial. The inaugural 14–14 tie triggers a deciding match; later ties favor the defending society. Captains select willing replacements.",
       "content": [],
       "relatedIds": [
-        "competition-dragon-s-ascension"
+        "competition-dragon-s-ascension",
+        "competition-dragon-s-ascension-generations"
       ],
       "aliases": [],
       "publication": {
@@ -1612,7 +1637,9 @@
       "content": [],
       "relatedIds": [
         "competition-dragon-s-ascension",
-        "competition-dragon-s-ascension-generations"
+        "competition-dragon-s-ascension-generations",
+        "artifacts-dragonsteel-daggers",
+        "competition-bold-challenges"
       ],
       "aliases": [],
       "publication": {
@@ -1628,7 +1655,8 @@
       "description": "Ironbound Ranking totals the five best eligible current-season non-playoff daggers and a separate sixth playoff dagger. The ranking freezes when playoffs conclude.",
       "content": [],
       "relatedIds": [
-        "competition-dragon-s-ascension"
+        "competition-dragon-s-ascension",
+        "competition-trial-of-blades"
       ],
       "aliases": [],
       "publication": {
@@ -1694,7 +1722,10 @@
         "geography-ascension-bridges",
         "history-age-of-ascendants",
         "competition-dragon-s-ascension",
-        "competition-kharadon-s-ascension"
+        "competition-kharadon-s-ascension",
+        "competition-division-movement",
+        "history-war-of-the-six-crowns",
+        "mythology-seven-lessons-of-ascension"
       ],
       "aliases": [],
       "publication": {
@@ -1710,7 +1741,8 @@
       "description": "After automatic movement, a challenger stakes original daggers from the target division numbering the division gap plus one. Two-round aggregate decides the match, with ties favoring the defender. A losing challenger returns the staked daggers; a winner retains them and swaps divisions. Auto-relegated competitors, non-division entrants and Trial participants cannot issue challenges. Each issuer and target may participate once, and cannot occupy both roles. Priority is based on qualifying daggers, division and placement.",
       "content": [],
       "relatedIds": [
-        "competition-dragon-s-ascension"
+        "competition-dragon-s-ascension",
+        "competition-division-movement"
       ],
       "aliases": [],
       "publication": {
@@ -1785,7 +1817,9 @@
       ],
       "relatedIds": [
         "competition-dragon-s-ascension",
-        "competition-dragon-s-ascension-generations"
+        "competition-dragon-s-ascension-generations",
+        "competition-dragon-s-ascension-playoffs",
+        "competition-ironbound-ranking"
       ],
       "aliases": [],
       "publication": {
@@ -1812,7 +1846,9 @@
       "relatedIds": [
         "artifacts-daggers",
         "literature-the-daggersmith-game",
-        "artifacts-division-daggers"
+        "artifacts-division-daggers",
+        "artifacts-bloodied-daggers",
+        "competition-direct-challenges"
       ],
       "aliases": [],
       "publication": {
@@ -1840,7 +1876,10 @@
         "characters-kira",
         "literature-the-daggersmith-game",
         "craftsmanship-enchantments",
-        "craftsmanship-forging-stages"
+        "craftsmanship-forging-stages",
+        "artifacts-legendary-daggers",
+        "terminology-the-daggersmith-title",
+        "characters-lilith-vanthe"
       ],
       "aliases": [],
       "publication": {
@@ -1952,7 +1991,8 @@
       "description": "Before FYI, sporting aliases are the norm. The later Council adds personal and family names alongside aliases to improve transparency and accountability.",
       "content": [],
       "relatedIds": [
-        "organizations-fyi"
+        "organizations-fyi",
+        "organizations-administrative-council"
       ],
       "aliases": [],
       "publication": {
@@ -1973,7 +2013,8 @@
         }
       ],
       "relatedIds": [
-        "organizations-fyi-guilds"
+        "organizations-fyi-guilds",
+        "competition-fyi-guilds-season-1"
       ],
       "aliases": [],
       "publication": {
@@ -2010,7 +2051,8 @@
         }
       ],
       "relatedIds": [
-        "magic-magic"
+        "magic-magic",
+        "culture-society-the-six-kingdoms"
       ],
       "aliases": [],
       "publication": {
@@ -2076,7 +2118,9 @@
         "geography-titanium",
         "geography-obsidian",
         "competition-ladder-of-legends",
-        "culture-society-regional-dynasties"
+        "culture-society-regional-dynasties",
+        "culture-society-material-culture",
+        "mythology-seven-lessons-of-ascension"
       ],
       "aliases": [],
       "publication": {
@@ -2155,7 +2199,9 @@
         "organizations-greyhands",
         "organizations-house-mourn",
         "geography-morrowfall",
-        "organizations-house-vale"
+        "organizations-house-vale",
+        "geography-the-first-ascension-bridge",
+        "characters-lilith-vanthe"
       ],
       "aliases": [
         "ash-arrival-platform"
@@ -2224,7 +2270,8 @@
         "organizations-house-mordane",
         "organizations-ironbound",
         "geography-brazenhold",
-        "organizations-house-drake"
+        "organizations-house-drake",
+        "characters-torrick-drake"
       ],
       "aliases": [],
       "publication": {
@@ -2282,7 +2329,8 @@
         "organizations-house-velora",
         "organizations-thousand-hands",
         "geography-serathis",
-        "organizations-house-ardyn"
+        "organizations-house-ardyn",
+        "characters-mira-ardyn"
       ],
       "aliases": [],
       "publication": {
@@ -2317,7 +2365,8 @@
         "organizations-kindled",
         "characters-kira",
         "geography-ember-ridge",
-        "organizations-house-flare"
+        "organizations-house-flare",
+        "characters-nyra-solvar"
       ],
       "aliases": [],
       "publication": {
@@ -2402,7 +2451,8 @@
       "description": "Morrowfall is the established regional center of Ash. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
-        "geography-ash"
+        "geography-ash",
+        "organizations-house-mourn"
       ],
       "aliases": [],
       "publication": {
@@ -2452,7 +2502,8 @@
         "organizations-house-noirren",
         "geography-nocthar",
         "organizations-house-voss",
-        "organizations-house-vex"
+        "organizations-house-vex",
+        "characters-sera-voss"
       ],
       "aliases": [],
       "publication": {
@@ -2516,7 +2567,8 @@
         "geography-ascension-bridges",
         "geography-crown-grounds",
         "history-ladder-awakening",
-        "mythology-veyrath"
+        "mythology-veyrath",
+        "geography-ash"
       ],
       "aliases": [],
       "publication": {
@@ -2581,7 +2633,8 @@
         "organizations-sentinel-order",
         "characters-elias-kest",
         "geography-aurelion",
-        "organizations-house-rhyne"
+        "organizations-house-rhyne",
+        "characters-kaelen-rhyne"
       ],
       "aliases": [],
       "publication": {
@@ -2616,7 +2669,9 @@
         "geography-crown-grounds",
         "geography-hall-of-the-six",
         "mythology-kharadon",
-        "mythology-eternal-forge"
+        "mythology-eternal-forge",
+        "characters-bustin",
+        "characters-pj"
       ],
       "aliases": [],
       "publication": {
@@ -2637,7 +2692,8 @@
         }
       ],
       "relatedIds": [
-        "competition-ladder-of-legends"
+        "competition-ladder-of-legends",
+        "history-age-of-champions"
       ],
       "aliases": [],
       "publication": {
@@ -2654,7 +2710,8 @@
       "content": [],
       "relatedIds": [
         "history-first-ascension",
-        "history-war-of-the-broken-summit"
+        "history-war-of-the-broken-summit",
+        "history-age-of-ascendants"
       ],
       "aliases": [],
       "publication": {
@@ -2679,7 +2736,9 @@
         "mythology-drakhar",
         "mythology-pyrakon",
         "mythology-seraphyne",
-        "mythology-varkyros"
+        "mythology-varkyros",
+        "mythology-veyrath",
+        "history-war-of-the-six-crowns"
       ],
       "aliases": [],
       "publication": {
@@ -2701,7 +2760,8 @@
       ],
       "relatedIds": [
         "mythology-eternal-forge",
-        "mythology-first-spark"
+        "mythology-first-spark",
+        "mythology-unshaped-aether"
       ],
       "aliases": [],
       "publication": {
@@ -2819,7 +2879,8 @@
         "history-war-of-the-broken-summit",
         "history-sanitization-of-history",
         "geography-ascension-bridges",
-        "organizations-administrative-council"
+        "organizations-administrative-council",
+        "terminology-calendar-of-aetherforge"
       ],
       "aliases": [],
       "publication": {
@@ -2867,7 +2928,6 @@
       "relatedIds": [
         "artifacts-identifier-117-3a",
         "history-first-ascension",
-        "mythology-veyrath",
         "terminology-calendar-of-aetherforge",
         "history-lost-kael-period",
         "history-sanitization-of-history"
@@ -2924,7 +2984,10 @@
         }
       ],
       "relatedIds": [
-        "mythology-seven-lessons-of-ascension"
+        "mythology-seven-lessons-of-ascension",
+        "history-age-of-six-wings",
+        "competition-ladder-of-legends",
+        "mythology-kharadon"
       ],
       "aliases": [],
       "publication": {
@@ -3075,7 +3138,9 @@
         }
       ],
       "relatedIds": [
-        "mythology-unshaped-aether"
+        "mythology-unshaped-aether",
+        "mythology-eternal-forge",
+        "magic-magic"
       ],
       "aliases": [],
       "publication": {
@@ -3100,8 +3165,6 @@
         }
       ],
       "relatedIds": [
-        "characters-cassian-rourke",
-        "characters-tessa-brann",
         "geography-the-first-forge",
         "history-ladder-awakening",
         "artifacts-identifier-117-3a",
@@ -3129,7 +3192,8 @@
         "culture-society-material-culture",
         "craftsmanship-enchantments",
         "craftsmanship-irons",
-        "geography-ascension-bridges"
+        "geography-ascension-bridges",
+        "magic-aether"
       ],
       "aliases": [],
       "publication": {
@@ -3199,7 +3263,8 @@
         "history-age-of-the-first-spark",
         "mythology-first-spark",
         "mythology-kharadon",
-        "geography-vaelorian-citadel"
+        "geography-vaelorian-citadel",
+        "magic-aether"
       ],
       "aliases": [],
       "publication": {
@@ -3257,7 +3322,8 @@
         "mythology-eternal-forge",
         "organizations-administrative-council",
         "geography-vaelorian-citadel",
-        "organizations-fyi"
+        "organizations-fyi",
+        "history-war-of-the-six-crowns"
       ],
       "aliases": [
         "age-of-kharadon"
@@ -3283,8 +3349,7 @@
         "geography-ember",
         "characters-soulless",
         "geography-ember-ridge",
-        "history-age-of-six-wings",
-        "mythology-varkyros"
+        "history-age-of-six-wings"
       ],
       "aliases": [],
       "publication": {
@@ -3306,7 +3371,6 @@
       ],
       "relatedIds": [
         "geography-damascus",
-        "characters-edric-mourn",
         "history-age-of-six-wings"
       ],
       "aliases": [],
@@ -3323,7 +3387,9 @@
       "description": "The traditional sequence of lessons is Ignition — Begin; Ash — Rise; Cinder — Endure; Ember — Hunger; Damascus — Master; Titanium — Perfect; and Obsidian — Reign. Ascend belongs to Kharadon beyond the seven stages, rather than constituting another ordinary division.",
       "content": [],
       "relatedIds": [
-        "history-war-of-the-six-crowns"
+        "history-war-of-the-six-crowns",
+        "competition-ladder-of-legends",
+        "culture-society-the-six-kingdoms"
       ],
       "aliases": [],
       "publication": {
@@ -3340,7 +3406,8 @@
       "content": [],
       "relatedIds": [
         "mythology-first-spark",
-        "magic-aether"
+        "magic-aether",
+        "history-age-of-the-first-spark"
       ],
       "aliases": [],
       "publication": {
@@ -3363,8 +3430,7 @@
       "relatedIds": [
         "geography-obsidian",
         "characters-sera-voss",
-        "history-age-of-six-wings",
-        "mythology-pyrakon"
+        "history-age-of-six-wings"
       ],
       "aliases": [],
       "publication": {
@@ -3392,7 +3458,7 @@
         "geography-ash",
         "characters-whiskey",
         "geography-the-first-ascension-bridge",
-        "history-second-descent"
+        "history-age-of-six-wings"
       ],
       "aliases": [],
       "publication": {
@@ -3448,7 +3514,9 @@
         "geography-hall-of-the-six",
         "culture-society-regional-dynasties",
         "history-reforging",
-        "mythology-kharadon"
+        "mythology-kharadon",
+        "culture-society-competitive-aliases",
+        "terminology-sorceress-supreme"
       ],
       "aliases": [],
       "publication": {
@@ -3496,9 +3564,7 @@
       ],
       "relatedIds": [
         "artifacts-kharadon-s-seal",
-        "characters-sera-voss",
         "characters-vanthe-plouffe",
-        "competition-crucibles",
         "history-war-of-the-broken-summit",
         "organizations-ascendants-crownless",
         "organizations-reformers",
@@ -3529,7 +3595,8 @@
         "organizations-administrative-council",
         "culture-society-competitive-aliases",
         "competition-aetherforge-inferno",
-        "mythology-kharadon"
+        "mythology-kharadon",
+        "characters-whiskey"
       ],
       "aliases": [],
       "publication": {
@@ -3645,7 +3712,8 @@
       "content": [],
       "relatedIds": [
         "characters-torren-drake",
-        "geography-cinder"
+        "geography-cinder",
+        "characters-torrick-drake"
       ],
       "aliases": [],
       "publication": {
@@ -3701,7 +3769,8 @@
       "content": [],
       "relatedIds": [
         "geography-ash",
-        "characters-edric-mourn"
+        "characters-edric-mourn",
+        "geography-morrowfall"
       ],
       "aliases": [],
       "publication": {
@@ -3734,7 +3803,8 @@
       "content": [],
       "relatedIds": [
         "characters-caelor-rhyne",
-        "geography-titanium"
+        "geography-titanium",
+        "characters-kaelen-rhyne"
       ],
       "aliases": [],
       "publication": {
@@ -3755,7 +3825,8 @@
         }
       ],
       "relatedIds": [
-        "geography-ember"
+        "geography-ember",
+        "characters-nyra-solvar"
       ],
       "aliases": [],
       "publication": {
@@ -3772,7 +3843,9 @@
       "content": [],
       "relatedIds": [
         "characters-lyra-vale",
-        "geography-ash"
+        "geography-ash",
+        "characters-ellen-vale",
+        "characters-aeren-vale"
       ],
       "aliases": [],
       "publication": {
@@ -3887,7 +3960,6 @@
         }
       ],
       "relatedIds": [
-        "characters-mira-ardyn",
         "characters-nyra-solvar",
         "organizations-crownless"
       ],
@@ -3981,7 +4053,8 @@
       ],
       "relatedIds": [
         "history-first-ascension",
-        "history-second-descent"
+        "history-second-descent",
+        "history-reforging"
       ],
       "aliases": [],
       "publication": {
@@ -4001,9 +4074,7 @@
           "body": "The general price scale and exchange rates of Golden Dragons have not been established."
         }
       ],
-      "relatedIds": [
-        "characters-lilith-vanthe"
-      ],
+      "relatedIds": [],
       "aliases": [],
       "publication": {
         "status": "author_approved",
@@ -4018,7 +4089,8 @@
       "description": "Sorceress Supreme is Lyra’s title as Founder of FYI, associated with vision, identity, direction and legacy. The title does not by itself imply spellcasting.",
       "content": [],
       "relatedIds": [
-        "characters-lyra-acolyte12"
+        "characters-lyra-acolyte12",
+        "organizations-administrative-council"
       ],
       "aliases": [],
       "publication": {
@@ -4035,7 +4107,8 @@
       "content": [],
       "relatedIds": [
         "characters-lilith-vanthe",
-        "literature-the-daggersmith-literary-work"
+        "literature-the-daggersmith-literary-work",
+        "craftsmanship-daggersmithing"
       ],
       "aliases": [],
       "publication": {

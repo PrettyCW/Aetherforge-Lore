@@ -22,9 +22,9 @@ const active=(p,current)=>p===current?' aria-current="page"':'';
 const searchForm=(q='',c='',full=false)=>'<form class="searchform'+(full?' search-page-form':'')+'" action="/search" method="get" role="search" aria-label="'+(full?'Search results':'Site search')+'"><label class="sr-only" for="'+(full?'results-q':'site-q')+'">Search encyclopedia</label><input id="'+(full?'results-q':'site-q')+'" name="q" maxlength="200" placeholder="Search the archives…" value="'+esc(q)+'">'+(full?'<label class="sr-only" for="search-category">Category</label><select id="search-category" name="category"><option value="">All categories</option>'+visibleCategories.map(x=>'<option value="'+esc(x)+'"'+(x===c?' selected':'')+'>'+esc(x)+'</option>').join('')+'</select>':'')+'<button class="btn '+(full?'primary':'')+'">Search</button></form>';
 function page(title,body,{path='/',description='Explore the encyclopedia of Aetherforge.',q='',noindex=false}={}){
  const meta='<meta name="description" content="'+esc(description)+'"><meta property="og:title" content="'+esc(title)+' | Aetherforge Wiki"><meta property="og:description" content="'+esc(description)+'">'+(noindex?'<meta name="robots" content="noindex,follow">':'<link rel="canonical" href="'+esc(origin+path)+'">');
- const nav=[['/','Home'],['/kingdoms','Six Kingdoms'],[catLink('Characters'),'Characters'],[catLink('Mythology'),'Mythology'],[catLink('History'),'History'],['/articles','All articles']];
+ const nav=[['/','Home'],['/kingdoms','Six Kingdoms'],[catLink('Characters'),'Characters'],[catLink('Mythology'),'Mythology'],['/chronology','History'],['/articles','All articles']];
  const side=visibleCategories.map(c=>'<a class="side-link" href="'+catLink(c)+'"'+active(catLink(c),path)+'><span class="glyph" aria-hidden="true">'+esc(glyph(c))+'</span><span>'+esc(c)+'</span><span class="count">'+categoryRows.get(c).length+'</span></a>').join('');
- return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0c1015"><title>'+esc(title)+' | Aetherforge Wiki</title>'+meta+'<style>'+css+'</style></head><body><a class="skip" href="#main">Skip to content</a><div class="topline"></div><header class="masthead"><div class="header-inner"><a class="brand" href="/" aria-label="Aetherforge Wiki home"><span class="brandmark">'+brandmark+'</span><span><span class="brand-name">AETHERFORGE</span><span class="brand-sub">The encyclopedia</span></span></a>'+searchForm(q)+'</div><nav class="topnav" aria-label="Main navigation">'+nav.map(([p,n])=>'<a href="'+p+'"'+active(p,path)+'>'+n+'</a>').join('')+'<a class="random" href="/random">✧ Random article</a></nav></header><div class="shell"><details class="sidebar" open><summary class="eyebrow">Explore the archives</summary><nav class="side-links" aria-label="Categories">'+side+'</nav></details><main id="main">'+body+'</main></div><footer class="footer"><div class="foot-inner"><span class="foot-brand">Aetherforge · FYI</span><span>Every Legend Begins With a Spark.</span><span>Encyclopedia · v'+VERSION+'</span></div></footer></body></html>';
+ return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0c1015"><title>'+esc(title)+' | Aetherforge Wiki</title>'+meta+'<style>'+css+'</style></head><body><a class="skip" href="#main">Skip to content</a><div class="topline"></div><header class="masthead"><div class="header-inner"><a class="brand" href="/" aria-label="Aetherforge Wiki home"><span class="brandmark">'+brandmark+'</span><span><span class="brand-name">AETHERFORGE</span><span class="brand-sub">The encyclopedia</span></span></a>'+searchForm(q)+'</div><nav class="topnav" aria-label="Main navigation">'+nav.map(([p,n])=>'<a href="'+p+'"'+active(p,path)+'>'+n+'</a>').join('')+'<a class="random" href="/random">✧ Random article</a></nav></header><div class="shell"><aside class="sidebar desktop-categories"><div class="eyebrow">Explore the archives</div><nav class="side-links" aria-label="Categories">'+side+'</nav></aside><details class="sidebar mobile-categories"><summary class="eyebrow">Browse categories</summary><nav class="side-links" aria-label="Categories">'+side+'</nav></details><main id="main">'+body+'</main></div><footer class="footer"><div class="foot-inner"><span class="foot-brand">Aetherforge · FYI</span><span>Every Legend Begins With a Spark.</span><span>Encyclopedia · v'+VERSION+'</span></div></footer></body></html>';
 }
 function crumb(c,extra=''){return '<nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/articles">Articles</a>'+(c?'<span aria-hidden="true">/</span><a href="'+catLink(c)+'">'+esc(c)+'</a>':'')+(extra?'<span aria-hidden="true">/</span><span>'+esc(extra)+'</span>':'')+'</nav>'}
 const heading=(label,title,href='',action='')=>'<div class="section-head"><div><div class="eyebrow">'+esc(label)+'</div><h2>'+esc(title)+'</h2></div>'+(href?'<a href="'+href+'">'+esc(action)+' →</a>':'')+'</div>';
@@ -32,8 +32,40 @@ const section=(label,title,body,href='',action='')=>'<section class="section">'+
 const pageHeading=(label,title,desc)=>'<div class="page-heading"><div class="eyebrow">'+esc(label)+'</div><h1>'+esc(title)+'</h1><p>'+esc(desc)+'</p></div>';
 const scope=a=>'<div class="scope">'+a.publication.canon.split(',').map(s=>'<span class="tag">'+esc(s.trim())+'</span>').join('')+'</div>';
 const norm=s=>String(s??'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[’‘']/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-const searchIndex=articles.map(a=>({a,title:norm(a.title),alias:norm(a.aliases.join(' ')),category:norm(a.category),description:norm(a.description),headings:norm(a.content.map(s=>s.heading).join(' ')),body:norm(a.content.map(s=>s.body).join(' '))}));
-function search(q,c=''){const phrase=norm(q),terms=phrase.split(' ').filter(Boolean);const rows=[];for(const x of searchIndex){if(c&&x.a.category!==c)continue;const fields=[x.title,x.alias,x.category,x.description,x.headings,x.body];if(!terms.every(t=>fields.some(s=>s.includes(t))))continue;let score=0;if(phrase){score+=x.title===phrase?500:x.title.startsWith(phrase)?180:x.title.includes(phrase)?110:0;for(const t of terms)score+=x.title.includes(t)?45:x.alias.includes(t)?35:x.headings.includes(t)?15:x.description.includes(t)?10:x.category.includes(t)?7:2;}rows.push({a:x.a,score})}return rows.sort((x,y)=>y.score-x.score||x.a.title.localeCompare(y.a.title,'en')).map(x=>x.a)}
+const searchNames={
+ 'characters-lilith-vanthe':['Pretty','Lily','Lyra Northashe','Daggersmith'],
+ 'characters-lyra-acolyte12':['Acolyte12','Founder','Lyra'],
+ 'characters-travis-pope':['TPope'],'characters-draven-vale':['Daggs'],'characters-lauren':['Stick'],
+ 'characters-lyra-vale':['Ashborn'],'characters-cassian-rourke':['Golden Spark'],
+ 'characters-kael-varen':['First Ascendant'],'characters-aric-flare':['Ember Wolf'],
+ 'characters-torren-drake':['Last Cinder'],'characters-maera-sol':['Twice-Fallen'],
+ 'characters-selene-ardyn':['Damascus Hand'],'characters-caelor-rhyne':['Silver Measure'],
+ 'characters-malrek-voss':['Obsidian Crown'],'organizations-fyi':['Find Your Irons'],
+ 'mythology-kharadon':['King of Dragons','Keeper of the Eternal Forge'],
+ 'mythology-drakhar':['Unyielding'],'mythology-aurelith':['Silver Sentinel'],
+ 'mythology-varkyros':['Black Sovereign'],'mythology-pyrakon':['Flameborn'],
+ 'mythology-seraphyne':['Queen of Damascus'],'geography-serathis':['City of a Thousand Forges'],
+ 'geography-nocthar':['Black Crown']
+};
+const searchIndex=articles.map(a=>({a,title:norm(a.title),names:[a.slug,...a.aliases,...(searchNames[a.id]||[])].map(norm),category:norm(a.category),description:norm(a.description),headings:norm(a.content.map(s=>s.heading).join(' ')),body:norm(a.content.map(s=>s.body).join(' '))}));
+const stopWords=new Set(['the','of','and','a','an','in','to']);
+function search(q,c=''){
+ const phrase=norm(q);let terms=phrase.split(' ').filter(Boolean);const useful=terms.filter(t=>!stopWords.has(t));if(useful.length)terms=useful;
+ const rows=[];
+ for(const x of searchIndex){
+  if(c&&x.a.category!==c)continue;
+  const names=[x.title,...x.names],fields=[...names,x.category,x.description,x.headings,x.body];
+  if(!terms.every(t=>fields.some(s=>s.includes(t))))continue;
+  let score=0;
+  if(phrase){
+   score+=x.title===phrase?1000:x.names.includes(phrase)?850:x.title.startsWith(phrase)?250:x.names.some(n=>n.startsWith(phrase))?220:x.title.includes(phrase)?150:x.names.some(n=>n.includes(phrase))?120:0;
+   for(const t of terms)score+=names.some(n=>n.split(' ').includes(t))?65:names.some(n=>n.includes(t))?30:x.headings.includes(t)?15:x.description.includes(t)?10:x.category.includes(t)?7:2;
+   if(x.description.includes(phrase))score+=12;
+  }
+  rows.push({a:x.a,score})
+ }
+ return rows.sort((x,y)=>y.score-x.score||x.a.title.localeCompare(y.a.title,'en')).map(x=>x.a)
+}
 function snippet(a,q){if(!q)return a.description;const terms=norm(q).split(' ').filter(Boolean);if(terms.some(t=>norm(a.description).includes(t)))return a.description;const s=a.content.find(x=>terms.some(t=>norm(x.body).includes(t)));if(!s)return a.description;const words=s.body.split(/\s+/),idx=words.findIndex(w=>terms.some(t=>norm(w).includes(t)));const start=Math.max(0,idx-12),end=Math.min(words.length,start+43);return (start?'… ':'')+words.slice(start,end).join(' ')+(end<words.length?' …':'')}
 function highlight(value,q){const terms=String(q??'').trim().split(/\s+/).filter(t=>t.length>=2).slice(0,12).map(t=>t.replace(/[.*+?^$(){}|[\]\\]/g,'\\$&'));if(!terms.length)return esc(value);const re=new RegExp('('+terms.join('|')+')','giu');return String(value).split(re).map((s,i)=>i%2?'<mark>'+esc(s)+'</mark>':esc(s)).join('')}
 function entries(list,{ranked=false,q=''}={}){return list.length?'<div class="entries">'+(ranked?list:sorted(list)).map(a=>'<div class="entry">'+icon(a.category)+'<div class="entry-content"><div class="entry-top"><a href="'+link(a)+'"><strong>'+highlight(a.title,q)+'</strong></a><span class="tag">'+esc(a.category)+'</span></div><p>'+highlight(snippet(a,q),q)+'</p></div><a class="arrow" href="'+link(a)+'" aria-label="Read '+esc(a.title)+'">→</a></div>').join('')+'</div>':'<div class="empty">No matching articles. Try a different term or category.</div>'}
@@ -58,23 +90,68 @@ function visualArchive(){
  return crumb()+pageHeading('Visual encyclopedia','Visual archive','Existing artwork recovered from Aetherforge’s earlier creative work. Only explicitly approved visual references are treated as locked canon.')+'<p class="small visual-intro">'+visuals.length+' recovered assets · '+new Set(visuals.flatMap(v=>v.article_ids)).size+' connected articles · No newly generated artwork. Missing or unverified subjects are intentionally left unillustrated.</p>'+groups.map(([kind,title])=>section('Visual scope',title,'<div class="visual-grid">'+visuals.filter(v=>v.classification===kind).map(v=>visualFigure(v,{links:true})).join('')+'</div>')).join('');
 }
 
-function articlePage(a){const uniqueLead=a.description&&!a.content.some(s=>s.body===a.description||s.body.startsWith(a.description.replace(/…$/,'')));const contents=a.content.map((s,i)=>'<section id="section-'+(i+1)+'"><h2>'+esc(s.heading)+'</h2>'+s.body.split(/\n\s*\n/).map(p=>'<p>'+esc(p)+'</p>').join('')+'</section>').join('');
+// Link first mentions of distinct published article names.
+const linkTerms=new Map();
+for(const a of articles){
+ const title=a.title;
+ if(title.length<4||/\(|:/.test(title)||['Magic','Daggers','Irons','Aether','Ignition','Ash','Cinder','Ember','Damascus','Titanium','Obsidian','Reformers','First Spark','The Eight','Crownless','Reforging'].includes(title))continue;
+ const key=title.toLowerCase().replace(/[’‘]/g,"'");
+ if(linkTerms.has(key))linkTerms.set(key,null);else linkTerms.set(key,a);
+}
+const reEscape=s=>s.replace(/[.*+?^$(){}|[\]\\]/g,'\\$&');
+const termPattern=[...linkTerms].filter(([,a])=>a).map(([key])=>key).sort((a,b)=>b.length-a.length).map(k=>reEscape(k).replace(/'/g,"['’‘]")).join('|');
+const termRegex=new RegExp('(?<![\\p{L}\\p{N}])(?:'+termPattern+')(?![\\p{L}\\p{N}])','giu');
+function linkedText(value,current,seen){
+ let out='',last=0;
+ for(const m of String(value).matchAll(termRegex)){
+  const target=linkTerms.get(m[0].toLowerCase().replace(/[’‘]/g,"'"));
+  if(!target||target.id===current.id||seen.has(target.id)||seen.size>=18)continue;
+  out+=esc(value.slice(last,m.index))+'<a class="inline-lore" href="'+link(target)+'">'+esc(m[0])+'</a>';last=m.index+m[0].length;seen.add(target.id);
+ }
+ return out+esc(value.slice(last))
+}
+const kingdomHubs={
+ ash:['geography-morrowfall','mythology-veyrath','organizations-house-vale','organizations-house-mourn','organizations-greyhands','characters-lyra-vale','characters-maera-sol'],
+ cinder:['geography-brazenhold','mythology-drakhar','organizations-house-drake','organizations-house-mordane','organizations-ironbound','characters-torren-drake'],
+ ember:['geography-ember-ridge','mythology-pyrakon','organizations-house-flare','organizations-house-solvar','organizations-kindled','characters-aric-flare'],
+ damascus:['geography-serathis','mythology-seraphyne','organizations-house-ardyn','organizations-house-velora','organizations-thousand-hands','characters-selene-ardyn'],
+ titanium:['geography-aurelion','mythology-aurelith','organizations-house-rhyne','organizations-house-calix','organizations-sentinel-order','characters-caelor-rhyne'],
+ obsidian:['geography-nocthar','mythology-varkyros','organizations-house-voss','organizations-house-vex','organizations-house-noirren','characters-malrek-voss']
+};
+function kingdomHub(a){
+ const ids=a.id==='geography-'+a.slug&&kingdomHubs[a.slug];if(!ids)return '';
+ const neighbors=kingdoms.map(([slug])=>bySlug.get(slug)).filter(b=>b&&b.id!==a.id);
+ return section('Kingdom directory','Explore '+a.title,entries(ids.map(id=>byId.get(id)).filter(Boolean),{ranked:true}))+
+ '<nav class="kingdom-switch" aria-label="Other kingdoms"><a href="/kingdoms">All kingdoms</a>'+neighbors.map(b=>'<a href="'+link(b)+'">'+esc(b.title)+'</a>').join('')+'</nav>';
+}
+const chronologyGroups=[
+ ['Creation and early traditions','Mythological sequence; no fixed absolute dates.',['history-age-of-the-first-spark','mythology-unshaped-aether','mythology-first-spark','mythology-eternal-forge','mythology-kharadon','history-age-of-six-wings','history-war-of-the-six-crowns']],
+ ['The founding of the Ladder','0 AL marks the formal founding. Other dates remain approximate or unknown.',['competition-ladder-of-legends','competition-ignition','geography-vaelorian-citadel','history-first-ascension','history-second-descent','history-lost-kael-period']],
+ ['The age of champions','Broad historical grouping; the ages may overlap.',['history-age-of-ascendants','history-age-of-champions','history-darian-s-ascension','history-war-of-the-broken-summit']],
+ ['Restoration and modern history','The Reforging precedes modern mortal administration.',['history-reforging','history-sanitization-of-history','organizations-administrative-council','competition-kharadon-s-ascension','history-ladder-awakening']]
+];
+function chronology(){return crumb('History')+pageHeading('Historical reference','Chronology','Explore the broad sequence of Aetherforge history. Myth, provisional accounts and disputed records retain their article scope; this is not a fixed year-by-year timeline.')+
+ '<p class="chronology-note"><a href="'+link(byId.get('terminology-calendar-of-aetherforge'))+'">Calendar of Aetherforge · BL and AL</a></p>'+
+ chronologyGroups.map(([title,note,ids])=>section('Historical period',title,'<p class="small chronology-note">'+esc(note)+'</p>'+entries(ids.map(id=>byId.get(id)).filter(Boolean),{ranked:true}))).join('')+
+ '<p class="section"><a href="'+catLink('History')+'">Browse all history articles →</a></p>'}
+function articlePage(a){const uniqueLead=a.description&&!a.content.some(s=>s.body===a.description||s.body.startsWith(a.description.replace(/…$/,'')));const seen=new Set();const lead=linkedText(a.description,a,seen);const contents=a.content.map((s,i)=>'<section id="section-'+(i+1)+'"><h2>'+esc(s.heading)+'</h2>'+s.body.split(/\n\s*\n/).map(p=>'<p>'+linkedText(p,a,seen)+'</p>').join('')+'</section>').join('');
  const locked=visualFor(a).find(v=>v.classification==='canonical');
  const rail='<div class="article-rail">'+(locked?'<div class="portrait-panel">'+visualFigure(locked,{eager:true})+'</div>':'')+'<section class="rail-panel" aria-label="Article information">'+icon(a.category)+'<h3>Article information</h3><dl><dt>Category</dt><dd><a href="'+catLink(a.category)+'">'+esc(a.category)+'</a></dd><dt>Canon / scope</dt><dd>'+scope(a)+'</dd></dl></section>'+(a.content.length?'<nav class="rail-panel" aria-label="Table of contents"><h3>On this page</h3><ol class="toc">'+a.content.map((s,i)=>'<li><a href="#section-'+(i+1)+'">'+esc(s.heading)+'</a></li>').join('')+'</ol></nav>':'')+'</div>';
- return crumb(a.category,a.title)+'<div class="article-head"><div class="eyebrow">'+esc(a.category)+'</div><h1>'+esc(a.title)+'</h1>'+scope(a)+'</div><div class="article-layout"><article class="article">'+(uniqueLead||!a.content.length?'<p class="lead">'+esc(a.description)+'</p>':'')+contents+'</article>'+rail+'</div>'+articleVisuals(a)+related(a);
+ return crumb(a.category,a.title)+'<div class="article-head"><div class="eyebrow">'+esc(a.category)+'</div><h1>'+esc(a.title)+'</h1>'+scope(a)+'</div><div class="article-layout"><article class="article">'+(uniqueLead||!a.content.length?'<p class="lead">'+lead+'</p>':'')+contents+'</article>'+rail+'</div>'+kingdomHub(a)+related(a);
 }
 function render(p,q='',category=''){
  q=String(q??'').slice(0,200);category=categories.includes(category)?category:'';
  if(p==='/')return [200,page('Home','<section class="hero">'+heroArt+'<div class="hero-copy"><div class="eyebrow">FYI · The world of Aetherforge</div><h1>Aetherforge Wiki</h1><p class="motto">Every Legend Begins With a Spark.</p><p class="intro">Discover the kingdoms, dragons, people and competitions that shape Aetherforge. Explore the lore, from ancient mythology to the modern Ladder.</p><div class="actions"><a class="btn primary" href="/kingdoms">Explore the six kingdoms →</a><a class="btn ghost" href="/articles">Browse all articles</a></div></div></section>'+section('Explore the world','The Six Kingdoms',kingdomCards(),'/kingdoms','Kingdom directory')+section('Start your journey','Featured lore',featured(featuredIds.map(id=>byId.get(id))))+section('Discover more','Browse by category',categoryCards(),'/articles','Alphabetical index')+'<p class="small section">Explore world lore, FYI competition rules and associated games. Scope labels distinguish established information, provisional worldbuilding and game or league references.</p>',{path:p})];
  if(p==='/kingdoms'){const overview=byId.get('culture-society-the-six-kingdoms');return [200,page('Six Kingdoms',crumb() +pageHeading('The world','The Six Kingdoms',overview?.description||'Explore the six kingdoms of Aetherforge.')+kingdomCards()+section('Foundational lore','Explore the world',featured([overview,bySlug.get('ladder-of-legends'),bySlug.get('ascension-bridges'),bySlug.get('sparkhaven')])),{path:p,description:overview?.description})]}
+ if(p==='/chronology')return [200,page('Chronology',chronology(),{path:p,description:'Explore the broad historical sequence of Aetherforge.'})];
  if(p==='/articles')return [200,page('All articles',crumb()+pageHeading('Archive index','All articles',articles.length+' entries. Browse alphabetically or search the full encyclopedia.')+directory(articles),{path:p})];
  if(p==='/search'){const found=search(q,category);return [200,page('Search',pageHeading('Discovery','Search the archives','Find characters, locations, artifacts and lore across the encyclopedia.')+searchForm(q,category,true)+'<div class="results-heading"><h2>'+found.length+' results</h2><span class="small">'+(q?'For “'+esc(q)+'”':'All articles')+(category?' · '+esc(category):'')+'</span></div>'+entries(found,{ranked:true,q}),{path:p,q,noindex:true})]}
  if(p==='/random')return [200,page('Random article',pageHeading('Discovery','Discover a random article','A different entry from across the encyclopedia.')+featured([articles[Math.floor(Math.random()*articles.length)]]),{path:p,noindex:true})];
- if(p.startsWith('/category/')){const c=decodeURIComponent(p.slice(10));if(categories.includes(c)){const list=categoryRows.get(c);const chosen=featuredIds.map(id=>byId.get(id)).filter(a=>a&&a.category===c);const spotlight=(chosen.length?chosen: [...list].sort((a,b)=>b.relatedIds.length-a.relatedIds.length||a.title.localeCompare(b.title,'en'))).slice(0,3);return [200,page(c,crumb(c)+pageHeading('Lore category',c,(metadata[c]?.[1]||'Explore this category.')+' '+list.length+' articles.')+(list.length>3?section('Starting points','Explore this category',featured(spotlight)):'')+section('Complete index','All '+c.toLowerCase()+' articles',directory(list)),{path:catLink(c),description:'Explore '+c+' articles in Aetherforge.',noindex:!list.length})]}}
- if(p.startsWith('/wiki/')){const a=bySlug.get(decodeURIComponent(p.slice(6)));if(a)return [200,page(a.title,articlePage(a),{path:link(a),description:a.description})]}
+ if(p.startsWith('/category/')){const c=decodeURIComponent(p.slice(10));if(categories.includes(c)){const list=categoryRows.get(c);const chosen=featuredIds.map(id=>byId.get(id)).filter(a=>a&&a.category===c);const spotlight=(chosen.length?chosen: [...list].sort((a,b)=>b.relatedIds.length-a.relatedIds.length||a.title.localeCompare(b.title,'en'))).slice(0,3);return [200,page(c,crumb(c)+pageHeading('Lore category',c,(metadata[c]?.[1]||'Explore this category.')+' '+list.length+' articles.')+(list.length>3?section('Starting points','Explore this category',featured(spotlight)):'')+(c==='History'?'<p class="section"><a class="btn ghost" href="/chronology">Explore chronological history →</a></p>':'')+section('Complete index','All '+c.toLowerCase()+' articles',directory(list)),{path:catLink(c),description:'Explore '+c+' articles in Aetherforge.',noindex:!list.length})]}}
+ if(p.startsWith('/wiki/')){const slug=decodeURIComponent(p.slice(6));const a=bySlug.get(slug)||articles.find(x=>x.aliases.includes(slug));if(a)return [200,page(a.title,articlePage(a),{path:link(a),description:a.description})]}
  return [404,page('Not found',pageHeading('Archive','Article not found','This entry does not exist in the encyclopedia.')+'<a class="btn primary" href="/articles">Browse the archives →</a>',{path:p,noindex:true})];
 }
-function sitemap(){return '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+['/','/articles','/kingdoms',...visibleCategories.map(catLink),...articles.map(link)].map(p=>'<url><loc>'+esc(origin+p)+'</loc></url>').join('')+'</urlset>'}
+function sitemap(){return '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+['/','/articles','/kingdoms','/chronology',...visibleCategories.map(catLink),...articles.map(link)].map(p=>'<url><loc>'+esc(origin+p)+'</loc></url>').join('')+'</urlset>'}
 const server=http.createServer((req,res)=>{
  res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Content-Security-Policy',"default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'");res.setHeader('Referrer-Policy','no-referrer');
  const send=(status,body,type='text/html; charset=utf-8')=>{res.writeHead(status,{'Content-Type':type});res.end(req.method==='HEAD'?'':body)};
