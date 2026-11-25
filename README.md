@@ -1,6 +1,6 @@
 # Aetherforge Wiki
 
-One public read-only encyclopedia; no login or import required. Node.js 22+, no external runtime dependencies. Run `npm run build` to validate and `npm start` to serve. Railway uses PORT. The public dataset contains encyclopedia text, canon labels and related identifiers, not underlying source files or editorial registers. Original source documents remain preserved. Public articles focus on fictional lore; retired material, game and league mechanics, manuscript ledgers and unapproved plans remain in source history rather than the public encyclopedia. The author explicitly directed public access to the encyclopedia, superseding the prior two-tier plan.
+One public read-only encyclopedia; no login or import required. Node.js 22+, no external runtime dependencies. Run `npm run build` to validate and `npm start` to serve. Railway uses PORT. The public dataset contains encyclopedia text, canon labels and related identifiers, not underlying source files or editorial registers. Original source documents remain preserved. Public articles cover fictional lore, FYI competition systems and associated games with explicit scope labels. Retired concepts, manuscript plot recaps, fictional match ledgers and speculative plot plans remain in source history. The author explicitly directed public access to the encyclopedia, superseding the prior two-tier plan.
 
 ## Visual identity
 
@@ -17,3 +17,7 @@ The `/visuals` gallery and eight article pages use eleven recovered WebP copies 
 ## v0.11.0 — Encyclopedia reconstruction
 
 127 curated public articles. Removed raw scoring records, manuscript observations, redundant entries and planning material from the public encyclopedia. Rebuilt major topics around world context and significance, preserved visual assets and maintained eight merged-route redirects. See [editorial audit](docs/ENCYCLOPEDIA_RECONSTRUCTION_v0.11.0.md).
+
+## v0.12.0 — Lore and information reference
+
+181 public articles. Restores meaningful reference subjects, distinguishes provisional lore from league and game systems, groups Kingdom Seals into one article, and removes fictional match recaps and novel synopsis sections. The source archive remains unchanged.
