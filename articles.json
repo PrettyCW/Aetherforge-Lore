@@ -502,6 +502,10 @@
         {
           "heading": "Historical accounts",
           "body": "Accounts describe a reform grievance that developed into a struggle for supremacy. Official history records his death at the Broken Summit, although traditions about his fate diverge."
+        },
+        {
+          "heading": "Political origins",
+          "body": "Darian’s advancement through the Ladder was earned. His original grievance over access to the Summit developed from a philosophical dispute into revolutionary demands for authority over ascension."
         }
       ],
       "relatedIds": [
@@ -512,7 +516,8 @@
         "mythology-eternal-forge",
         "literature-the-summit-and-the-chain",
         "history-darian-s-ascension",
-        "history-sanitization-of-history"
+        "history-sanitization-of-history",
+        "organizations-crownless"
       ],
       "aliases": [],
       "publication": {
@@ -635,6 +640,10 @@
         {
           "heading": "Historical traditions",
           "body": "Accounts agree that Kael became the First Ascendant but differ on whether he retired, disappeared, died or remained silent afterward. A later descent is absent from the familiar account."
+        },
+        {
+          "heading": "Legacy",
+          "body": "Kael is remembered as the First Ascendant, associated with the Unbroken Star. His achievement established that the full ascent was possible."
         }
       ],
       "relatedIds": [
@@ -644,7 +653,8 @@
         "characters-edric-mourn",
         "characters-rheon-valek",
         "history-lost-kael-period",
-        "history-sanitization-of-history"
+        "history-sanitization-of-history",
+        "history-first-ascension"
       ],
       "aliases": [],
       "publication": {
@@ -727,7 +737,7 @@
         },
         {
           "heading": "Craftsmanship",
-          "body": "Lilith owns a forge in Ash. She forged her own Division Dagger and irons with obsidian heads, golden shafts and leather grips."
+          "body": "Lilith began learning smithcraft at twelve, completed multiple apprenticeships, and learned golf from clients in exchange for daggers. She owns a forge in Ash and forged her own Division Dagger and irons with obsidian heads, golden shafts and leather grips."
         },
         {
           "heading": "Professional associations",
@@ -1237,6 +1247,10 @@
         {
           "heading": "Tradition",
           "body": "Crucibles allow contenders to distinguish themselves outside ordinary divisional competition. The strongest competitors tend to come from the upper divisions."
+        },
+        {
+          "heading": "Historical significance",
+          "body": "Crucibles were a cornerstone of competitive society before FYI. They offered opportunities for recognition beyond the ordinary divisional system."
         }
       ],
       "relatedIds": [
@@ -1763,6 +1777,10 @@
         {
           "heading": "The Daggersmith game",
           "body": "Rare properties may arise during forging or use and may remain hidden until discovered. This is a game system, not proof of a specific literary enchantment mechanism."
+        },
+        {
+          "heading": "Literary scope",
+          "body": "Exceptional magical smithcraft is permitted by the series canon to account for the durability of unusual forged equipment, but no universal composition, energy source or mechanism is established."
         }
       ],
       "relatedIds": [
@@ -1807,6 +1825,10 @@
         {
           "heading": "Notable examples",
           "body": "Lilith Vanthe’s self-forged irons have obsidian heads, golden shafts and ordinary leather grips. Rowden Groves uses Cinderian brimstone heads and bronze shafts. The exact material properties and any enchantment mechanisms remain unknown."
+        },
+        {
+          "heading": "Exceptional smithcraft",
+          "body": "Rare enchantment or magical smithcraft may account for the durability of unconventional materials. Such craftsmanship does not guarantee perfect shots."
         }
       ],
       "relatedIds": [
@@ -1814,7 +1836,8 @@
         "artifacts-golden-crucible-dagger",
         "characters-rowden-groves",
         "craftsmanship-daggersmithing",
-        "craftsmanship-obsidian-material"
+        "craftsmanship-obsidian-material",
+        "magic-magic"
       ],
       "aliases": [
         "cinderian-brimstone"
@@ -1899,7 +1922,12 @@
       "slug": "material-culture",
       "category": "Culture & Society",
       "description": "Aetherforge’s material culture is medieval in character, with smithcraft, stone construction, animal transport and rare magic.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Setting",
+          "body": "The world uses a broad eighth- to eleventh-century medieval material baseline rather than Renaissance industry. Its technology includes hand forging, stone construction and animal transport. Magic is rare and exceptional."
+        }
+      ],
       "relatedIds": [
         "magic-magic"
       ],
@@ -1923,6 +1951,10 @@
         {
           "heading": "Governance",
           "body": "These local institutions are distinct from the realm-wide Administrative Council. Their exact jurisdictions are not finalized."
+        },
+        {
+          "heading": "Influence",
+          "body": "Regional Houses and institutions may derive influence from land, commerce, military service, championship history, craft and guild leadership. The dragon philosophies influence institutions and traditions without determining every inhabitant’s occupation, beliefs or prosperity."
         }
       ],
       "relatedIds": [
@@ -1949,6 +1981,10 @@
         {
           "heading": "The Ladder",
           "body": "Ignition is a gateway outside the six kingdoms, not a seventh kingdom. Kharadon’s Summit lies beyond the ordinary Ladder. A person’s birthplace and current competitive division are distinct."
+        },
+        {
+          "heading": "Heraldry",
+          "body": "At Vaelorian Citadel the kingdom banners are Ash white and pale blue, Cinder orange, Ember red, Damascus violet, Titanium silver and Obsidian black. Kharadon’s gold-on-black standard stands above the six."
         }
       ],
       "relatedIds": [
@@ -1981,6 +2017,10 @@
         {
           "heading": "Significance",
           "body": "The bridges connect kingdoms and form part of the infrastructure of the Ladder. Their ancient origins and full workings remain uncertain."
+        },
+        {
+          "heading": "Appearance and use",
+          "body": "The passages are generally translucent and illuminated, passing through mist and clouds with a waterlike transition at arrival. Travelers and mule carts can use them; ordinary crossings are familiar, convenient and normally safe."
         }
       ],
       "relatedIds": [
@@ -1988,7 +2028,9 @@
         "geography-sparkhaven",
         "geography-crown-grounds",
         "geography-the-first-ascension-bridge",
-        "geography-vaelorian-citadel"
+        "geography-vaelorian-citadel",
+        "history-reforging",
+        "magic-magic"
       ],
       "aliases": [],
       "publication": {
@@ -2010,6 +2052,14 @@
         {
           "heading": "Culture and tradition",
           "body": "Veyrath’s creed, “Where Ruin Becomes Resolve,” expresses the choice to rebuild and rise after failure. Ash’s identity is founded on resilience rather than poverty or defeat."
+        },
+        {
+          "heading": "Regional center and institutions",
+          "body": "Morrowfall is the established regional center. House Vale preserves the tradition of rebuilding; House Mourn specializes in archives and remembrance; the Greyhands are a major rebuilding and engineering guild."
+        },
+        {
+          "heading": "Provisional cultural development",
+          "body": "Reused building materials, repair yards, artisan shops, archival halls and rebuilt neighborhoods are proposed features of daily life. These details are not yet fixed canon."
         }
       ],
       "relatedIds": [
@@ -2019,7 +2069,8 @@
         "characters-maera-sol",
         "organizations-greyhands",
         "organizations-house-mourn",
-        "geography-morrowfall"
+        "geography-morrowfall",
+        "organizations-house-vale"
       ],
       "aliases": [
         "ash-arrival-platform"
@@ -2034,7 +2085,7 @@
       "title": "Aurelion",
       "slug": "aurelion",
       "category": "Geography",
-      "description": "Aurelion is identified in the current geographical outline as the center of Titanium.",
+      "description": "Aurelion is the established regional center of Titanium. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
         "geography-titanium"
@@ -2042,7 +2093,7 @@
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Provisional lore"
+        "canon": "Established lore"
       }
     },
     {
@@ -2050,7 +2101,7 @@
       "title": "Brazenhold",
       "slug": "brazenhold",
       "category": "Geography",
-      "description": "Brazenhold is identified in the current geographical outline as the center of Cinder.",
+      "description": "Brazenhold is the established regional center of Cinder. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
         "geography-cinder",
@@ -2059,7 +2110,7 @@
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Provisional lore"
+        "canon": "Established lore"
       }
     },
     {
@@ -2072,6 +2123,14 @@
         {
           "heading": "Tradition",
           "body": "Cinder’s philosophy emphasizes endurance, discipline and the capacity to withstand prolonged pressure. Its heraldry includes a hammer on a coal-red shield."
+        },
+        {
+          "heading": "Regional center and institutions",
+          "body": "Brazenhold is the established regional center. House Drake has a military tradition, House Mordane is associated with defense, and the Ironbound brings together veterans, smiths, guards and workers."
+        },
+        {
+          "heading": "Provisional cultural development",
+          "body": "Fortress-linked markets, guarded roads, occupational brotherhoods and endurance contests are proposed features. These details are not yet fixed canon."
         }
       ],
       "relatedIds": [
@@ -2079,7 +2138,8 @@
         "mythology-drakhar",
         "organizations-house-mordane",
         "organizations-ironbound",
-        "geography-brazenhold"
+        "geography-brazenhold",
+        "organizations-house-drake"
       ],
       "aliases": [],
       "publication": {
@@ -2120,6 +2180,14 @@
         {
           "heading": "Tradition",
           "body": "Seraphyne’s creed is “Craftsmanship. Artistry. Pride.” Damascus values design, forging, artistry and mastery as expressions of strength."
+        },
+        {
+          "heading": "Regional center and institutions",
+          "body": "Serathis, the City of a Thousand Forges is the established regional center. House Ardyn is associated with strategy and adaptation, House Velora with art and architecture, and the Thousand Hands with master guilds."
+        },
+        {
+          "heading": "Provisional cultural development",
+          "body": "Craft districts, guild apprenticeships, courts of quality, prestige goods and cultural patronage are proposed features. These details are not yet fixed canon."
         }
       ],
       "relatedIds": [
@@ -2127,7 +2195,8 @@
         "mythology-seraphyne",
         "organizations-house-velora",
         "organizations-thousand-hands",
-        "geography-serathis"
+        "geography-serathis",
+        "organizations-house-ardyn"
       ],
       "aliases": [],
       "publication": {
@@ -2145,6 +2214,14 @@
         {
           "heading": "Tradition",
           "body": "Ember’s philosophy emphasizes momentum, aspiration and the refusal to remain still."
+        },
+        {
+          "heading": "Regional center and institutions",
+          "body": "Ember Ridge is the established regional center. House Flare is a competitive lineage, House Solvar has commercial and competitive influence, and the Kindled challenge inherited privilege."
+        },
+        {
+          "heading": "Provisional cultural development",
+          "body": "Merchant crossroads, workshops, competitive venues and patronage networks are proposed features; the kingdom’s exact economy and terrain remain undefined. These details are not yet fixed canon."
         }
       ],
       "relatedIds": [
@@ -2152,7 +2229,9 @@
         "mythology-pyrakon",
         "organizations-house-solvar",
         "organizations-kindled",
-        "characters-kira"
+        "characters-kira",
+        "geography-ember-ridge",
+        "organizations-house-flare"
       ],
       "aliases": [],
       "publication": {
@@ -2165,15 +2244,16 @@
       "title": "Ember Ridge",
       "slug": "ember-ridge",
       "category": "Geography",
-      "description": "Ember Ridge is associated with Ember in accounts of the kingdom’s geography. Its precise character and boundaries remain uncertain.",
+      "description": "Ember Ridge is the established regional center of Ember. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
-        "mythology-pyrakon"
+        "mythology-pyrakon",
+        "geography-ember"
       ],
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Mythological tradition"
+        "canon": "Established lore"
       }
     },
     {
@@ -2186,6 +2266,10 @@
         {
           "heading": "Seating",
           "body": "Five seats face the Founder’s Seat, which denotes the Founder’s leadership rather than hereditary monarchy."
+        },
+        {
+          "heading": "Architecture and symbolism",
+          "body": "The chamber’s provisional architectural description places five seats in a crescent around the Founder’s Seat, with a controlled column of Forgefire and Kharadon’s sigil behind them. The dragons do not occupy Council seats. Council members do not kneel during ordinary meetings."
         }
       ],
       "relatedIds": [
@@ -2229,7 +2313,7 @@
       "title": "Morrowfall",
       "slug": "morrowfall",
       "category": "Geography",
-      "description": "Morrowfall is identified in the current geographical outline as the center of Ash.",
+      "description": "Morrowfall is the established regional center of Ash. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
         "geography-ash"
@@ -2237,7 +2321,7 @@
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Provisional lore"
+        "canon": "Established lore"
       }
     },
     {
@@ -2245,7 +2329,7 @@
       "title": "Nocthar",
       "slug": "nocthar",
       "category": "Geography",
-      "description": "Nocthar, known as the Black Crown, is identified in the current geographical outline as the center of Obsidian.",
+      "description": "Nocthar, the Black Crown is the established regional center of Obsidian. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
         "geography-obsidian"
@@ -2253,7 +2337,7 @@
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Provisional lore"
+        "canon": "Established lore"
       }
     },
     {
@@ -2266,13 +2350,23 @@
         {
           "heading": "Tradition",
           "body": "Obsidian’s philosophy concerns sovereignty and the capacity to retain command under pressure. Kharadon’s Summit lies beyond the ordinary divisions."
+        },
+        {
+          "heading": "Regional center and institutions",
+          "body": "Nocthar, the Black Crown is the established regional center. House Voss is a competitive dynasty, House Noirren specializes in diplomacy and intelligence, and the fallen House Vex is associated with the Crownless and Broken Summit."
+        },
+        {
+          "heading": "Provisional cultural development",
+          "body": "Prestigious competitive halls, influential families and close public scrutiny of champions are proposed features. These details are not yet fixed canon."
         }
       ],
       "relatedIds": [
         "culture-society-the-six-kingdoms",
         "mythology-varkyros",
         "organizations-house-noirren",
-        "geography-nocthar"
+        "geography-nocthar",
+        "organizations-house-voss",
+        "organizations-house-vex"
       ],
       "aliases": [],
       "publication": {
@@ -2285,7 +2379,7 @@
       "title": "Serathis",
       "slug": "serathis",
       "category": "Geography",
-      "description": "Serathis, known as the City of a Thousand Forges, is identified in the current geographical outline as the center of Damascus.",
+      "description": "Serathis, the City of a Thousand Forges is the established regional center of Damascus. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
         "geography-damascus"
@@ -2293,7 +2387,7 @@
       "aliases": [],
       "publication": {
         "status": "author_approved",
-        "canon": "Provisional lore"
+        "canon": "Established lore"
       }
     },
     {
@@ -2384,6 +2478,14 @@
         {
           "heading": "Tradition",
           "body": "Its philosophy values preparation, control and repeatable mastery."
+        },
+        {
+          "heading": "Regional center and institutions",
+          "body": "Aurelion is the established regional center. House Rhyne is associated with strategy and planning, House Calix with logistics, and the Sentinel Order with earned military and administrative service."
+        },
+        {
+          "heading": "Provisional cultural development",
+          "body": "Maintained roads, public works, record houses and organized athletic academies are proposed features. These details are not yet fixed canon."
         }
       ],
       "relatedIds": [
@@ -2392,7 +2494,8 @@
         "organizations-house-calix",
         "organizations-sentinel-order",
         "characters-elias-kest",
-        "geography-aurelion"
+        "geography-aurelion",
+        "organizations-house-rhyne"
       ],
       "aliases": [],
       "publication": {
@@ -2414,6 +2517,10 @@
         {
           "heading": "Institutions",
           "body": "The Citadel houses the Administrative Council, archives and the Crown Grounds, where major competitive ceremonies take place."
+        },
+        {
+          "heading": "Founding and neutrality",
+          "body": "According to foundational tradition, the Citadel was established after the acceptance of the Ladder as neutral ground so that no kingdom or divisional dragon would hold primacy over the others. Its towers were built around ancient channels of energy from the Eternal Forge. Its bridges became part of the Ascension Bridge network."
         }
       ],
       "relatedIds": [
@@ -2421,7 +2528,9 @@
         "characters-edric-mourn",
         "geography-ascension-bridges",
         "geography-crown-grounds",
-        "geography-hall-of-the-six"
+        "geography-hall-of-the-six",
+        "mythology-kharadon",
+        "mythology-eternal-forge"
       ],
       "aliases": [],
       "publication": {
@@ -2435,7 +2544,12 @@
       "slug": "age-of-ascendants",
       "category": "History",
       "description": "The Age of Ascendants describes the period in which the Ladder became institutionalized. Academies, Houses, divisional competitions, ceremonial honors and rival schools of golf developed around it.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Institutions",
+          "body": "A provisional chronology places this era in Middle AL, when competitive academies, regional Houses, divisional tournaments, ceremonial awards and competing schools of golf became institutionalized."
+        }
+      ],
       "relatedIds": [
         "competition-ladder-of-legends"
       ],
@@ -2468,7 +2582,12 @@
       "slug": "age-of-six-wings",
       "category": "History",
       "description": "The six dragon philosophies define the recorded mythology of this age: Veyrath’s recovery, Drakhar’s persistence, Pyrakon’s ambition, Seraphyne’s mastery through creation, Aurelith’s precision and Varkyros’s dominion.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Rise of the six dragons",
+          "body": "Tradition describes the six kingdom dragons as rising to power after Kharadon became Keeper. Each became associated with a distinct philosophy. They were originally rivals, not a hierarchy; the later sequence of the Ladder emerged after the War of the Six Crowns."
+        }
+      ],
       "relatedIds": [
         "mythology-aurelith",
         "mythology-drakhar",
@@ -2488,7 +2607,12 @@
       "slug": "age-of-the-first-spark",
       "category": "History",
       "description": "The creation traditions describe the primordial elemental storm, the emergence of the First Spark and its association with the Eternal Forge. The Forge is said to respond to struggle and determination. These accounts form a mythological foundation, not a confirmed dated chronology.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Creation tradition",
+          "body": "Mountains, oceans, floating continents, molten valleys, crystalline fields and storm-wrapped peaks are said to have formed from the surrounding Aether. An inscription attributed to this age reads “What endures the fire may become more.” Its origin is unknown."
+        }
+      ],
       "relatedIds": [
         "mythology-eternal-forge",
         "mythology-first-spark"
@@ -2522,13 +2646,19 @@
       "slug": "first-ascension",
       "category": "History",
       "description": "The First Ascension is the legendary achievement of Kael Varen, remembered as the first contender to complete the Ladder and reach Kharadon’s Summit. Traditional accounts say he returned; its exact date remains unknown.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Dating",
+          "body": "The accepted in-world chronology generally places Kael Varen’s First Ascension in 103 AL. This is a traditional date, not a settled absolute chronology."
+        }
+      ],
       "relatedIds": [
         "geography-kharadon-s-summit",
         "history-second-descent",
         "terminology-calendar-of-aetherforge",
         "history-age-of-champions",
-        "history-lost-kael-period"
+        "history-lost-kael-period",
+        "characters-kael-varen"
       ],
       "aliases": [],
       "publication": {
@@ -2577,10 +2707,21 @@
       "slug": "reforging",
       "category": "History",
       "description": "The Reforging is remembered as the restoration of the Ladder and its bridges after the Broken Summit. Competition resumes as damaged infrastructure and institutions are rebuilt.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Restoration",
+          "body": "Historical tradition describes the rebuilding of the Ladder and restoration of Ascension Bridges, renewal of the dragons’ covenant and resumption of competition. A provisional historical outline also describes standardization of records, with older infrastructure remaining sealed or hidden."
+        },
+        {
+          "heading": "Competitive principle",
+          "body": "The restored competitive order rejects inherited entitlement through blood, wealth, title or previous victory. The tradition holds that former champions do not own future crowns."
+        }
+      ],
       "relatedIds": [
         "history-war-of-the-broken-summit",
-        "history-sanitization-of-history"
+        "history-sanitization-of-history",
+        "geography-ascension-bridges",
+        "organizations-administrative-council"
       ],
       "aliases": [],
       "publication": {
@@ -2612,7 +2753,12 @@
       "slug": "second-descent",
       "category": "History",
       "description": "The Second Descent is a mysterious historical reference discovered in an old access record dating thirty-one years after Kael Varen’s first ascent. The record preserves identifier 117-3A but does not identify the individual by name.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Archival record",
+          "body": "The surviving record authorizes temporary access for one individual whose name was removed, leaving identifier 117-3A. Later copies omit the entry, call it illegible or preserve the damage. Its dating does not establish that a second ascent occurred."
+        }
+      ],
       "relatedIds": [
         "artifacts-identifier-117-3a",
         "history-first-ascension",
@@ -2635,6 +2781,10 @@
         {
           "heading": "Aftermath",
           "body": "The conflict damaged the relationship between the realm’s institutions and the movement. Crownless ideas survived despite the defeat; the precise historical circumstances remain disputed."
+        },
+        {
+          "heading": "Historical context",
+          "body": "Darian Vex’s challenge concerned mortal access to the Summit and Kharadon’s authority. The conflict was directed against the order of ascension rather than primarily against neighboring kingdoms. A provisional chronology places it in Late AL and associates it with damage to Summit infrastructure, records and archives. The full circumstances remain unresolved."
         }
       ],
       "relatedIds": [
@@ -2794,7 +2944,12 @@
       "slug": "aether",
       "category": "Magic",
       "description": "Aether is associated in Aetherforge’s creation traditions with the primordial elemental storm from which the First Spark emerged. Its origin and precise workings remain uncertain.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Provisional properties",
+          "body": "A historical outline describes Aether as responsive to pressure, struggle, choice, endurance, ambition and transformation. This is a provisional interpretation; neither its origin nor its mechanism is established."
+        }
+      ],
       "relatedIds": [
         "mythology-unshaped-aether"
       ],
@@ -2829,10 +2984,17 @@
       "slug": "magic",
       "category": "World & Society",
       "description": "Magic exists in Aetherforge but is exceptional rather than a routine part of everyday life. The Ascension Bridges are an established example of magical travel; the mechanisms behind extraordinary craftsmanship and ancient infrastructure remain uncertain.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Limits",
+          "body": "Exceptional magical smithcraft or enchantment may make otherwise impractical equipment durable. The precise mechanism and energy source remain open; enchanted equipment does not guarantee competitive success. The existence of ancient bridges does not establish unrestricted magic."
+        }
+      ],
       "relatedIds": [
         "culture-society-material-culture",
-        "craftsmanship-enchantments"
+        "craftsmanship-enchantments",
+        "craftsmanship-irons",
+        "geography-ascension-bridges"
       ],
       "aliases": [],
       "publication": {
@@ -2849,7 +3011,7 @@
       "content": [
         {
           "heading": "Traditional accounts",
-          "body": "Tradition portrays Aurelith as the foremost battlefield strategist among the divisional dragons and Titanium as a realm of silver fortifications, geometric towers, disciplined armies and precise engineering."
+          "body": "Aurelith is the Silver Sentinel. His creed is “Strength Through Precision.” He values purposeful action, preparation and efficiency. Tradition regards him as the greatest battlefield strategist among the divisional dragons. Titanium is described in this tradition as a realm of silver fortifications, geometric towers, disciplined armies and precise engineering."
         }
       ],
       "relatedIds": [
@@ -2871,7 +3033,7 @@
       "content": [
         {
           "heading": "Traditional accounts",
-          "body": "Drakhar’s tradition emphasizes perseverance through exhaustion, failure and adversity."
+          "body": "Drakhar is the Unyielding. His creed is “Prove the Flame Within.” His philosophy emphasizes perseverance through exhaustion, failure and disappointment rather than performance only under favorable conditions."
         }
       ],
       "relatedIds": [
@@ -2891,12 +3053,18 @@
       "slug": "eternal-forge",
       "category": "Mythology",
       "description": "The Eternal Forge is associated with the First Spark. Myth describes it as responsive to struggle, pressure, conflict and determination.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Origins",
+          "body": "In creation tradition the Forge predates the kingdoms and perhaps even the dragons. Its flame responds to pressure, conflict and determination rather than behaving like ordinary fire. A provisional historical interpretation describes it as a nexus of Aether rather than a constructed building; its precise nature remains unknown."
+        }
+      ],
       "relatedIds": [
         "characters-darian-vex",
         "history-age-of-the-first-spark",
         "mythology-first-spark",
-        "mythology-kharadon"
+        "mythology-kharadon",
+        "geography-vaelorian-citadel"
       ],
       "aliases": [],
       "publication": {
@@ -2935,7 +3103,11 @@
         },
         {
           "heading": "Role",
-          "body": "The foundational tradition credits Kharadon with proposing the Ladder as an alternative to the dragons’ rivalry. His guardianship of the Forge and Summit is distinct from the Administrative Council’s governance of mortal institutions."
+          "body": "Tradition credits Kharadon with drawing upon the primordial force of the Forge without being consumed by it. He became its Keeper and proposed the Ladder as an alternative to the dragons’ rivalry. His guardianship of the Forge and Summit is distinct from the Council’s governance of mortal institutions."
+        },
+        {
+          "heading": "Authority",
+          "body": "The governance tradition describes his role as guarding the Eternal Forge, the Dragon Covenant, the Summit and the realm itself. He does not attend ordinary Council meetings and does not administer routine mortal affairs."
         }
       ],
       "relatedIds": [
@@ -2943,7 +3115,9 @@
         "artifacts-kharadon-s-seal",
         "geography-hall-of-the-six",
         "geography-kharadon-s-summit",
-        "mythology-eternal-forge"
+        "mythology-eternal-forge",
+        "organizations-administrative-council",
+        "geography-vaelorian-citadel"
       ],
       "aliases": [
         "age-of-kharadon"
@@ -2962,7 +3136,7 @@
       "content": [
         {
           "heading": "Philosophy",
-          "body": "His creed is “Feed the Flame.” He values the pursuit of advancement over safe stagnation."
+          "body": "Pyrakon is the Flameborn. His creed is “Feed the Flame. Forge Your Rise.” Tradition describes him as passionate, aggressive and charismatic; he values advancement and the willingness to take risks over stagnation."
         }
       ],
       "relatedIds": [
@@ -2987,7 +3161,7 @@
       "content": [
         {
           "heading": "Philosophy",
-          "body": "Her creed is “Craftsmanship. Artistry. Pride.” She regards design, forging and perfection as expressions of strength."
+          "body": "Seraphyne is the Queen of Damascus, often called simply the Queen. Her creed is “Craftsmanship. Artistry. Pride.” She regards design, forging, refinement and creation as expressions of strength beyond destruction."
         }
       ],
       "relatedIds": [
@@ -3043,7 +3217,7 @@
       "content": [
         {
           "heading": "Traditional accounts",
-          "body": "Varkyros is called the Black Sovereign. His creed is recorded as “Forged in Fire.” His tradition emphasizes maintaining command after victory and recognizes Kharadon’s authority beyond the Ladder."
+          "body": "Varkyros is the Black Sovereign. His creed is “Forged in Fire. Unbroken by Pressure.” He values command and the ability to retain sovereignty under scrutiny. He recognizes Kharadon’s authority beyond the Ladder."
         }
       ],
       "relatedIds": [
@@ -3067,7 +3241,11 @@
       "content": [
         {
           "heading": "Philosophy",
-          "body": "His creed is “Where Ruin Becomes Resolve.” He represents the choice to rise after failure."
+          "body": "His creed is “Where Ruin Becomes Resolve.” Veyrath’s domain represents aftermath rather than death; his philosophy treats recovery after failure as a necessary part of ascension."
+        },
+        {
+          "heading": "Appearance",
+          "body": "Veyrath is described as enormous, though smaller than Kharadon, with pale gray scales edged in white, an old chest injury and a broken horn tip."
         }
       ],
       "relatedIds": [
@@ -3100,6 +3278,14 @@
         {
           "heading": "Principles",
           "body": "The Council’s members were accomplished contenders before becoming governors. Its principle is to stand among competitors, not apart from them. Members do not decide matters directly affecting their own competitive interests."
+        },
+        {
+          "heading": "Authority",
+          "body": "The Council arose to provide consistent mortal governance where the dragons were not involved in daily affairs, rather than in response to a new catastrophe. It oversees competition, records, administration and technical systems. A governance account describes mutual recognition between the Council and the six dragons rather than administrative subordination in either direction."
+        },
+        {
+          "heading": "Institutional principles",
+          "body": "Members with direct competitive interests recuse themselves from affected decisions. The Council protects earned results, verifies evidence before disrupting competition and does not treat ancestry or an unexplained response of ancient infrastructure as proof of wrongdoing."
         }
       ],
       "relatedIds": [
@@ -3112,7 +3298,9 @@
         "geography-vaelorian-citadel",
         "organizations-fyi",
         "geography-hall-of-the-six",
-        "culture-society-regional-dynasties"
+        "culture-society-regional-dynasties",
+        "history-reforging",
+        "mythology-kharadon"
       ],
       "aliases": [],
       "publication": {
@@ -3129,7 +3317,8 @@
       "content": [],
       "relatedIds": [
         "organizations-hollow-crown",
-        "organizations-reformers"
+        "organizations-reformers",
+        "organizations-crownless"
       ],
       "aliases": [],
       "publication": {
@@ -3151,6 +3340,10 @@
         {
           "heading": "Symbols",
           "body": "A vertically split crown and the declaration “No height beyond reach” are associated with the Crownless."
+        },
+        {
+          "heading": "Ideology and factions",
+          "body": "The movement challenged the authority governing access to the Summit. Reformers sought greater mortal authority, Ascendants sought access by force, and Hollow Crown adherents sought the abolition of dragon sovereignty. The factions differed in their aims and methods; not all adherents supported violence."
         }
       ],
       "relatedIds": [
@@ -3158,7 +3351,12 @@
         "characters-sera-voss",
         "characters-vanthe-plouffe",
         "competition-crucibles",
-        "history-war-of-the-broken-summit"
+        "history-war-of-the-broken-summit",
+        "organizations-ascendants-crownless",
+        "organizations-reformers",
+        "organizations-hollow-crown",
+        "organizations-new-crownless",
+        "characters-darian-vex"
       ],
       "aliases": [],
       "publication": {
@@ -3245,7 +3443,8 @@
       "content": [],
       "relatedIds": [
         "organizations-ascendants-crownless",
-        "organizations-reformers"
+        "organizations-reformers",
+        "organizations-crownless"
       ],
       "aliases": [],
       "publication": {
@@ -3262,7 +3461,8 @@
       "content": [],
       "relatedIds": [
         "characters-mira-ardyn",
-        "characters-selene-ardyn"
+        "characters-selene-ardyn",
+        "geography-damascus"
       ],
       "aliases": [],
       "publication": {
@@ -3294,7 +3494,8 @@
       "description": "House Drake is associated with Cinder. The Long Watch emphasizes endurance, discipline and military service. Associated with Torren Drake, it bears the motto STAND AFTER STANDING FAILS.",
       "content": [],
       "relatedIds": [
-        "characters-torren-drake"
+        "characters-torren-drake",
+        "geography-cinder"
       ],
       "aliases": [],
       "publication": {
@@ -3315,7 +3516,8 @@
         }
       ],
       "relatedIds": [
-        "characters-aric-flare"
+        "characters-aric-flare",
+        "geography-ember"
       ],
       "aliases": [],
       "publication": {
@@ -3380,7 +3582,8 @@
       "description": "House Rhyne is associated with Titanium. The Measured Line comprises strategists, judges, planners and champions, and is associated with Caelor Rhyne. Its motto is NOTHING WASTED.",
       "content": [],
       "relatedIds": [
-        "characters-caelor-rhyne"
+        "characters-caelor-rhyne",
+        "geography-titanium"
       ],
       "aliases": [],
       "publication": {
@@ -3417,7 +3620,8 @@
       "description": "House Vale is associated with Ash. Known as the Rebuilders, it embodies reconstruction and resilience and bears the motto WE RISE AGAIN. Lyra Vale is associated with its legacy, and its crest includes a silver ash-leaf.",
       "content": [],
       "relatedIds": [
-        "characters-lyra-vale"
+        "characters-lyra-vale",
+        "geography-ash"
       ],
       "aliases": [],
       "publication": {
@@ -3449,7 +3653,8 @@
       "description": "House Vex, the Crownless Line, was once a prestigious Obsidian House. After the Broken Summit the House was politically destroyed, with branches exiled, stripped of position or destroyed. Survivors scattered, adopted new names or severed public lineage.",
       "content": [],
       "relatedIds": [
-        "history-war-of-the-broken-summit"
+        "history-war-of-the-broken-summit",
+        "geography-obsidian"
       ],
       "aliases": [],
       "publication": {
@@ -3466,7 +3671,8 @@
       "content": [],
       "relatedIds": [
         "characters-malrek-voss",
-        "characters-sera-voss"
+        "characters-sera-voss",
+        "geography-obsidian"
       ],
       "aliases": [],
       "publication": {
@@ -3512,10 +3718,16 @@
       "slug": "new-crownless",
       "category": "Organizations",
       "description": "The New Crownless is a contemporary expression of Crownless ideology, questioning authority over the Ladder and access to its highest stages. Its messages include unsigned black cards and the split crown symbol; the extent of its organization remains uncertain.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Continuity",
+          "body": "Crownless ideology and adherents survived the Broken Summit, including underground activity. The movement’s modern visibility therefore represents renewed activity rather than a resurrection of an extinct organization."
+        }
+      ],
       "relatedIds": [
         "characters-mira-ardyn",
-        "characters-nyra-solvar"
+        "characters-nyra-solvar",
+        "organizations-crownless"
       ],
       "aliases": [],
       "publication": {
@@ -3532,7 +3744,8 @@
       "content": [],
       "relatedIds": [
         "organizations-ascendants-crownless",
-        "organizations-hollow-crown"
+        "organizations-hollow-crown",
+        "organizations-crownless"
       ],
       "aliases": [],
       "publication": {
@@ -3611,7 +3824,12 @@
       "slug": "golden-dragons",
       "category": "World & Society",
       "description": "Golden Dragons are a denomination of currency used in Aetherforge.",
-      "content": [],
+      "content": [
+        {
+          "heading": "Currency",
+          "body": "The general price scale and exchange rates of Golden Dragons have not been established."
+        }
+      ],
       "relatedIds": [
         "characters-lilith-vanthe"
       ],

@@ -33,3 +33,7 @@ Removed all public artwork and the visual archive navigation, homepage section a
 ## v0.12.3 — Editorial cleanup
 
 172 public articles. Retired five filler or unfinished entries, merged three thin entries with redirects, removed repetitive relationship commentary and praise, and corrected malformed quotations and duplicate passages. Canon source documents are unchanged.
+
+## v0.13.0 — Lore restoration
+
+172 public articles; 55 updated through expanded lore and reciprocal links. Restores regional centers, dragon creeds, institutional and historical context, and carefully labeled provisional cultural details. See [reconciliation checkpoint](docs/LORE_COMPLETION_v0.13.0.md). No removed filler, images or plot recaps restored.
