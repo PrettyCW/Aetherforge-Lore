@@ -31,7 +31,7 @@ function page(title,body,{path='/',description='Explore the encyclopedia of Aeth
 function crumb(c,extra=''){return '<nav class="crumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/articles">Articles</a>'+(c?'<span aria-hidden="true">/</span><a href="'+catLink(c)+'">'+esc(c)+'</a>':'')+(extra?'<span aria-hidden="true">/</span><span>'+esc(extra)+'</span>':'')+'</nav>'}
 const heading=(label,title,href='',action='')=>'<h2 class="section-head">'+esc(title)+(href?'<a href="'+href+'">'+esc(action)+'</a>':'')+'</h2>';
 const section=(label,title,body,href='',action='')=>'<section class="section">'+heading(label,title,href,action)+body+'</section>';
-const pageHeading=(label,title,desc)=>'<header class="page-heading"><h1>'+esc(title)+'</h1><p>'+esc(desc)+'</p></header>';
+const pageHeading=(label,title,desc)=>'<header class="page-heading"><h1>'+esc(title)+'</h1><p>'+linkedText(desc)+'</p></header>';
 const scopeDescriptions={'Established lore':'Established setting or character information; individual sections can have explicit qualifications.','Mythological tradition':'Traditional accounts, not necessarily confirmed historical events.','Uncertain tradition':'Disputed or unresolved accounts.','Provisional lore':'Worldbuilding that has not been finalized.','FYI competition rules':'Rules of the identified FYI league and season, not universal fictional lore.','Game reference':'Game design or mechanics; not necessarily implemented or part of literary canon.','Game and league reference':'Scoped game and league information.','Game reference and lore':'Mixed game and literary material, distinguished in the text.','Literature':'Reference to a literary work.','Provisional literature':'Working literary plans, not finalized story events.','Provisional game reference':'Proposed game design.'};
 const scope=a=>'<div class="scope"><span class="tag" title="'+esc(scopeDescriptions[a.publication.canon]||a.publication.canon)+'">'+esc(a.publication.canon)+'</span></div>';
 const norm=s=>String(s??'').normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[’‘']/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
@@ -71,12 +71,12 @@ function search(q,c=''){
 }
 function snippet(a,q){if(!q)return a.description;const terms=norm(q).split(' ').filter(Boolean);if(terms.some(t=>norm(a.description).includes(t)))return a.description;const s=a.content.find(x=>terms.some(t=>norm(x.body).includes(t)));if(!s)return a.description;const words=s.body.split(/\s+/),idx=words.findIndex(w=>terms.some(t=>norm(w).includes(t)));const start=Math.max(0,idx-12),end=Math.min(words.length,start+43);return (start?'… ':'')+words.slice(start,end).join(' ')+(end<words.length?' …':'')}
 function highlight(value,q){const terms=String(q??'').trim().split(/\s+/).filter(t=>t.length>=2).slice(0,12).map(t=>t.replace(/[.*+?^$(){}|[\]\\]/g,'\\$&'));if(!terms.length)return esc(value);const re=new RegExp('('+terms.join('|')+')','giu');return String(value).split(re).map((s,i)=>i%2?'<mark>'+esc(s)+'</mark>':esc(s)).join('')}
-function entries(list,{ranked=false,q=''}={}){return list.length?'<ol class="entries">'+(ranked?list:sorted(list)).map(a=>'<li class="entry"><a class="entry-title" href="'+link(a)+'">'+highlight(a.title,q)+'</a><p>'+highlight(snippet(a,q),q)+'</p><div class="result-meta"><a href="'+catLink(a.category)+'">'+esc(a.category)+'</a> · <span class="result-scope">'+esc(a.publication.canon)+'</span></div></li>').join('')+'</ol>':'<p class="empty">No matching articles. Try a different term or category.</p>'}
+function entries(list,{ranked=false,q=''}={}){return list.length?'<ol class="entries">'+(ranked?list:sorted(list)).map(a=>'<li class="entry"><a class="entry-title" href="'+link(a)+'">'+highlight(a.title,q)+'</a><p>'+linkedText(snippet(a,q),a,v=>highlight(v,q))+'</p><div class="result-meta"><a href="'+catLink(a.category)+'">'+esc(a.category)+'</a> · <span class="result-scope">'+esc(a.publication.canon)+'</span></div></li>').join('')+'</ol>':'<p class="empty">No matching articles. Try a different term or category.</p>'}
 function articleLinks(list){return '<ul class="article-links">'+list.filter(Boolean).map(a=>'<li><a href="'+link(a)+'">'+esc(a.title)+'</a></li>').join('')+'</ul>'}
 function directory(list){const groups=new Map();for(const a of sorted(list)){const k=a.title[0].toUpperCase();if(!groups.has(k))groups.set(k,[]);groups.get(k).push(a)}return '<nav class="alphabet" aria-label="Alphabetical index">'+[...groups.keys()].map(k=>'<a href="#letter-'+esc(k)+'">'+esc(k)+'</a>').join('')+'</nav>'+[...groups].map(([k,v])=>'<section><h2 class="letter-head" id="letter-'+esc(k)+'">'+esc(k)+'</h2>'+articleLinks(v)+'</section>').join('')}
-function kingdomCards(){return '<ul class="kingdom-list">'+kingdoms.map(([slug,dragon])=>{const a=bySlug.get(slug);return a?'<li class="k-'+slug+'"><a href="'+link(a)+'">'+esc(a.title)+'</a> — '+esc(dragon)+'</li>':''}).join('')+'</ul>'}
+function kingdomCards(){return '<ul class="kingdom-list">'+kingdoms.map(([slug,dragon])=>{const a=bySlug.get(slug);return a?'<li class="k-'+slug+'"><a href="'+link(a)+'">'+esc(a.title)+'</a> — '+linkedText(dragon,a)+'</li>':''}).join('')+'</ul>'}
 function categoryCards(){return '<ul class="category-list">'+visibleCategories.map(c=>'<li><a href="'+catLink(c)+'">'+esc(c)+'</a> <span class="small">('+categoryRows.get(c).length+')</span></li>').join('')+'</ul>'}
-function featured(list){return '<ul class="featured-list">'+list.filter(Boolean).map(a=>'<li><a href="'+link(a)+'">'+esc(a.title)+'</a> — '+esc(a.description)+'</li>').join('')+'</ul>'}
+function featured(list){return '<ul class="featured-list">'+list.filter(Boolean).map(a=>'<li><a href="'+link(a)+'">'+esc(a.title)+'</a> — '+linkedText(a.description,a)+'</li>').join('')+'</ul>'}
 const featuredIds=['culture-society-the-six-kingdoms','mythology-kharadon','geography-vaelorian-citadel','competition-ladder-of-legends','mythology-eternal-forge','organizations-administrative-council'];
 function related(a){const hub=new Set(a.id==='geography-'+a.slug?(kingdomHubs[a.slug]||[]):[]);const rows=a.relatedIds.map(id=>byId.get(id)).filter(b=>b&&!hub.has(b.id));if(!rows.length)return '';return '<section id="see-also" class="section"><h2>See also</h2>'+articleLinks(sorted(rows))+'</section>'}
 const visualUrl=v=>'/media/'+v.id+'.webp';
@@ -93,25 +93,126 @@ function visualArchive(){
  return crumb()+pageHeading('Visual encyclopedia','Visual archive','Existing artwork recovered from Aetherforge’s earlier creative work. Only explicitly approved visual references are treated as locked canon.')+'<p class="small visual-intro">'+visuals.length+' recovered assets · '+new Set(visuals.flatMap(v=>v.article_ids)).size+' connected articles · No newly generated artwork. Missing or unverified subjects are intentionally left unillustrated.</p>'+groups.map(([kind,title])=>section('Visual scope',title,'<div class="visual-grid">'+visuals.filter(v=>v.classification===kind).map(v=>visualFigure(v,{links:true})).join('')+'</div>')).join('');
 }
 
-// Link first mentions of distinct published article names.
+// Match published names and verified prose aliases, longest first. Never link self or ambiguous names by guess.
+const termKey=s=>String(s).toLowerCase().replace(/[’‘]/g,"'");
 const linkTerms=new Map();
-for(const a of articles){
- const title=a.title;
- if(title.length<4||/\(|:/.test(title)||['Magic','Daggers','Irons','Aether','Ignition','Ash','Cinder','Ember','Damascus','Titanium','Obsidian','Reformers','First Spark','The Eight','Crownless','Reforging'].includes(title))continue;
- const key=title.toLowerCase().replace(/[’‘]/g,"'");
- if(linkTerms.has(key))linkTerms.set(key,null);else linkTerms.set(key,a);
+function addTerm(label,id,mode='any'){
+ const target=byId.get(id);if(!target)return;
+ const key=termKey(label);
+ if(!linkTerms.has(key))linkTerms.set(key,[]);
+ const candidates=linkTerms.get(key);
+ if(!candidates.some(c=>c.target.id===id&&c.mode===mode))candidates.push({target,mode,label});
 }
+const caseSensitive=new Set(['Ash','Cinder','Ember','Damascus','Titanium','Obsidian','Ignition','Crownless','Reformers','Kindled','Ironbound','Reforging','PJ','FYI','Soulless','Whiskey','Aether','Magic','Daggers','Irons']);
+for(const a of articles){
+ addTerm(a.title,a.id,caseSensitive.has(a.title)?'capital':'any');
+ if(a.title.startsWith('The ')&&!a.title.includes(' ('))addTerm(a.title.slice(4),a.id,'capital');
+}
+const proseAliases={
+ 'artifacts-daggers':['Dagger System','dagger'],
+ 'artifacts-bloodied-daggers':['Bloodied Dagger'],
+ 'artifacts-crucible-daggers':['Crucible Dagger'],
+ 'artifacts-division-daggers':['Division Dagger'],
+ 'artifacts-dragonsteel-daggers':['Dragonsteel Dagger'],
+ 'artifacts-legendary-daggers':['Legendary Dagger'],
+ 'artifacts-participation-daggers':['Participation Dagger'],
+ 'artifacts-placement-daggers':['Placement Dagger'],
+ 'artifacts-playoff-daggers':['Playoff Dagger'],
+ 'artifacts-golden-crucible-dagger':['Golden Emerald Dagger'],
+ 'artifacts-identifier-117-3a':['117-3A'],
+ 'artifacts-kingdom-seals':['Kingdom Seal','Seal of Dominion','Seal of Endurance','Seal of Flame','Seal of Mastery','Seal of Precision','Seal of the Unbroken'],
+ 'competition-crucibles':['Crucible'],
+ 'competition-bold-challenges':['Bold Challenge','Bold Challenges'],
+ 'competition-direct-challenges':['Direct Challenge','Direct Challenges'],
+ 'competition-dragon-s-ascension-generations':['Generations'],
+ 'competition-ignition':['Ignition Registration Area','Last Spark','The Last Spark'],
+ 'competition-kharadon-s-ascension':['Kharadon’s Ascension Season I','Kharadon’s Ascension Season II'],
+ 'competition-ladder-of-legends':['Ladder'],
+ 'geography-ascension-bridges':['Ascension Bridge'],
+ 'geography-ash':['Ash Arrival Platform'],
+ 'geography-hall-of-the-six':['Founder’s Seat'],
+ 'geography-kharadon-s-summit':['Summit'],
+ 'geography-sparkhaven':['Competitor Dining Hall'],
+ 'geography-the-first-forge':['First Forge Control Chamber','The First Forge Control Chamber'],
+ 'history-war-of-the-broken-summit':['Broken Summit'],
+ 'mythology-kharadon':['Age of Kharadon'],
+ 'craftsmanship-irons':['Cinderian Brimstone','iron'],
+ 'craftsmanship-enchantments':['enchantment'],
+ 'craftsmanship-obsidian-material':['obsidian'],
+ 'organizations-administrative-council':['Council'],
+ 'organizations-ascendants-crownless':['Ascendants'],
+ 'characters-lilith-vanthe':['Lilith','Lily','Lyra Northashe','Pretty'],
+ 'characters-lyra-acolyte12':['Acolyte12','Lyra','Founder'],
+ 'characters-lyra-vale':['Ashborn'],
+ 'characters-travis-pope':['Travis','TPope'],
+ 'characters-ellen-vale':['Ellen'],
+ 'characters-draven-vale':['Draven','Daggs'],
+ 'characters-aeren-vale':['Aeren'],
+ 'characters-rowden-groves':['Rowden'],
+ 'characters-lauren':['Stick'],
+ 'characters-cassian-rourke':['Golden Spark'],
+ 'terminology-the-daggersmith-title':['Daggersmith'],
+ 'literature-the-daggersmith-game':['The Daggersmith game','Daggersmith game'],
+ 'literature-the-daggersmith-literary-work':['The Daggersmith prequel','Daggersmith prequel']
+};
+for(const [id,names] of Object.entries(proseAliases))for(const name of names)addTerm(name,id,['dagger','iron','enchantment','obsidian'].includes(name)?'lower':'capital');
+// Unique character given names are valid shorthand, provided they are capitalized.
+const firstNames=new Map();
+for(const a of articles.filter(a=>a.category==='Characters')){
+ const first=a.title.split(' ')[0];if(!firstNames.has(first))firstNames.set(first,[]);firstNames.get(first).push(a);
+}
+for(const [first,rows] of firstNames)if(rows.length===1&&rows[0].title!==first)addTerm(first,rows[0].id,'capital');
+const unsafeSearchAliases=new Set(['Daggersmith','Founder','Lyra','Pretty','Stick','Unyielding','Ashborn']);
+for(const [id,names] of Object.entries(searchNames))for(const name of names)if(!unsafeSearchAliases.has(name))addTerm(name,id,'capital');
+// The same phrase can refer to a work, myth, title or material. Keep contextual rules explicit.
+addTerm('The First Spark','literature-ignition-the-first-spark','context');
+addTerm('First Spark','literature-ignition-the-first-spark','context');
+addTerm('The Daggersmith','literature-the-daggersmith-game','context');
+addTerm('The Daggersmith','literature-the-daggersmith-literary-work','context');
+addTerm('The Daggersmith','terminology-the-daggersmith-title','context');
 const reEscape=s=>s.replace(/[.*+?^$(){}|[\]\\]/g,'\\$&');
-const termPattern=[...linkTerms].filter(([,a])=>a).map(([key])=>key).sort((a,b)=>b.length-a.length).map(k=>reEscape(k).replace(/'/g,"['’‘]")).join('|');
+const termPattern=[...linkTerms.keys()].sort((a,b)=>b.length-a.length).map(k=>reEscape(k).replace(/'/g,"['’‘]")).join('|');
 const termRegex=new RegExp('(?<![\\p{L}\\p{N}])(?:'+termPattern+')(?![\\p{L}\\p{N}])','giu');
-function linkedText(value,current,seen){
- let out='',last=0;
- for(const m of String(value).matchAll(termRegex)){
-  const target=linkTerms.get(m[0].toLowerCase().replace(/[’‘]/g,"'"));
-  if(!target||target.id===current.id||seen.has(target.id)||seen.size>=18)continue;
-  out+=esc(value.slice(last,m.index))+'<a class="inline-lore" href="'+link(target)+'">'+esc(m[0])+'</a>';last=m.index+m[0].length;seen.add(target.id);
+const mythContext=new Set(['history-age-of-the-first-spark','magic-aether','mythology-eternal-forge','mythology-first-spark','mythology-unshaped-aether']);
+function resolveMention(m,value,current){
+ const key=termKey(m[0]),name=m[0],id=current?.id;
+ const around=value.slice(Math.max(0,m.index-75),m.index+name.length+75);
+ const before=value.slice(Math.max(0,m.index-30),m.index),after=value.slice(m.index+name.length,m.index+name.length+45);
+ if(key==='first spark'||key==='the first spark'){
+  if(mythContext.has(id)||/\b(mythic|primordial|elemental storm|emerged|emergence)\b/i.test(around))return byId.get('mythology-first-spark');
+  if(/\b(?:era|described|manuscript|opening work|saga|novel|literary)\b/i.test(around)||id==='organizations-administrative-council')return byId.get('literature-ignition-the-first-spark');
+  return null;
  }
- return out+esc(value.slice(last))
+ if(key==='the daggersmith'||key==='daggersmith'){
+  if(/\b(?:game|simulation|player|craft successor|apprentice)\b/i.test(around)&&!/\bCouncil office\b/i.test(around))return byId.get('literature-the-daggersmith-game');
+  if(/\b(?:prequel|novel|literary work|manuscript)\b/i.test(around))return byId.get('literature-the-daggersmith-literary-work');
+  if(/^[A-Z]/.test(name.replace(/^the /i,''))&&(/\b(?:Council|title|Administrator|Lilith|office)\b/i.test(around)||id==='terminology-the-daggersmith-title'))return byId.get('terminology-the-daggersmith-title');
+  return null;
+ }
+ if(key==='lyra'&&!['characters-lyra-acolyte12','organizations-administrative-council','organizations-fyi'].includes(id)&&!/\b(?:Acolyte12|Founder of FYI|founded FYI)\b/i.test(around))return null;
+ if(key==='founder'&&!/\b(?:Council|FYI|Lyra|Acolyte12)\b/i.test(around))return null;
+ if(key==='obsidian'){
+  if(name==='obsidian'||/^\s+(?:heads?|blades?|stone|glass|material|metal)\b/i.test(after))return byId.get('craftsmanship-obsidian-material');
+  return byId.get('geography-obsidian');
+ }
+ if(key==='ashborn'&&name!=='Ashborn')return null;
+ if(key==='ascendants'&&/\bAge of\s*$/i.test(before))return null;
+ if(['dagger','iron'].includes(key))return null; // ordinary objects aren't necessarily references to the corresponding system
+ if(key==='pretty'&&(name!=='Pretty'||/^\s+(?:much|good|well|sure|clear|little|big|small)\b/i.test(after))||key==='stick'&&name!=='Stick')return null;
+ if(key==='summit'&&name!=='Summit')return null;
+ const candidates=(linkTerms.get(key)||[]).filter(c=>c.mode==='any'||c.mode==='capital'&&/^[A-Z]/.test(name.replace(/^the /i,''))||c.mode==='lower'&&name===name.toLowerCase());
+ const unique=[...new Map(candidates.map(c=>[c.target.id,c.target])).values()];
+ return unique.length===1?unique[0]:null;
+}
+function linkedText(value,current=null,format=esc){
+ value=String(value);if(typeof format!=='function')format=esc;
+ let out='',last=0;
+ for(const m of value.matchAll(termRegex)){
+  const target=resolveMention(m,value,current);
+  if(!target||target.id===current?.id)continue;
+  out+=format(value.slice(last,m.index))+'<a class="inline-lore" href="'+link(target)+'">'+format(m[0])+'</a>';last=m.index+m[0].length;
+ }
+ return out+format(value.slice(last));
 }
 const kingdomHubs={
  ash:['geography-morrowfall','mythology-veyrath','organizations-house-vale','organizations-house-mourn','organizations-greyhands','characters-lyra-vale','characters-maera-sol'],
@@ -172,8 +273,7 @@ function infoboxData(a){
 }
 function infobox(a){
  const info=infoboxData(a);if(!info)return '';
- const seen=new Set();
- return '<aside class="infobox'+(kingdomCenters[a.slug]?' k-'+a.slug:'')+'" aria-label="'+esc(info.type)+' infobox"><h2>'+esc(a.title)+'</h2><div class="infobox-type">'+esc(info.type)+'</div><table><tbody>'+info.rows.map(([label,value])=>'<tr><th scope="row">'+esc(label)+'</th><td>'+linkedText(value,a,seen)+'</td></tr>').join('')+'</tbody></table></aside>';
+ return '<aside class="infobox'+(kingdomCenters[a.slug]?' k-'+a.slug:'')+'" aria-label="'+esc(info.type)+' infobox"><h2>'+esc(a.title)+'</h2><div class="infobox-type">'+esc(info.type)+'</div><table><tbody>'+info.rows.map(([label,value])=>'<tr><th scope="row">'+esc(label)+'</th><td>'+linkedText(value,a)+'</td></tr>').join('')+'</tbody></table></aside>';
 }
 function articleToc(a){
  const sections=a.content.map((s,i)=>'<li><a href="#section-'+(i+1)+'">'+esc(s.heading)+'</a></li>').join('');
@@ -182,10 +282,9 @@ function articleToc(a){
  return '<nav class="article-toc" aria-label="Table of contents"><ol><li><a href="#main">Beginning</a></li>'+sections+(hub?'<li><a href="#kingdom-directory">Explore '+esc(a.title)+'</a></li>':'')+(relatedIds.length?'<li><a href="#see-also">See also</a></li>':'')+'<li><a href="#categories">Categories</a></li></ol></nav>';
 }
 function articlePage(a){
- const seen=new Set();
  const pos=a.description.toLowerCase().indexOf(a.title.toLowerCase());
- const lead=pos<0?'<strong>'+esc(a.title)+'</strong> — '+linkedText(a.description,a,seen):linkedText(a.description.slice(0,pos),a,seen)+'<strong>'+esc(a.description.slice(pos,pos+a.title.length))+'</strong>'+linkedText(a.description.slice(pos+a.title.length),a,seen);
- const contents=a.content.map((s,i)=>'<section id="section-'+(i+1)+'"><h2>'+esc(s.heading)+'</h2>'+s.body.split(/\n\s*\n/).map(p=>'<p>'+linkedText(p,a,seen)+'</p>').join('')+'</section>').join('');
+ const lead=pos<0?'<strong>'+esc(a.title)+'</strong> — '+linkedText(a.description,a):linkedText(a.description.slice(0,pos),a)+'<strong>'+esc(a.description.slice(pos,pos+a.title.length))+'</strong>'+linkedText(a.description.slice(pos+a.title.length),a);
+ const contents=a.content.map((s,i)=>'<section id="section-'+(i+1)+'"><h2>'+linkedText(s.heading,a)+'</h2>'+s.body.split(/\n\s*\n/).map(p=>'<p>'+linkedText(p,a)+'</p>').join('')+'</section>').join('');
  const toc=articleToc(a);
  const info=infobox(a);
  return crumb(a.category,a.title)+'<header class="article-head"><h1>'+esc(a.title)+'</h1>'+scope(a)+'</header><details class="mobile-toc"><summary>Contents</summary>'+toc+'</details><article class="article"><p class="lead">'+lead+'</p>'+info+contents+'</article>'+kingdomHub(a)+related(a)+'<nav class="article-categories" id="categories" aria-label="Article categories">Category: <a href="'+catLink(a.category)+'">'+esc(a.category)+'</a></nav>';
@@ -224,4 +323,4 @@ const server=http.createServer((req,res)=>{
  }catch{return send(400,'Bad request','text/plain')}
 });
 if(require.main===module)server.listen(Number(process.env.PORT||3000),'0.0.0.0');
-module.exports={render,esc,server,search,sitemap,link,catLink,infoboxData};
+module.exports={render,esc,server,search,sitemap,link,catLink,infoboxData,linkedText};

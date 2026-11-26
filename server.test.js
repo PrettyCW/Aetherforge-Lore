@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict');
-const {render,esc,server,search,sitemap,link,catLink,infoboxData}=require('./server');
+const {render,esc,server,search,sitemap,link,catLink,infoboxData,linkedText}=require('./server');
 const {articles,categories,validate}=require('./public-content');
 const data=require('./articles.json'),allow=require('./publication-allowlist.json');
 const clone=x=>JSON.parse(JSON.stringify(x));
@@ -12,7 +12,7 @@ test('reject unallowlisted records, extra private fields and invalid status',()=
 test('reject duplicate routes, dangling links, incomplete allowlists',()=>{for(const mutate of [d=>{d.articles[1].slug=d.articles[0].slug},d=>{d.articles[0].relatedIds.push('synthetic-missing')},d=>{d.articles.pop()},d=>{d.articles[0].aliases.push(d.articles[1].slug)}]){const d=clone(data);mutate(d);assert.throws(()=>validate(d,allow))}});
 test('sitemap only published URLs; article SEO and breadcrumb',()=>{for(const a of articles){assert.ok(sitemap().includes(link(a)));const page=render(link(a))[1];assert.match(page,/rel="canonical"/);assert.match(page,/aria-label="Breadcrumb"/);assert.ok(page.includes(esc(a.description)))}assert.ok(!sitemap().includes('/search'));assert.ok(!sitemap().includes('synthetic-missing'));assert.match(render('/wiki/missing')[1],/noindex/)});
 test('every internal link resolves',()=>{const paths=['/','/articles','/kingdoms','/chronology','/search',...categories.map(catLink),...articles.map(link)];for(const p of paths){const html=render(p)[1];for(const m of html.matchAll(/href="(\/[^"]*)"/g))assert.equal(render(m[1])[0],200,p+' -> '+m[1])}});
-test('HTTP health, sitemap, no raw files and no candidate disclosure',async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));try{const base='http://127.0.0.1:'+server.address().port;const health=await (await fetch(base+'/health')).json();assert.equal(health.version,'0.16.0');assert.equal(health.articles,articles.length);for(const p of ['/articles.json','/publication-allowlist.json','/private/','/wiki/synthetic-unapproved','/docs/PUBLIC_ENCYCLOPEDIA_v0.4.md'])assert.equal((await fetch(base+p)).status,404);assert.equal((await fetch(base+'/sitemap.xml')).status,200);assert.equal((await fetch(base+'/',{method:'HEAD'})).status,200);assert.equal((await fetch(base+'/',{method:'POST'})).status,405)}finally{await new Promise(r=>server.close(r))}});
+test('HTTP health, sitemap, no raw files and no candidate disclosure',async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));try{const base='http://127.0.0.1:'+server.address().port;const health=await (await fetch(base+'/health')).json();assert.equal(health.version,'0.16.1');assert.equal(health.articles,articles.length);for(const p of ['/articles.json','/publication-allowlist.json','/private/','/wiki/synthetic-unapproved','/docs/PUBLIC_ENCYCLOPEDIA_v0.4.md'])assert.equal((await fetch(base+p)).status,404);assert.equal((await fetch(base+'/sitemap.xml')).status,200);assert.equal((await fetch(base+'/',{method:'HEAD'})).status,200);assert.equal((await fetch(base+'/',{method:'POST'})).status,405)}finally{await new Promise(r=>server.close(r))}});
 
 test('curated encyclopedia has reciprocal links and searchable canonical articles',()=>{assert.ok(articles.length>0);for(const a of articles){assert.equal(a.publication.status,'author_approved');for(const id of a.relatedIds)assert.ok(articles.find(b=>b.id===id).relatedIds.includes(a.id));assert.ok(search(a.title).some(b=>b.id===a.id))}for(const slug of ['ash','cinder','ember','damascus','titanium','obsidian','six-kingdoms'])assert.equal(render('/wiki/'+slug)[0],200)});
 
@@ -64,4 +64,29 @@ test('Vector-inspired article layout and public-only infobox facts',()=>{
  }
  for(const type of ['Character','Dragon','Kingdom','Geographic location','House','Artifact','Historical event','Competition'])assert.ok(types.has(type),type);
  const home=render('/')[1];assert.ok(!home.includes('class="hero"'));assert.ok(!home.includes('feature-card'));assert.match(home,/Welcome to Aetherforge Wiki/);
+});
+
+test('every repeated direct reference uses canonical links, without self links or broken markup',()=>{
+ const find=id=>articles.find(a=>a.id===id);
+ const a=find('characters-lilith-vanthe');
+ const count=(html,slug)=>(html.match(new RegExp('href="/wiki/'+slug+'"','g'))||[]).length;
+ const html=linkedText('Ellen Vale met Ellen in Ash. Ellen returned to Ash with Veyrath and Acolyte12.',a);
+ assert.equal(count(html,'ellen-vale'),3);assert.equal(count(html,'ash'),2);assert.equal(count(html,'veyrath'),1);assert.equal(count(html,'lyra-acolyte12'),1);
+ assert.equal(count(linkedText('Lilith Vanthe and Lilith',a),'lilith-vanthe'),0);
+ assert.equal(count(linkedText('Obsidian golfer with obsidian heads',a),'obsidian'),1);
+ assert.equal(count(linkedText('Obsidian golfer with obsidian heads',a),'obsidian-material'),1);
+ assert.equal(count(linkedText('The First Spark emerged from a primordial storm.',find('magic-aether')),'first-spark'),1);
+ assert.equal(count(linkedText('In the era of The First Spark.',find('competition-ignition')),'ignition-the-first-spark'),1);
+ assert.equal(count(linkedText('The Daggersmith game and the Daggersmith prequel.',a),'the-daggersmith-game'),1);
+ assert.equal(count(linkedText('The Daggersmith game and the Daggersmith prequel.',a),'the-daggersmith-literary-work'),1);
+ assert.equal(linkedText('<script>ash cinder ember</script>',a),'&lt;script&gt;ash cinder ember&lt;/script&gt;');
+ assert.match(render('/kingdoms')[1],/href="\/wiki\/veyrath">Veyrath<\/a>/);
+ for(const a of articles){
+  for(const str of [a.description,...a.content.flatMap(s=>[s.heading,s.body])]){
+   const result=linkedText(str,a);
+   assert.equal(result.replace(/<a class="inline-lore"[^>]*>(.*?)<\/a>/g,'$1'),esc(str),a.id);
+   assert.ok(!result.includes('href="'+link(a)+'"'),a.id);
+   for(const m of result.matchAll(/href="(\/wiki\/[^"]+)"/g))assert.ok(articles.some(b=>link(b)===m[1]));
+  }
+ }
 });

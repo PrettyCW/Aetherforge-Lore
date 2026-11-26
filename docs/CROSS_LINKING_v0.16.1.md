@@ -1,0 +1,3 @@
+# v0.16.1 — Contextual cross-linking
+
+All repeated unambiguous mentions of published titles and verified prose aliases now link to their canonical article, with no arbitrary link cap. Applies to article prose, headings, infoboxes, featured descriptions, search snippets and kingdom navigation. Self-links are omitted. Context-sensitive cases include the Obsidian kingdom versus material, First Spark myth versus literary work, and Daggersmith title versus game or prequel. Ambiguous shorthand and ordinary object references remain plain rather than being assigned speculative destinations. Search ranking, published articles and route data are unchanged.
