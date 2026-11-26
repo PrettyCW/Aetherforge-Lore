@@ -1,0 +1,7 @@
+# v0.15.0 — Release candidate review
+
+Reviewed all 172 public article descriptions, section headings, scope distribution and selected full passages with redundancy or ambiguity. Editorial changes to 11 articles: artifacts-golden-crucible-dagger, characters-darian-vex, competition-crucibles, craftsmanship-enchantments, craftsmanship-irons, geography-ascension-bridges, geography-hall-of-the-six, geography-nocthar, geography-serathis, history-age-of-ascendants, organizations-administrative-council. Preserved all article IDs, slugs, aliases, categories, publication scope, and reciprocal links. Consolidated redundant content; no new canon or invented historical details. Kept minor reference entries short rather than padding them. The previously approved artwork removal remains in effect.
+
+Presentation: clearer result scope labels and article scope explanations; foundational home-page featured references; mobile contents navigation; deduplicated kingdom hub links; kingdom accents aligned with established ceremonial colors. No new dependencies or backend architecture.
+
+Validation: structural preservation checks in the editing pass; automated regression tests updated and run by Railway build. Independent device/browser visual inspection and current league/game source verification remain outstanding. Unresolved author decisions and historical mysteries remain open by design. This is a release candidate, not v1.0.

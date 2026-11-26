@@ -144,7 +144,7 @@
       "content": [
         {
           "heading": "Terminology",
-          "body": "The approved series canon names Lilith’s award for winning a regular Crucible the Golden Crucible Dagger; the draft manuscript uses Golden Emerald Dagger. The terminology discrepancy remains unresolved. Neither wording establishes a separate Golden Crucible tournament or a second award."
+          "body": "The series canon names the award Golden Crucible Dagger; the draft manuscript uses Golden Emerald Dagger. The terminology discrepancy remains unresolved. Neither wording establishes a separate Golden Crucible tournament or a second award."
         }
       ],
       "relatedIds": [
@@ -538,11 +538,11 @@
       "content": [
         {
           "heading": "Historical accounts",
-          "body": "Accounts describe a reform grievance that developed into a struggle for supremacy. Official history records his death at the Broken Summit, but no universally verified body or uncontested grave is documented. Survival traditions remain unconfirmed."
+          "body": "Official history records Darian’s death at the Broken Summit, but no universally verified body or uncontested grave is documented. Survival traditions remain unconfirmed."
         },
         {
           "heading": "Political origins",
-          "body": "Darian’s advancement through the Ladder was earned. His original grievance over access to the Summit developed from a philosophical dispute into revolutionary demands for authority over ascension."
+          "body": "Darian’s advancement through the Ladder was earned. His initial grievance over access to the Summit developed from a philosophical dispute into revolutionary demands for authority and personal supremacy."
         }
       ],
       "relatedIds": [
@@ -1307,11 +1307,7 @@
       "content": [
         {
           "heading": "Tradition",
-          "body": "Crucibles predate FYI and allow contenders to distinguish themselves outside ordinary divisional competition. The upper three divisions account for the overwhelming majority of victories according to the series canon."
-        },
-        {
-          "heading": "Historical significance",
-          "body": "Crucibles were a cornerstone of competitive society before FYI. They offered opportunities for recognition beyond the ordinary divisional system."
+          "body": "Crucibles were a cornerstone of competitive society before FYI. They provide opportunities for recognition outside ordinary divisional competition. The upper three divisions account for the overwhelming majority of victories according to the series canon."
         },
         {
           "heading": "Generations design reference",
@@ -1900,7 +1896,7 @@
         },
         {
           "heading": "Literary scope",
-          "body": "Exceptional magical smithcraft is permitted by the series canon to account for the durability of unusual forged equipment, but no universal composition, energy source or mechanism is established."
+          "body": "Exceptional magical smithcraft may account for the durability of equipment made from unusual materials. No universal composition, energy source or mechanism has been established."
         }
       ],
       "relatedIds": [
@@ -1944,7 +1940,7 @@
       "content": [
         {
           "heading": "Notable examples",
-          "body": "Lilith Vanthe’s self-forged irons have obsidian heads, golden shafts and ordinary leather grips. Rowden Groves uses Cinderian brimstone heads and bronze shafts. The exact material properties and any enchantment mechanisms remain unknown."
+          "body": "Lilith Vanthe’s self-forged irons have obsidian heads, gold-colored shafts and ordinary leather grips. Rowden Groves uses Cinderian brimstone heads and bronze shafts. The exact material properties and any enchantment mechanisms remain unknown."
         },
         {
           "heading": "Exceptional smithcraft",
@@ -2137,7 +2133,7 @@
       "content": [
         {
           "heading": "Travel",
-          "body": "The bridges compress distance without eliminating the act of travel. People physically walk across them and emerge at designated arrival points. Their illuminated structures pass through mist and clouds."
+          "body": "The bridges compress distance without eliminating the act of travel. People physically cross them and emerge at designated arrival points."
         },
         {
           "heading": "Significance",
@@ -2404,7 +2400,7 @@
         },
         {
           "heading": "Architecture and symbolism",
-          "body": "The chamber’s provisional architectural description places five seats in a crescent around the Founder’s Seat, with a controlled column of Forgefire and Kharadon’s sigil behind them. The dragons do not occupy Council seats. Council members do not kneel during ordinary meetings."
+          "body": "A provisional architectural description places the five seats in a crescent, with a controlled column of Forgefire and Kharadon’s sigil behind the Founder’s Seat. The dragons do not occupy Council seats. Council members do not kneel during ordinary meetings."
         }
       ],
       "relatedIds": [
@@ -2465,7 +2461,7 @@
       "title": "Nocthar",
       "slug": "nocthar",
       "category": "Geography",
-      "description": "Nocthar, the Black Crown is the established regional center of Obsidian. Its precise layout, population and boundaries have not been established.",
+      "description": "Nocthar, known as the Black Crown, is the established regional center of Obsidian. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
         "geography-obsidian"
@@ -2516,7 +2512,7 @@
       "title": "Serathis",
       "slug": "serathis",
       "category": "Geography",
-      "description": "Serathis, the City of a Thousand Forges is the established regional center of Damascus. Its precise layout, population and boundaries have not been established.",
+      "description": "Serathis, known as the City of a Thousand Forges, is the established regional center of Damascus. Its precise layout, population and boundaries have not been established.",
       "content": [],
       "relatedIds": [
         "geography-damascus"
@@ -2688,7 +2684,7 @@
       "content": [
         {
           "heading": "Institutions",
-          "body": "A provisional chronology places this era in Middle AL, when competitive academies, regional Houses, divisional tournaments, ceremonial awards and competing schools of golf became institutionalized."
+          "body": "A provisional chronology places this institutional development in Middle AL."
         }
       ],
       "relatedIds": [
@@ -3475,15 +3471,11 @@
       "content": [
         {
           "heading": "Formation",
-          "body": "The Council grew from a reform circle formed by Lyra, Bustin and Whiskey in Ember. Lilith joined after meeting Lyra in Cinder; PJ and Soulless joined the circle through their connections in Damascus. The six built influence over years before establishing the Council. By The First Spark, it has existed for approximately fifteen to twenty-five years."
+          "body": "The Council grew from a reform circle formed by Lyra, Bustin and Whiskey in Ember. Lilith joined after meeting Lyra in Cinder; PJ and Soulless joined through connections in Damascus. Over years, the six built broad support before establishing the Council. By The First Spark, it has existed for approximately fifteen to twenty-five years. It is a modern institution formed after the Reforging, not the founder of the ancient Ladder or Vaelorian Citadel."
         },
         {
           "heading": "Members and responsibilities",
           "body": "Lyra (Acolyte12), the Founder; Lilith Vanthe (Pretty), the Daggersmith; PJ, the Vaelorian Seer; Bustin, the Forge Engineer; Whiskey, the Aetherforge Sentinel; and Soulless, the Master of the Inferno."
-        },
-        {
-          "heading": "Principles",
-          "body": "The Council’s members were accomplished contenders before becoming governors. Its principle is to stand among competitors, not apart from them. Members do not decide matters directly affecting their own competitive interests."
         },
         {
           "heading": "Authority",
@@ -3491,15 +3483,11 @@
         },
         {
           "heading": "Institutional principles",
-          "body": "Members with direct competitive interests recuse themselves from affected decisions. The Council protects earned results, verifies evidence before disrupting competition, and does not treat ancestry or unexplained infrastructure responses as proof of wrongdoing. Possession of dissenting material or agreement with a political question is distinct from misconduct, threats or disruptive action. Its exact charter and voting rules remain open."
+          "body": "The Council’s members were respected contenders before becoming governors. Their principle is to stand among contenders, not apart from them. Members recuse themselves from decisions directly affecting their competitive interests. The Council protects earned results, verifies evidence before disrupting competition, and does not treat ancestry or unexplained infrastructure responses as proof of wrongdoing. Possession of dissenting material or agreement with a political question is distinct from misconduct, threats or disruptive action. Its exact charter and voting rules remain open."
         },
         {
           "heading": "Representation",
-          "body": "Each of the six founders originated in a different kingdom. Their birthplaces are distinct from their competitive divisions. The Founder leads the Council and delegates administration to its specialist offices."
-        },
-        {
-          "heading": "Historical formation",
-          "body": "The Council is a modern institution, formed after the Reforging; it is not the founder of the ancient Ladder or Vaelorian Citadel. The original founders built broad support over years, and their one-per-kingdom representation arose partly by intent and partly by circumstance."
+          "body": "Each founder originated in a different kingdom, partly by intent and partly by circumstance. Birth kingdoms are distinct from competitive divisions. The Founder leads the Council and delegates administration to its specialist offices."
         }
       ],
       "relatedIds": [

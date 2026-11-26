@@ -49,3 +49,7 @@ Reviewed the 236 First Spark, 65 core and 49 remaining-core evidence records. Ex
 ## v0.14.0 — Encyclopedia usability
 
 172 articles; improved kingdom hubs, chronology, title and alias search, contextual links and related-topic navigation. Responsive compact category menu. No lore changes. See [usability checkpoint](docs/USABILITY_v0.14.0.md).
+
+## v0.15.0 — Final editorial and presentation review
+
+172 articles, same canonical routes, scope and relationships. Consolidated redundant passages, improved scope visibility in results, refined mobile reading order and kingdom accents, and selected foundational lore for home-page discovery. No artwork or new canon. See [release candidate review](docs/RELEASE_CANDIDATE_v0.15.0.md).
